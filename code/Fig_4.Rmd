@@ -1,0 +1,250 @@
+---
+title: "Fig4"
+author: "Yujie Zhao"
+date: "2023-09-07"
+output: html_document
+---
+
+
+```{r}
+
+rm(list=ls())
+library(ggplot2)
+library(vegan)
+library(permute)
+library(lattice)
+library(plyr)
+library(getopt)
+library(ggfortify)
+library(ade4)
+library(ggpubr)
+library(pheatmap)
+library(cowplot)
+library(reshape2)
+library(psych)
+library(openxlsx)
+library(ggrepel)
+color=c("#A94643","#3E4A7B","#BCBDB8")
+
+
+```
+
+
+```{r}
+group = read.csv("../analysis/A01.1-add-meta/non-melanoma-cohort-sample_10_10.csv",check.names = F)
+
+group = group[order(group$days.sample.collect),]
+group = group[order(match(group$patient_rename,unique(group$patient_rename))),]
+group=group[group$clinical.response %in% c("Responder","Nonresponder"),]
+group = group[order(match(group$clinical.response,c("Responder","Nonresponder"))),]
+group = group[order(match(group$Tumor,unique(group$Tumor))),]
+
+
+ID = unique(group$patient_rename)
+rownames(group)=group$sample_id
+
+first_sample = NULL
+for(i in ID){
+  tmp = group[group$patient_rename == i,]
+  tmp = tmp[tmp$days.sample.collect == min(tmp$days.sample.collect),]
+  first_sample = rbind(first_sample,tmp)
+}
+
+first_sample = as.data.frame(first_sample[first_sample$days.sample.collect < 180,])
+
+
+first_sample = first_sample[first_sample$Tumor == "SCC",]
+
+```
+
+
+# A diff_pathway
+```{r}
+
+dat=read.csv("../analysis/A01.1-add-meta/jhmi-sears-non-melanoma.picrust2.pw.txt",sep="\t",row.names = 1,check.names = F)
+differential = read.csv("../analysis/differential_analysis/combined/SCC/picrust2.pw/differential.txt",sep="\t",row.names = 1,check.names = F)
+differential = na.omit(differential)
+differential =differential[order(differential$log2_FC),]
+
+description = read.csv("../analysis/A01.1-add-meta/picrust2_pw_description.txt",sep="\t",check.names = F,header=F)
+rownames(description) = gsub("-","_",description$V1)
+description = description[rownames(differential),]
+
+dat = dat[,rownames(differential)]
+colnames(dat) = paste(description$V1,description$V2,sep=": ")
+  
+first_sample = first_sample[order(first_sample$patient_rename),]
+first_sample = first_sample[order(match(first_sample$clinical.response,c("Responder","Nonresponder"))),]
+dat = dat[rownames(first_sample),]
+rownames(dat) = first_sample$patient_rename
+colnames(dat) = gsub('.c_.+.f','.f',colnames(dat))
+colnames(dat) =  gsub('k_Bacteria.','',colnames(dat))
+pw = dat
+
+
+
+
+anncolo_all = list(group = c("Nonresponder"="#3E4A7B","Responder" ="#A94643"))
+ann_col=data.frame(group=first_sample$clinical.response)
+rownames(ann_col)=rownames(dat)
+nrow(ann_col[ann_col$group =="Responder",])
+dat=as.data.frame(scale(dat))
+bk1 <- c(seq(floor(min(dat)),0,by=0.01))
+bk2 <- c(seq(0,ceiling(max(dat)),by=0.01))
+pheatmap(t(dat),cellheight = 10,cellwidth = 11,cluster_rows = F,
+           annotation_col = ann_col,fontsize = 11,
+           annotation_names_row=FALSE,annotation_names_col = FALSE,annotation_legend = TRUE,
+         gaps_col = c(nrow(first_sample[first_sample$clinical.response == "Responder",])),
+           annotation_colors = anncolo_all,gaps_row = c(8),
+           cluster_cols = F,show_colnames=T,
+  	color = c(colorRampPalette(colors = c("navy","SteelBlue","white"))(length(bk1)),
+                                              colorRampPalette(colors = c("white","orange","red"))(length(bk2))),
+  	)->y
+
+  A<-plot_grid(y$gtable)
+  
+
+```
+
+
+# diff_ metabolite
+## pathway dotplot
+```{r}
+plotPath = function(pathway_result){
+  colnames(pathway_result) = c("pathway", "Total.Cmpd","Hits" , "Raw.p","-log10(p)" ,"Holm.adjust","FDR" ,"Impact" )
+  
+  plot_pathway = ggplot(pathway_result,aes(x=Impact, y=`-log10(p)`))+geom_point(aes(color=`-log10(p)`,size=Impact))+
+  scale_colour_gradient(limits=c(0, round(max(pathway_result$`-log10(p)`),0)), low="red",high = "yellow") +
+  geom_text_repel(data=subset(pathway_result, `-log10(p)` > 1 & Impact > 0),aes(Impact,`-log10(p)`,label=pathway),hjust=-0.2,vjust=-1)+ggtitle(" ")+
+  theme_bw()+ylab("-log10(pvalue)")+theme(
+      axis.text=element_text(size=12,colour="black"),text=element_text(size=12,colour="black"),
+      plot.title =element_text(size=12,colour="black",hjust = 0.5),
+      axis.title = element_text(size=12,colour="black"))
+}
+
+
+pathway_result= read.csv("../analysis/differential_analysis/metabolite/Diff_metabolite_pathway/result/pathway_results.csv")
+colnames(pathway_result) = c("pathway", "Total.Cmpd","Hits" , "Raw.p","-log10(p)" ,"Holm.adjust","FDR" ,"Impact" )
+pathway_result$group = "Using Differential Metabolites"
+pathway_result_2= read.csv("../analysis/differential_analysis/metabolite/Pathway_analysis/result/pathway_results.csv")
+colnames(pathway_result_2) = c("pathway", "Total.Cmpd","Hits" , "Raw.p","-log10(p)" ,"Holm.adjust","FDR" ,"Impact" )
+pathway_result_2$group = "Using All Metabolites"
+
+plot_pathway = as.data.frame(rbind(pathway_result,pathway_result_2))
+plot_pathway$`-log10(p)` = as.numeric(plot_pathway$`-log10(p)`)
+plot_pathway$Impact = as.numeric(plot_pathway$Impact)
+plot_b_pathway = ggplot(plot_pathway,aes(x=Impact, y=`-log10(p)`))+geom_point(aes(color=`-log10(p)`,size=Impact))+
+  scale_colour_gradient(limits=c(0, round(max(plot_pathway$`-log10(p)`),0)), low="red",high = "yellow") +
+  geom_text_repel(data=subset(plot_pathway, `-log10(p)` > 1 & Impact > 0),aes(Impact,`-log10(p)`,label=pathway),hjust=-0.2,vjust=-1)+ggtitle(" ")+
+  theme_bw()+ylab("-log10(pvalue)")+facet_wrap(~group,nrow=2,scales = "free")+
+  theme(
+      axis.text=element_text(size=12,colour="black"),text=element_text(size=12,colour="black"),
+      plot.title =element_text(size=12,colour="black",hjust = 0.5),
+      axis.title = element_text(size=12,colour="black"))
+
+
+```
+
+## boxplot for each metabolite
+```{r}
+boxplot <- function(name_map,input){
+  name_map = name_map[name_map$Pathway !="",]
+  input = input[,c("group",name_map$Query)]
+ range_value = NULL
+  for(i in 2:ncol(input)){
+    range_value=c(range_value,list(c(range(input[,i])[1],range(input[,i])[2]*1.3)))
+  }
+plot = melt(input)
+colnames(plot) = c("response","variable","value")
+plot$response = factor(plot$response,levels = c("Responder","Nonresponder"))
+a = ggplot(plot, aes(x =response, y =value ,fill=response))+
+  geom_boxplot(width=0.4) +# geom_point()+
+  scale_fill_manual(values=c("Nonresponder"="#3E4A7B","Responder" ="#A94643"))+ scale_colour_manual(values=c("Nonresponder"="#3E4A7B","Responder" ="#A94643"))+ 
+  # statistical analysis
+  stat_compare_means(comparisons =list(c("Nonresponder","Responder")),method = 't.test',size=4)+
+  theme_bw()+xlab("")+ylab("")+ggtitle(" ")+scale_y_continuous(expand = expansion(mult = c(0, 0.1)))+
+  facet_wrap(~variable, scales = "free",ncol=5)+
+theme(panel.grid.major = element_blank(),
+        panel.grid.minor = element_blank(),
+      axis.text=element_text(size=12,colour="black"),text=element_text(size=12,colour="black"),
+      plot.title =element_text(size=12,colour="black",hjust = 0.5),
+      axis.title = element_text(size=12,colour="black"),axis.text.x = element_blank(),axis.ticks.x = element_blank())
+return(a)
+}
+
+
+name_map = read.csv("../analysis/differential_analysis/metabolite/Diff_metabolite_pathway/result/name_map.csv")
+input = read.csv("../analysis/differential_analysis/metabolite/Diff_metabolite_pathway/result/input_pathway_diff_metabo.csv",row.names = 1,check.names = F)
+boxplot_diff = boxplot(name_map,input)
+
+```
+
+## correlation - all
+```{r}
+dat = read.csv("../analysis/differential_analysis/combined/SCC/differential_genus_species.csv",row.names = 1)
+dat = as.data.frame(t(dat))
+first_sample = first_sample[order(first_sample$patient_rename),]
+first_sample = first_sample[order(match(first_sample$clinical.response,c("Responder","Nonresponder"))),]
+genus = dat[first_sample$patient_rename,]
+pw_genus =as.data.frame(cbind(pw[first_sample$patient_rename,],genus)) 
+colnames(pw_genus) =gsub("\\:.*", "", colnames(pw_genus))
+
+
+correlation_plot = function(name_map,metabolite_data){
+  name_map=name_map[name_map$Pathway != "",]
+metabolite_data=metabolite_data[,name_map$Query]
+metabolite_data=metabolite_data[first_sample$sample_id,]
+rownames(metabolite_data) = first_sample$patient_rename
+
+
+ct <- corr.test(metabolite_data,pw_genus,
+                  method="spearman",
+                  adjust="BH",
+                  alpha =0.05) 
+pvalue<-ct$p
+p=pvalue
+p <- pvalue[apply(pvalue,1,min,na.rm=T)<0.05,]
+p <- p[,apply(p,2,min,na.rm=T)<0.05]
+p = as.data.frame(p)
+plot = ct$r
+plot= plot[rownames(p),]
+plot = plot[,colnames(p)]
+
+###pheatmap
+mycol<-c(colorRampPalette(c('blue','white'))(9),
+         colorRampPalette(c('white','white'))(3),
+         colorRampPalette(c('white','red'))(9))
+bk<-seq(-1,1,by=0.1)
+
+label<-matrix("", nrow=nrow(p), ncol=ncol(p))
+label[which(p<0.05)]<-"*"
+label[which(p<0.01)]<-"**"
+label[which(p<0.001)]<-"***"
+mycol<-c(colorRampPalette(c('blue','white'))(9),
+         colorRampPalette(c('white','white'))(3),
+         colorRampPalette(c('white','red'))(9))
+
+pheatmap(plot,cellwidth = 15,cellheight = 15,cluster_rows = T,
+         cluster_cols=F,display_numbers = label,angle_col = 45,number_color = "white",
+         color=mycol,legend_breaks = seq(-1,1,by=0.2),gaps_col = c(15,15),
+         breaks=bk)->y
+C<-plot_grid(y$gtable)
+return(C)
+}
+
+
+name_map = read.csv("../analysis/differential_analysis/metabolite/Diff_metabolite_pathway/result/name_map.csv")
+metabolite_data = read.csv("../analysis/differential_analysis/metabolite/Diff_metabolite_pathway/result/input_pathway_diff_metabo.csv",row.names = 1,check.names = F)
+correlation_diff = correlation_plot(name_map,metabolite_data)
+```
+# Finial
+```{r}
+# combine
+fist_col = ggarrange( A, plot_b_pathway,nrow = 2,heights  =c(1,1),labels=c("A","B"))
+second_col = ggarrange( boxplot_diff, correlation_diff,nrow = 2,heights  =c(1,1),labels=c("C","D"))
+all = ggarrange( fist_col, second_col,ncol = 2,widths  =c(1,1.3))
+ggsave(all,file="../analysis/Graph/Fig 4.pdf", width=23, height=10)
+
+```
+
+

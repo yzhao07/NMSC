@@ -1,0 +1,27 @@
+Alpha Diversity,Pvalue
+R_vs_NR_among_all_tumor,
+goods_coverage,1
+simpson_reciprocal,0.17965368
+PD_whole_tree,0.393939394
+chao1,0.937229437
+observed_species,0.484848485
+shannon,0.132034632
+gini_index,0.24025974
+fisher_alpha,0.484848485
+margalef,0.484848485
+brillouin_d,0.132034632
+R_vs_NR_among_SCC,
+strong,0.015151515
+mcintosh_d,0.17965368
+goods_coverage,0.857142857
+simpson_reciprocal,0.114285714
+PD_whole_tree,0.4
+chao1,0.857142857
+observed_species,0.4
+shannon,0.114285714
+gini_index,0.228571429
+fisher_alpha,0.4
+margalef,0.4
+brillouin_d,0.114285714
+strong,0.057142857
+mcintosh_d,0.114285714

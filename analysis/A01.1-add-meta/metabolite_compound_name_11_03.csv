@@ -1,0 +1,1352 @@
+ionIdx,ionMz,MzDelta,Mod,Formula,CompoundID,annSource,Compound_Name
+1,55.0188,0.0001831,-H(-),C3H4O,HMDB0041822,['hmdb40_kegg_H_F_K_Na'],Acrolein
+2,57.0347,-8.39E-05,-H(-),C3H6O,HMDB0001659,['hmdb40_kegg_H_F_K_Na'],Acetone
+3,59.0137,0.000164916,-H(-),C2H4O2,HMDB0000042,"[""'hmdb40_kegg_H_F_K_Na'""]",Acetic acid
+4,61.9883,6.63E-05,-H(-),HNO3,HMDB0002179,['hmdb40_kegg_H_F_K_Na'],Peroxynitrite
+5,69.0344,0.0001631,-H(-),C4H6O,HMDB0034233,['hmdb40_kegg_H_F_K_Na'],(E)-2-Butenal
+6,71.0139,-4.30E-06,-H(-),C3H4O2,HMDB0001167,['hmdb40_kegg_H_F_K_Na'],Pyruvaldehyde
+7,72.9931,-2.67E-05,-H(-),C2H2O3,HMDB0000119,['hmdb40_kegg_H_F_K_Na'],Glyoxylic acid
+8,73.0114,0.0003512,-H(-),C3H6S,HMDB0031635,['hmdb40_kegg_H_F_K_Na'],2-Propene-1-thiol
+9,73.0294,8.97E-05,-H(-),C3H6O2,HMDB0000237,['hmdb40_kegg_H_F_K_Na'],Propionic acid
+10,74.0246,0.0001327,-H(-),C2H5NO2,HMDB0000123,['hmdb40_kegg_H_F_K_Na'],Glycine
+11,74.9905,0.0004908,-H(-),C2H4OS,HMDB0031188,['hmdb40_kegg_H_F_K_Na'],Ethanethioic acid
+12,78.0348,0.0001425,-H(-),C5H5N,HMDB0000926,['hmdb40_kegg_H_F_K_Na'],Pyridine
+13,81.0344,0.0002271,-H(-),C5H6O,HMDB0013749,['hmdb40_kegg_H_F_K_Na'],2-Methylfuran
+14,83.0134,0.0004457,-H(-),C4H4O2,HMDB0032330,['hmdb40_kegg_H_F_K_Na'],4-Hydroxy-2-butenoic acid gamma-lactone
+15,83.0501,0.0001381,-H(-),C5H8O,HMDB0001184,['hmdb40_kegg_H_F_K_Na'],Methyl propenyl ketone
+16,84.0455,1.41E-05,-H(-),C4H7NO,HMDB0002039,['hmdb40_kegg_H_F_K_Na'],2-Pyrrolidinone
+17,85.0294,0.0001317,-H(-),C4H6O2,HMDB0000549,['hmdb40_kegg_H_F_K_Na'],Gamma-Butyrolactone
+18,87.045,0.0001567,-H(-),C4H8O2,HMDB0000039,['hmdb40_kegg_H_F_K_Na'],Butyric acid
+19,88.0402,0.0001757,-H(-),C3H7NO2,HMDB0000056,['hmdb40_kegg_H_F_K_Na'],Beta-Alanine
+20,89.0243,0.0001183,-H(-),C3H6O3,HMDB0000171,['hmdb40_kegg_H_F_K_Na'],L-Lactic acid
+21,89.0356,4.67E-05,-H(-),C2H6N2O2,HMDB0143050,['hmdb40_kegg_H_F_K_Na'],Monoethyl carbonate
+22,89.0425,0.0005312,-H(-),C4H10S,HMDB0031245,['hmdb40_kegg_H_F_K_Na'],2-Methyl-1-propanethiol
+23,90.9855,0.0004444,-H(-),C2H4O2S,HMDB0254464,['hmdb40_kegg_H_F_K_Na'],Dioctyltin isooctylthioglycolate
+24,91.0552,0.0001665,-H(-),C7H8,HMDB0034168,['hmdb40_kegg_H_F_K_Na'],Toluene
+25,92.0504,0.0001225,-H(-),C6H7N,HMDB0003012,['hmdb40_kegg_H_F_K_Na'],Aniline
+26,93.0346,1.41E-05,-H(-),C6H6O,HMDB0000228,['hmdb40_kegg_H_F_K_Na'],Phenol
+27,93.0457,0.0001445,-H(-),C5H6N2,HMDB0033112,['hmdb40_kegg_H_F_K_Na'],Methylpyrazine
+28,94.9804,0.000397,-H(-),CH4O3S,HMDB0240280,['hmdb40_kegg_H_F_K_Na'],Methanesulfonic acid
+29,94.9901,0.0002648,-H(-),CH5O3P,HMDB0240714,['hmdb40_kegg_H_F_K_Na'],Methylphosphonate
+30,95.0507,-0.0004239,-H(-),C6H8O,HMDB0031545,['hmdb40_kegg_H_F_K_Na'],2-Methyl-2-cyclopenten-1-one
+31,96.0089,0.0001807,-H(-),C4H3NO2,HMDB0254312,['hmdb40_kegg_H_F_K_Na'],Dichloromaleimide
+32,96.9924,0.0007303,-H(-),C4H2O3,HMDB0254845,['hmdb40_kegg_H_F_K_Na'],Fumonisin B2
+33,97.0295,1.07E-05,-H(-),C5H6O2,HMDB0013742,['hmdb40_kegg_H_F_K_Na'],2-Furanmethanol
+34,98.0249,-0.0001283,-H(-),C4H5NO2,HMDB0030276,['hmdb40_kegg_H_F_K_Na'],(R)-Dihydromaleimide
+35,98.0611,2.31E-05,-H(-),C5H9NO,HMDB0011749,['hmdb40_kegg_H_F_K_Na'],2-Piperidinone
+36,99.045,0.0001077,-H(-),C5H8O2,HMDB0000509,['hmdb40_kegg_H_F_K_Na'],Senecioic acid
+37,100.0403,5.47E-05,-H(-),C4H7NO2,HMDB0029387,['hmdb40_kegg_H_F_K_Na'],L-3-Aminodihydro-2(3H)-furanone
+38,101.0243,0.0001263,-H(-),C4H6O3,HMDB0000005,['hmdb40_kegg_H_F_K_Na'],2-Ketobutyric acid
+39,101.0607,0.0001187,-H(-),C5H10O2,HMDB0000718,['hmdb40_kegg_H_F_K_Na'],Isovaleric acid
+40,102.0561,-6.83E-05,-H(-),C4H9NO2,HMDB0000092,['hmdb40_kegg_H_F_K_Na'],Dimethylglycine
+41,103.0027,0.0009709,-H(-),C3H4O4,HMDB0000691,['hmdb40_kegg_H_F_K_Na'],Malonic acid
+42,103.0401,-6.87E-05,-H(-),C4H8O3,HMDB0000008,['hmdb40_kegg_H_F_K_Na'],2-Hydroxybutyric acid
+43,103.0595,-0.0007788,-H(-),C5H12S,HMDB0032457,['hmdb40_kegg_H_F_K_Na'],1-Pentanethiol
+44,104.0353,3.93E-05,-H(-),C3H7NO3,HMDB0000187,['hmdb40_kegg_H_F_K_Na'],L-Serine
+45,105.0192,8.69E-05,-H(-),C3H6O4,HMDB0000139,['hmdb40_kegg_H_F_K_Na'],Glyceric acid
+46,105.0346,-4.90E-06,-H(-),C7H6O,HMDB0006115,['hmdb40_kegg_H_F_K_Na'],Benzaldehyde
+47,105.0377,0.0002608,-H(-),C4H10OS,HMDB0031716,['hmdb40_kegg_H_F_K_Na'],3-(Methylthio)-1-propanol
+48,106.029,0.0007871,-H(-),C6H5NO,HMDB0255658,['hmdb40_kegg_H_F_K_Na'],4-Nitrophenol
+49,107.0502,3.91E-05,-H(-),C7H8O,HMDB0001858,['hmdb40_kegg_H_F_K_Na'],p-Cresol
+50,108.0215,0.0001397,-H(-),C6H5O2,HMDB0256033,['hmdb40_kegg_H_F_K_Na'],Benzoquinoneacetic acid
+51,108.9961,0.000392,-H(-),C2H6O3S,HMDB0254601,['hmdb40_kegg_H_F_K_Na'],Methyl methanethiosulfonate
+52,109.0117,1.72E-05,-H(-),C6H6S,HMDB0029726,['hmdb40_kegg_H_F_K_Na'],2-Vinylthiophene
+53,109.0295,1.87E-05,-H(-),C6H6O2,HMDB0000957,['hmdb40_kegg_H_F_K_Na'],Pyrocatechol
+54,110.0247,5.57E-05,-H(-),C5H5NO2,HMDB0003094,['hmdb40_kegg_H_F_K_Na'],"2,5-Dihydroxypyridine"
+55,110.0359,3.71E-05,-H(-),C4H5N3O,HMDB0000630,['hmdb40_kegg_H_F_K_Na'],Cytosine
+56,110.0724,6.50E-06,-H(-),C5H9N3,HMDB0000870,['hmdb40_kegg_H_F_K_Na'],Histamine
+57,110.9757,4.86E-05,-H(-),CH4O4S,HMDB0254614,['hmdb40_kegg_H_F_K_Na'],Ethyl hydrogen sulfate
+58,110.9919,-0.0009042,-H(-),C5H4OS,HMDB0029717,['hmdb40_kegg_H_F_K_Na'],2-Thiophenecarboxaldehyde
+59,111.0086,0.0001893,-H(-),C5H4O3,HMDB0000444,['hmdb40_kegg_H_F_K_Na'],3-Furoic acid
+60,111.0199,0.0001477,-H(-),C4H4N2O2,HMDB0000300,['hmdb40_kegg_H_F_K_Na'],Uracil
+61,111.0816,-3.59E-05,-H(-),C7H12O,HMDB0031483,['hmdb40_kegg_H_F_K_Na'],(Z)-4-Heptenal
+62,112.0147,0.0005587,-H(-),C3H3N3O2,HMDB0245259,['hmdb40_kegg_H_F_K_Na'],Azomycin
+63,112.0233,-0.000816433,-H(-) [+1],C4H4N2O2,HMDB0000300,['hmdb40_kegg_H_F_K_Na'],NA
+64,112.0402,0.0001657,-H(-),C5H7NO2,HMDB0001301,['hmdb40_kegg_H_F_K_Na'],1-Pyrroline-5-carboxylic acid
+65,112.0515,9.61E-05,-H(-),C4H7N3O,HMDB0000562,['hmdb40_kegg_H_F_K_Na'],Creatinine
+66,114.0196,8.63E-05,-H(-),C4H5NO3,HMDB0254310,['hmdb40_kegg_H_F_K_Na'],Maleamate
+67,114.056,1.77E-05,-H(-),C5H9NO2,HMDB0000162,['hmdb40_kegg_H_F_K_Na'],L-Proline
+68,115.04,6.73E-05,-H(-),C5H8O3,HMDB0000019,['hmdb40_kegg_H_F_K_Na'],Alpha-ketoisovaleric acid
+69,115.0593,-0.0005988,-H(-),C6H12S,HMDB0032411,['hmdb40_kegg_H_F_K_Na'],2-Methyl-1-methylthio-2-butene
+70,115.0763,0.0001407,-H(-),C6H12O2,HMDB0000535,['hmdb40_kegg_H_F_K_Na'],Caproic acid
+71,116.0503,0.0002845,-H(-),C8H7N,HMDB0000738,['hmdb40_kegg_H_F_K_Na'],Indole
+72,116.0717,-1.30E-06,-H(-),C5H11NO2,HMDB0000043,['hmdb40_kegg_H_F_K_Na'],Betaine
+73,117.0193,-2.10E-06,-H(-),C4H6O4,HMDB0000202,['hmdb40_kegg_H_F_K_Na'],Methylmalonic acid
+74,118.0297,0.0001161,-H(-),C7H5NO,HMDB0062270,['hmdb40_kegg_H_F_K_Na'],NA
+75,118.0508,0.0001283,-H(-),C4H9NO3,HMDB0000167,['hmdb40_kegg_H_F_K_Na'],L-Threonine
+76,119.0355,-0.0004781,-H(-),C4H8O4,HMDB0000337,['hmdb40_kegg_H_F_K_Na'],"(S)-3,4-Dihydroxybutyric acid"
+77,119.0501,0.0001351,-H(-),C8H8O,HMDB0004072,['hmdb40_kegg_H_F_K_Na'],4-Hydroxystyrene
+78,120.0455,-2.90E-06,-H(-),C7H7NO,HMDB0004461,['hmdb40_kegg_H_F_K_Na'],Benzamide
+79,120.9962,0.000259,-H(-),C3H6O3S,HMDB0002127,['hmdb40_kegg_H_F_K_Na'],3-Mercaptolactic acid
+80,121.0293,0.0002417,-H(-),C7H6O2,HMDB0001870,['hmdb40_kegg_H_F_K_Na'],Benzoic acid
+81,121.0656,0.0002421,-H(-),C8H10O,HMDB0029306,['hmdb40_kegg_H_F_K_Na'],4-Ethylphenol
+82,122.0248,-2.93E-05,-H(-),C6H5NO2,HMDB0001488,['hmdb40_kegg_H_F_K_Na'],Nicotinic acid
+83,122.0352,0.0007571,-H(-),C5H5N3O,HMDB0014483,['hmdb40_kegg_H_F_K_Na'],Pyrazinamide
+84,122.0612,-4.49E-05,-H(-),C7H9NO,HMDB0029300,['hmdb40_kegg_H_F_K_Na'],p-Anisidine
+85,123.0454,-0.0002793,-H(-),C7H8O2,HMDB0000873,['hmdb40_kegg_H_F_K_Na'],4-Methylcatechol
+86,124.0073,5.90E-05,-H(-),C2H7NO3S,HMDB0000251,['hmdb40_kegg_H_F_K_Na'],Taurine
+87,124.0168,8.08E-05,-H(-),C2H8NO3P,HMDB0011747,['hmdb40_kegg_H_F_K_Na'],Ciliatine
+88,124.0401,0.0003437,-H(-),C6H7NO2,HMDB0255137,['hmdb40_kegg_H_F_K_Na'],N-Ethylacetamide
+89,124.9907,-0.00016282,-H(-) [+2],C3H8OS2,HMDB0015677,['hmdb40_kegg_H_F_K_Na'],Dimercaprol
+90,125.0067,-8.32E-05,-H(-),C6H6OS,HMDB0032431,['hmdb40_kegg_H_F_K_Na'],5-Methyl-2-thiophenecarboxaldehyde
+91,125.024,0.0004053,-H(-),C6H6O3,HMDB0013674,['hmdb40_kegg_H_F_K_Na'],"1,2,3-Trihydroxybenzene"
+92,125.0355,0.0001127,-H(-),C5H6N2O2,HMDB0000262,['hmdb40_kegg_H_F_K_Na'],Thymine
+93,125.0972,3.01E-05,-H(-),C8H14O,HMDB0013809,['hmdb40_kegg_H_F_K_Na'],Sulcatone
+94,126.0196,5.93E-05,-H(-),C5H5NO3,HMDB0034368,['hmdb40_kegg_H_F_K_Na'],Hydroxyminaline
+95,126.0561,-1.30E-06,-H(-),C6H9NO2,HMDB0001084,['hmdb40_kegg_H_F_K_Na'],D-1-Piperideine-2-carboxylic acid
+96,127.0038,-8.91E-05,-H(-),C5H4O4,HMDB0059784,['hmdb40_kegg_H_F_K_Na'],Delta-Hexanolactone
+97,127.0399,0.0001713,-H(-),C6H8O3,HMDB0031303,['hmdb40_kegg_H_F_K_Na'],Osmundalactone
+98,127.0548,0.0005185,-H(-),C10H8,HMDB0029751,['hmdb40_kegg_H_F_K_Na'],Naphthalene
+99,127.0764,4.37E-05,-H(-),C7H12O2,HMDB0029165,['hmdb40_kegg_H_F_K_Na'],"1,3-Diacetylpropane"
+100,128.0099,0.0002853,-H(-),C3H3N3O3,HMDB0041861,['hmdb40_kegg_H_F_K_Na'],Cyanuric acid
+101,128.0352,0.0001423,-H(-),C5H7NO3,HMDB0000267,['hmdb40_kegg_H_F_K_Na'],Pyroglutamic acid
+102,128.0717,-3.53E-05,-H(-),C6H11NO2,HMDB0000070,['hmdb40_kegg_H_F_K_Na'],Pipecolic acid
+103,129.0192,0.0001339,-H(-),C5H6O4,HMDB0000620,['hmdb40_kegg_H_F_K_Na'],Glutaconic acid
+104,129.0384,-0.0004792,-H(-),C6H10OS,HMDB0031370,['hmdb40_kegg_H_F_K_Na'],2-[(Methylthio)methyl]-2-butenal
+105,129.0557,1.93E-05,-H(-),C6H10O3,HMDB0000408,['hmdb40_kegg_H_F_K_Na'],2-Methyl-3-ketovaleric acid
+106,129.0918,0.0003327,-H(-),C7H14O2,HMDB0000666,['hmdb40_kegg_H_F_K_Na'],Heptanoic acid
+107,130.0138,0.0007419,-H(-),C4H5NO4,HMDB0001131,['hmdb40_kegg_H_F_K_Na'],Iminoaspartic acid
+108,130.0509,3.63E-05,-H(-),C5H9NO3,HMDB0000725,['hmdb40_kegg_H_F_K_Na'],4-Hydroxyproline
+109,130.0658,0.0003745,-H(-),C9H9N,HMDB0000466,['hmdb40_kegg_H_F_K_Na'],3-Methylindole
+110,130.0872,0.0001767,-H(-),C6H13NO2,HMDB0000172,['hmdb40_kegg_H_F_K_Na'],L-Isoleucine
+111,131.0105,-0.0007011,-H(-),C3H4N2O4,HMDB0303019,['hmdb40_kegg_H_F_K_Na'],Oxalureate
+112,131.0352,-0.0002491,-H(-),C5H8O4,HMDB0000576,['hmdb40_kegg_H_F_K_Na'],Monoethyl malonic acid
+113,131.0462,2.03E-05,-H(-),C4H8N2O3,HMDB0000026,['hmdb40_kegg_H_F_K_Na'],Ureidopropionic acid
+114,131.0824,0.0001727,-H(-),C5H12N2O2,HMDB0000214,['hmdb40_kegg_H_F_K_Na'],Ornithine
+115,131.0907,-0.0006818,-H(-),C7H16S,HMDB0032303,['hmdb40_kegg_H_F_K_Na'],2-Heptanethiol
+116,131.9957,-0.0009661,-H(-),C4H7NS2,HMDB0038442,['hmdb40_kegg_H_F_K_Na'],1-Isothiocyanato-6-(methylthio)hexane
+117,132.0302,2.79E-05,-H(-),C4H7NO4,HMDB0000191,['hmdb40_kegg_H_F_K_Na'],L-Aspartic acid
+118,132.0456,-8.49E-05,-H(-),C8H7NO,HMDB0004094,['hmdb40_kegg_H_F_K_Na'],Indoxyl
+119,132.0562,0.0005115,-H(-),C7H7N3,HMDB0033172,['hmdb40_kegg_H_F_K_Na'],"3-Methylpyrrolo[1,2-a]pyrazine"
+120,133.014,0.0002245,-H(-),C4H6O5,HMDB0000156,['hmdb40_kegg_H_F_K_Na'],L-Malic acid
+121,133.0498,0.0008609,-H(-),C5H10O4,HMDB0000421,['hmdb40_kegg_H_F_K_Na'],"2,3-Dihydroxyvaleric acid"
+122,133.0659,-2.49E-05,-H(-),C9H10O,HMDB0029639,['hmdb40_kegg_H_F_K_Na'],(4-Methylphenyl)acetaldehyde
+123,134.0279,0.0002004,-H(-),C4H9NO2S,HMDB0000165,['hmdb40_kegg_H_F_K_Na'],Homocysteine
+124,134.0474,-0.0001795,-H(-),C5H5N5,HMDB0000034,['hmdb40_kegg_H_F_K_Na'],Adenine
+125,135.0117,0.000448,-H(-),C4H8O3S,HMDB0244530,['hmdb40_kegg_H_F_K_Na'],NA
+126,135.031,-0.0002561,-H(-),C5H12S2,HMDB0031160,['hmdb40_kegg_H_F_K_Na'],1-Pentanesulfenothioic acid
+127,136.0164,0.0001623,-H(-),C7H5O3,HMDB0302214,['hmdb40_kegg_H_F_K_Na'],Salicylate-sodium
+128,136.0403,0.0001157,-H(-),C7H7NO2,HMDB0000875,['hmdb40_kegg_H_F_K_Na'],Trigonelline
+129,136.0766,0.0001511,-H(-),C8H11NO,HMDB0000306,['hmdb40_kegg_H_F_K_Na'],Tyramine
+130,137.0356,6.87E-05,-H(-),C6H6N2O2,HMDB0000301,['hmdb40_kegg_H_F_K_Na'],Urocanic acid
+131,138.9801,0.000103,-H(-),C2H5O5P,HMDB0001494,['hmdb40_kegg_H_F_K_Na'],Acetylphosphate
+132,139.0511,0.0001607,-H(-),C6H8N2O2,HMDB0002144,['hmdb40_kegg_H_F_K_Na'],"1,3-Dimethyluracil"
+133,139.0594,-0.0007388,-H(-),C8H12S,HMDB0040236,['hmdb40_kegg_H_F_K_Na'],"3,4-Dimethylthiophene"
+134,139.0759,0.0005277,-H(-),C8H12O2,HMDB0032311,['hmdb40_kegg_H_F_K_Na'],"2,4-Hexadienyl acetate"
+135,139.1127,0.0001481,-H(-),C9H16O,HMDB0030957,['hmdb40_kegg_H_F_K_Na'],"(3Z,6Z)-3,6-Nonadien-1-ol"
+136,139.9758,-0.000359,-H(-),CH4NO5P,HMDB0001096,['hmdb40_kegg_H_F_K_Na'],Carbamoyl phosphate
+137,139.9937,0.0003339,-H(-),C2H8NO2PS,HMDB0031803,['hmdb40_kegg_H_F_K_Na'],(±)-Methamidophos
+138,140.035,0.0002713,-H(-),C6H7NO3,HMDB0001280,['hmdb40_kegg_H_F_K_Na'],2-Aminomuconic acid semialdehyde
+139,141.0017,-8.36E-05,-H(-),C6H6O2S,HMDB0029719,['hmdb40_kegg_H_F_K_Na'],Methyl thiophene-2-carboxylate
+140,141.0197,-0.0003181,-H(-),C6H6O4,HMDB0002349,['hmdb40_kegg_H_F_K_Na'],trans-trans-Muconic acid
+141,141.0555,0.0002053,-H(-),C7H10O3,HMDB0033551,['hmdb40_kegg_H_F_K_Na'],5-Ethyl-3-hydroxy-4-methyl-2(5H)-furanone
+142,141.071,-6.05E-05,-H(-),C11H10,HMDB0032860,['hmdb40_kegg_H_F_K_Na'],1-Methylnaphthalene
+143,141.0921,2.07E-05,-H(-),C8H14O2,HMDB0000392,['hmdb40_kegg_H_F_K_Na'],2-Octenoic acid
+144,142.0508,0.0002023,-H(-),C6H9NO3,HMDB0000894,['hmdb40_kegg_H_F_K_Na'],Vinylacetylglycine
+145,143.0348,0.0002159,-H(-),C6H8O4,HMDB0000393,['hmdb40_kegg_H_F_K_Na'],3-Hexenedioic acid
+146,143.0503,-1.69E-05,-H(-),C10H8O,HMDB0006215,['hmdb40_kegg_H_F_K_Na'],Naphthalene epoxide
+147,143.0542,-0.0006112,-H(-),C7H12OS,HMDB0031698,['hmdb40_kegg_H_F_K_Na'],S-(3-Methyl-2-butenyl) ethanethioate
+148,143.0713,3.43E-05,-H(-),C7H12O3,HMDB0001988,['hmdb40_kegg_H_F_K_Na'],4-Hydroxycyclohexylcarboxylic acid
+149,143.1076,0.0002027,-H(-),C8H16O2,HMDB0000482,['hmdb40_kegg_H_F_K_Na'],Caprylic acid
+150,144.0456,-0.0001359,-H(-),C9H7NO,HMDB0029737,['hmdb40_kegg_H_F_K_Na'],1H-Indole-3-carboxaldehyde
+151,144.0667,-0.0001307,-H(-),C6H11NO3,HMDB0000730,['hmdb40_kegg_H_F_K_Na'],Isobutyrylglycine
+152,145.014,0.0002435,-H(-),C5H6O5,HMDB0000208,['hmdb40_kegg_H_F_K_Na'],Oxoglutaric acid
+153,145.0294,0.0001377,-H(-),C9H6O2,HMDB0001218,['hmdb40_kegg_H_F_K_Na'],Coumarin
+154,145.0504,0.0002399,-H(-),C6H10O4,HMDB0000422,['hmdb40_kegg_H_F_K_Na'],2-Methylglutaric acid
+155,145.0619,-9.70E-06,-H(-),C5H10N2O3,HMDB0000641,['hmdb40_kegg_H_F_K_Na'],L-Glutamine
+156,145.07,-0.0007542,-H(-),C7H14OS,HMDB0037621,['hmdb40_kegg_H_F_K_Na'],NA
+157,145.0868,0.0002113,-H(-),C7H14O3,HMDB0002207,['hmdb40_kegg_H_F_K_Na'],3-Hydroxyisoheptanoic acid
+158,145.0981,0.0001677,-H(-),C6H14N2O2,HMDB0000182,['hmdb40_kegg_H_F_K_Na'],L-Lysine
+159,146.0246,0.0001267,-H(-),C8H5NO2,HMDB0006779,['hmdb40_kegg_H_F_K_Na'],"Indole-5,6-quinone"
+160,146.0458,4.29E-05,-H(-),C5H9NO4,HMDB0000148,['hmdb40_kegg_H_F_K_Na'],L-Glutamic acid
+161,146.061,0.0001751,-H(-),C9H9NO,HMDB0005785,['hmdb40_kegg_H_F_K_Na'],Indole-3-carbinol
+162,146.0813,0.0009533,-H(-),C6H13NO3,HMDB0029449,['hmdb40_kegg_H_F_K_Na'],"(2R,3R,4R)-2-Amino-4-hydroxy-3-methylpentanoic acid"
+163,147.0302,-0.0003035,-H(-),C5H8O5,HMDB0000426,['hmdb40_kegg_H_F_K_Na'],Citramalic acid
+164,147.0455,-0.0003063,-H(-),C9H8O2,HMDB0000567,['hmdb40_kegg_H_F_K_Na'],Cinnamic acid
+165,147.0814,0.0001391,-H(-),C10H12O,HMDB0002214,['hmdb40_kegg_H_F_K_Na'],Cuminaldehyde
+166,148.0434,0.0004094,-H(-),C5H11NO2S,HMDB0000696,['hmdb40_kegg_H_F_K_Na'],L-Methionine
+167,148.063,-0.0001125,-H(-),C6H7N5,HMDB0002099,['hmdb40_kegg_H_F_K_Na'],6-Methyladenine
+168,148.9911,0.0002766,-H(-),C4H6O4S,HMDB0042032,['hmdb40_kegg_H_F_K_Na'],Thiodiacetic acid
+169,149.0099,-0.0007199,-H(-),C4H6O6,HMDB0000956,['hmdb40_kegg_H_F_K_Na'],Tartaric acid
+170,149.097,0.0001511,-H(-),C10H14O,HMDB0001878,['hmdb40_kegg_H_F_K_Na'],Thymol
+171,149.1089,-0.0004725,-H(-),C9H14N2,HMDB0031841,['hmdb40_kegg_H_F_K_Na'],"2,5-Dimethyl-3-propylpyrazine"
+172,150.0562,-0.0001743,-H(-),C8H9NO2,HMDB0001859,['hmdb40_kegg_H_F_K_Na'],Acetaminophen
+173,151.0259,0.0002417,-H(-),C5H4N4O2,HMDB0000292,['hmdb40_kegg_H_F_K_Na'],Xanthine
+174,151.04,6.23E-05,-H(-),C8H8O3,HMDB0000020,['hmdb40_kegg_H_F_K_Na'],p-Hydroxyphenylacetic acid
+175,151.0759,0.0006017,-H(-),C9H12O2,HMDB0032132,['hmdb40_kegg_H_F_K_Na'],"2-Isopropyl-1,4-benzenediol"
+176,152.011,0.0008394,-H(-),C3H8NO4P,NA,['hmdb40_kegg_H_F_K_Na'],N-Acetylgalactosamine
+177,152.035,0.0002993,-H(-),C7H7NO3,HMDB0001476,['hmdb40_kegg_H_F_K_Na'],3-Hydroxyanthranilic acid
+178,152.0716,5.37E-05,-H(-),C8H11NO2,HMDB0000073,['hmdb40_kegg_H_F_K_Na'],Dopamine
+179,153.0194,-0.0001081,-H(-),C7H6O4,HMDB0000152,['hmdb40_kegg_H_F_K_Na'],Gentisic acid
+180,153.093,-0.0008883,-H(-),C9H14O2,HMDB0031302,['hmdb40_kegg_H_F_K_Na'],Methyl 2-octynoate
+181,154.0501,0.0008593,-H(-),C7H9NO3,NA,['hmdb40_kegg_H_F_K_Na'],NA
+182,154.0623,-0.0001203,-H(-),C6H9N3O2,HMDB0000177,['hmdb40_kegg_H_F_K_Na'],L-Histidine
+183,154.9133,-0.0009867,-H(-),C2H4S4,HMDB0031185,['hmdb40_kegg_H_F_K_Na'],"1,2,4,5-Tetrathiane"
+184,155.0015,0.0004822,-H(-),C3H8O5S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+185,155.0099,-9.31E-05,-H(-),C5H4N2O4,HMDB0000226,['hmdb40_kegg_H_F_K_Na'],Orotic acid
+186,155.0124,-0.000954,-H(-),C3H9O5P,NA,['hmdb40_kegg_H_F_K_Na'],NA
+187,155.0463,-0.0001307,-H(-),C6H8N2O3,HMDB0000544,['hmdb40_kegg_H_F_K_Na'],5-Hydroxymethyl-4-methyluracil
+188,155.0568,0.0006527,-H(-),C5H8N4O2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+189,155.0723,-0.0009097,-H(-),C8H12O3,HMDB0031101,['hmdb40_kegg_H_F_K_Na'],"8-Hydroxy-5,6-octadienoic acid"
+190,155.0865,0.0001265,-H(-),C12H12,HMDB0059764,['hmdb40_kegg_H_F_K_Na'],"2,6-Dimethyl-naphtalene"
+191,155.1075,0.0002067,-H(-),C9H16O2,HMDB0004362,['hmdb40_kegg_H_F_K_Na'],4-Hydroxynonenal
+192,156.0303,-0.0001021,-H(-),C6H7NO4,HMDB0001241,['hmdb40_kegg_H_F_K_Na'],2-Aminomuconic acid
+193,157.0138,0.0004095,-H(-),C6H6O5,HMDB0031210,['hmdb40_kegg_H_F_K_Na'],Zymonic acid
+194,157.0508,-0.0001511,-H(-),C7H10O4,HMDB0000635,['hmdb40_kegg_H_F_K_Na'],Succinylacetone
+195,157.0872,-0.0001487,-H(-),C8H14O3,HMDB0000451,['hmdb40_kegg_H_F_K_Na'],cis-4-Hydroxycyclohexylacetic acid
+196,157.1234,-2.30E-06,-H(-),C9H18O2,HMDB0000798,['hmdb40_kegg_H_F_K_Na'],Oenanthic ether
+197,158.0821,0.0001983,-H(-),C7H13NO3,HMDB0000339,['hmdb40_kegg_H_F_K_Na'],2-Methylbutyrylglycine
+198,159.0297,0.0001645,-H(-),C6H8O5,HMDB0000225,['hmdb40_kegg_H_F_K_Na'],Oxoadipic acid
+199,159.0664,-9.51E-05,-H(-),C7H12O4,HMDB0000555,['hmdb40_kegg_H_F_K_Na'],3-Methyladipic acid
+200,159.0804,0.0011011,-H(-),C11H12O,HMDB0031567,['hmdb40_kegg_H_F_K_Na'],3-Methyl-4-phenyl-3-buten-2-one
+201,159.0926,0.0001995,-H(-),C10H12N2,HMDB0000303,['hmdb40_kegg_H_F_K_Na'],Tryptamine
+202,159.1029,-0.0002657,-H(-),C8H16O3,HMDB0000486,['hmdb40_kegg_H_F_K_Na'],7-Hydroxyoctanoic acid
+203,159.1145,-0.0005563,-H(-),C7H16N2O2,HMDB0002038,['hmdb40_kegg_H_F_K_Na'],N(6)-Methyllysine
+204,160.0405,-0.0001053,-H(-),C9H7NO2,HMDB0002285,['hmdb40_kegg_H_F_K_Na'],2-Indolecarboxylic acid
+205,160.0616,-4.21E-05,-H(-),C6H11NO4,HMDB0000510,['hmdb40_kegg_H_F_K_Na'],Aminoadipic acid
+206,161.024,0.0004433,-H(-),C9H6O3,HMDB0002149,['hmdb40_kegg_H_F_K_Na'],3 Hydroxycoumarin
+207,161.0458,-0.0002465,-H(-),C6H10O5,HMDB0000321,['hmdb40_kegg_H_F_K_Na'],2-Hydroxyadipic acid
+208,161.0616,-0.0008183,-H(-),C10H10O2,HMDB0002333,['hmdb40_kegg_H_F_K_Na'],"cis-1,2-Dihydronaphthalene-1,2-diol"
+209,161.0938,-0.0006437,-H(-),C6H14N2O3,HMDB0000450,['hmdb40_kegg_H_F_K_Na'],5-Hydroxylysine
+210,161.9875,-0.0008814,-H(-),C4H5NO4S,HMDB0033585,['hmdb40_kegg_H_F_K_Na'],Acesulfame
+211,162.0561,-7.23E-05,-H(-),C9H9NO2,HMDB0001424,['hmdb40_kegg_H_F_K_Na'],4-(3-Pyridyl)-3-butenoic acid
+212,162.0781,-0.0009571,-H(-),C6H13NO4,HMDB0011727,['hmdb40_kegg_H_F_K_Na'],Bicine
+213,163.0403,-0.0002687,-H(-),C9H8O3,HMDB0000205,['hmdb40_kegg_H_F_K_Na'],Phenylpyruvic acid
+214,163.0507,0.0006147,-H(-),C8H8N2O2,HMDB0042006,['hmdb40_kegg_H_F_K_Na'],Ricinine
+215,163.0614,-0.0002515,-H(-),C6H12O5,HMDB0000174,['hmdb40_kegg_H_F_K_Na'],L-Fucose
+216,163.0771,-0.0006183,-H(-),C10H12O2,HMDB0000329,['hmdb40_kegg_H_F_K_Na'],4-Isopropylbenzoic acid
+217,163.1131,-0.0002189,-H(-),C11H16O,HMDB0029653,['hmdb40_kegg_H_F_K_Na'],1-(1-Methoxy-1-methylethyl)-4-methylbenzene
+218,164.0212,0.0002187,-H(-),C5H3N5O2,HMDB0041820,['hmdb40_kegg_H_F_K_Na'],4-Methylthiobutylthiohydroximate
+219,164.0354,-6.07E-05,-H(-),C8H7NO3,HMDB0003454,['hmdb40_kegg_H_F_K_Na'],4-Pyridoxolactone
+220,164.0455,0.0010987,-H(-),C7H7N3O2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+221,164.0586,-0.0007929,-H(-),C6H7N5O,HMDB0000897,['hmdb40_kegg_H_F_K_Na'],7-Methylguanine
+222,164.0719,-0.0001903,-H(-),C9H11NO2,HMDB0000159,['hmdb40_kegg_H_F_K_Na'],L-Phenylalanine
+223,165.0196,-0.0002811,-H(-),C8H6O4,HMDB0002107,['hmdb40_kegg_H_F_K_Na'],Phthalic acid
+224,165.0417,-0.0003655,-H(-),C6H14OS2,HMDB0034394,['hmdb40_kegg_H_F_K_Na'],S-Propyl 1-propanesulfinothioate
+225,165.9794,-0.0003681,-H(-),C7H5NS2,HMDB0030524,['hmdb40_kegg_H_F_K_Na'],2(3H)-Benzothiazolethione
+226,166.0149,-0.0002961,-H(-),C7H5NO4,HMDB0000232,['hmdb40_kegg_H_F_K_Na'],Quinolinic acid
+227,166.0377,-0.0006823,-H(-),C5H5N5O2,HMDB0000401,['hmdb40_kegg_H_F_K_Na'],"2,8-Dihydroxyadenine"
+228,166.0511,-0.0001637,-H(-),C8H9NO3,HMDB0001545,['hmdb40_kegg_H_F_K_Na'],Pyridoxal
+229,166.9756,-0.0005284,-H(-),C3H5O6P,HMDB0000263,['hmdb40_kegg_H_F_K_Na'],Phosphoenolpyruvic acid
+230,166.9997,-0.0010615,-H(-),C7H4O5,NA,['hmdb40_kegg_H_F_K_Na'],NA
+231,167.0211,-1.07E-05,-H(-),C5H4N4O3,HMDB0000289,['hmdb40_kegg_H_F_K_Na'],Uric acid
+232,167.9973,-7.88E-05,-H(-),C3H7NO5S,HMDB0002757,['hmdb40_kegg_H_F_K_Na'],Cysteic acid
+233,168.0128,-0.0003246,-H(-),C7H7NO2S,NA,['hmdb40_kegg_H_F_K_Na'],"Thiobenzamide S,S-dioxide"
+234,168.067,-0.0003767,-H(-),C8H11NO3,HMDB0000216,['hmdb40_kegg_H_F_K_Na'],Norepinephrine
+235,168.078,-0.0001763,-H(-),C7H11N3O2,HMDB0000001,['hmdb40_kegg_H_F_K_Na'],1-Methylhistidine
+236,169.0762,0.0008835,-H(-),C11H10N2,HMDB0029747,['hmdb40_kegg_H_F_K_Na'],2-Amino-5-phenylpyridine
+237,169.1235,-5.33E-05,-H(-),C10H18O2,HMDB0004980,['hmdb40_kegg_H_F_K_Na'],cis-4-Decenoic acid
+238,170.0273,0.0007794,-H(-),C7H9NO2S,HMDB0032420,['hmdb40_kegg_H_F_K_Na'],2-(4-Methyl-5-thiazolyl)ethyl formate
+239,170.0829,-0.0006207,-H(-),C8H13NO3,NA,['hmdb40_kegg_H_F_K_Na'],NA
+240,170.119,-0.0003763,-H(-),C9H17NO2,HMDB0005015,['hmdb40_kegg_H_F_K_Na'],Gabapentin
+241,171.0119,0.000246,-H(-),C7H8O3S,HMDB0059933,['hmdb40_kegg_H_F_K_Na'],p-Toluenesulfonic acid
+242,171.0302,-0.0003055,-H(-),C7H8O5,HMDB0304122,['hmdb40_kegg_H_F_K_Na'],3-Dehydroshikimate
+243,171.0558,0.0005731,-H(-),C10H8N2O,HMDB0037296,['hmdb40_kegg_H_F_K_Na'],NA
+244,171.0665,-0.0002661,-H(-),C8H12O4,HMDB0000341,['hmdb40_kegg_H_F_K_Na'],2-Octenedioic acid
+245,171.103,-0.0003097,-H(-),C9H16O3,HMDB0036188,['hmdb40_kegg_H_F_K_Na'],9-Oxononanoic acid
+246,171.1394,-0.0003093,-H(-),C10H20O2,HMDB0000511,['hmdb40_kegg_H_F_K_Na'],Capric acid
+247,172.0399,0.0005047,-H(-),C10H7NO2,HMDB0000842,['hmdb40_kegg_H_F_K_Na'],Quinaldic acid
+248,172.0983,-0.0004307,-H(-),C8H15NO3,HMDB0000701,['hmdb40_kegg_H_F_K_Na'],Hexanoylglycine
+249,172.9919,-0.0005184,-H(-),C6H6O4S,HMDB0060015,['hmdb40_kegg_H_F_K_Na'],Phenyl hydrogen sulfate
+250,173.0083,0.0008261,-H(-),C6H6O6,HMDB0000072,['hmdb40_kegg_H_F_K_Na'],cis-Aconitic acid
+251,173.0456,-9.50E-06,-H(-),C7H10O5,HMDB0003070,['hmdb40_kegg_H_F_K_Na'],Shikimic acid
+252,173.0568,-1.21E-05,-H(-),C6H10N2O4,HMDB0000854,['hmdb40_kegg_H_F_K_Na'],Formiminoglutamic acid
+253,173.0608,9.70E-06,-H(-),C11H10O2,HMDB0031845,['hmdb40_kegg_H_F_K_Na'],3-Propylidene-1(3H)-isobenzofuranone
+254,173.0712,0.0008451,-H(-),C10H10N2O,HMDB0006240,['hmdb40_kegg_H_F_K_Na'],Demethylated antipyrine
+255,173.0821,-0.0001431,-H(-),C8H14O4,HMDB0000837,['hmdb40_kegg_H_F_K_Na'],Suberic acid
+256,173.0972,2.31E-05,-H(-),C12H14O,HMDB0031622,['hmdb40_kegg_H_F_K_Na'],6-Phenyl-3-hexen-2-one
+257,173.1043,8.17E-05,-H(-),C6H14N4O2,HMDB0000517,['hmdb40_kegg_H_F_K_Na'],L-Arginine
+258,173.1175,0.0008273,-H(-),C9H18O3,HMDB0031513,['hmdb40_kegg_H_F_K_Na'],(±)-3-Hydroxynonanoic acid
+259,173.1293,0.0002287,-H(-),C8H18N2O2,HMDB0013287,['hmdb40_kegg_H_F_K_Na'],"Ne,Ne dimethyllysine"
+260,174.041,-0.0001545,-H(-),C6H9NO5,HMDB0000812,['hmdb40_kegg_H_F_K_Na'],N-Acetyl-L-aspartic acid
+261,175.0245,0.0003051,-H(-),C6H8O6,HMDB0000044,['hmdb40_kegg_H_F_K_Na'],Ascorbic acid
+262,175.0444,-0.000934,-H(-),C7H12O3S,HMDB0040003,['hmdb40_kegg_H_F_K_Na'],2-Oxo-6-methylthiohexanoic acid
+263,175.0516,-0.0002853,-H(-),C9H8N2O2,HMDB0246310,['hmdb40_kegg_H_F_K_Na'],NA
+264,175.0609,0.0002855,-H(-),C7H12O5,HMDB0000402,['hmdb40_kegg_H_F_K_Na'],2-Isopropylmalic acid
+265,175.0767,-0.0002253,-H(-),C11H12O2,HMDB0029699,['hmdb40_kegg_H_F_K_Na'],Cinnamyl acetate
+266,175.0975,9.19E-05,-H(-),C8H16O4,HMDB0254499,['hmdb40_kegg_H_F_K_Na'],NA
+267,175.1124,0.0004631,-H(-),C12H16O,HMDB0031569,['hmdb40_kegg_H_F_K_Na'],4-Methyl-1-phenyl-2-pentanone
+268,176.0392,-0.000547,-H(-),C6H11NO3S,HMDB0001015,['hmdb40_kegg_H_F_K_Na'],N-Formyl-L-methionine
+269,177.0189,0.0004719,-H(-),C9H6O4,HMDB0030819,['hmdb40_kegg_H_F_K_Na'],Aesculetin
+270,177.0405,-6.09E-05,-H(-),C6H10O6,HMDB0000150,['hmdb40_kegg_H_F_K_Na'],Gluconolactone
+271,177.0921,1.47E-05,-H(-),C11H14O2,HMDB0002043,['hmdb40_kegg_H_F_K_Na'],5-Phenylvaleric acid
+272,178.051,-6.07E-05,-H(-),C9H9NO3,HMDB0000714,['hmdb40_kegg_H_F_K_Na'],Hippuric acid
+273,178.0875,-0.0001693,-H(-),C10H13NO2,HMDB0001189,['hmdb40_kegg_H_F_K_Na'],2(N)-Methyl-norsalsolinol
+274,179.0032,-0.0003394,-H(-),C6H12S3,HMDB0031671,['hmdb40_kegg_H_F_K_Na'],"2,4,6-Trimethyl-1,3,5-trithiane"
+275,179.0351,-0.0001541,-H(-),C9H8O4,HMDB0000707,['hmdb40_kegg_H_F_K_Na'],4-Hydroxyphenylpyruvic acid
+276,179.1079,-0.0001843,-H(-),C11H16O2,HMDB0030007,['hmdb40_kegg_H_F_K_Na'],"2,2,7,7-Tetramethyl-1,6-dioxaspiro[4.4]nona-3,8-diene"
+277,180.0529,-0.0001763,-H(-),C6H7N5O2,HMDB0006037,['hmdb40_kegg_H_F_K_Na'],8-Hydroxy-7-methylguanine
+278,180.0666,3.63E-05,-H(-),C9H11NO3,HMDB0000158,['hmdb40_kegg_H_F_K_Na'],L-Tyrosine
+279,181.0504,0.0002039,-H(-),C9H10O4,HMDB0000118,['hmdb40_kegg_H_F_K_Na'],Homovanillic acid
+280,181.0721,-0.0002999,-H(-),C6H14O6,HMDB0000107,['hmdb40_kegg_H_F_K_Na'],Galactitol
+281,181.0844,-7.39E-05,-H(-),C6H10N6O,HMDB0014989,['hmdb40_kegg_H_F_K_Na'],Dacarbazine
+282,181.1237,-0.0002753,-H(-),C11H18O2,HMDB0030006,['hmdb40_kegg_H_F_K_Na'],"2,2,7,7-Tetramethyl-1,6-dioxaspiro[4.4]non-3-ene"
+283,181.9918,-2.90E-05,-H(-),C7H5NO3S,HMDB0029723,['hmdb40_kegg_H_F_K_Na'],Saccharin
+284,182.0133,-0.0004708,-H(-),C4H9NO5S,HMDB0002205,['hmdb40_kegg_H_F_K_Na'],L-Homocysteic acid
+285,182.0458,5.19E-05,-H(-),C8H9NO4,HMDB0000017,['hmdb40_kegg_H_F_K_Na'],4-Pyridoxic acid
+286,183.0122,-0.000112,-H(-),C8H8O3S,HMDB0015435,['hmdb40_kegg_H_F_K_Na'],Polystyrene sulfonate
+287,183.0492,-0.0006346,-H(-),C9H12O2S,HMDB0032401,['hmdb40_kegg_H_F_K_Na'],(+/-)-3-[(2-methyl-3-furyl)thio]-2-butanone
+288,183.0555,0.0009351,-H(-),C11H8N2O,HMDB0341317,['hmdb40_kegg_H_F_K_Na'],(+/-)-Furilazole
+289,184.0019,-0.0002844,-H(-),C3H8NO6P,HMDB0000272,['hmdb40_kegg_H_F_K_Na'],Phosphoserine
+290,184.0258,-0.0006885,-H(-),C7H7NO5,HMDB0001330,['hmdb40_kegg_H_F_K_Na'],2-Amino-3-carboxymuconic acid semialdehyde
+291,184.0507,0.0009131,-H(-),C10H7N3O,NA,['hmdb40_kegg_H_F_K_Na'],NA
+292,184.9857,-3.80E-06,-H(-),C3H7O7P,HMDB0000362,['hmdb40_kegg_H_F_K_Na'],2-Phosphoglyceric acid
+293,185.0096,-0.0004319,-H(-),C7H6O6,HMDB0060371,['hmdb40_kegg_H_F_K_Na'],3-Fumarylpyruvate
+294,185.0401,-0.0010806,-H(-),C7H10N2O2S,HMDB0014533,['hmdb40_kegg_H_F_K_Na'],Carbimazole
+295,185.0608,-1.33E-05,-H(-),C12H10O2,HMDB0032708,['hmdb40_kegg_H_F_K_Na'],1-Naphthaleneacetic acid
+296,185.0819,7.59E-05,-H(-),C9H14O4,HMDB0030988,['hmdb40_kegg_H_F_K_Na'],5-(2-Methylpropyl)tetrahydro-2-oxo-3-furancarboxylic acid
+297,185.0967,0.0005051,-H(-),C13H14O,HMDB0030931,['hmdb40_kegg_H_F_K_Na'],"(E)-2-Tridecene-4,6,8-triyn-1-ol"
+298,185.1181,0.0002583,-H(-),C10H18O3,HMDB0010724,['hmdb40_kegg_H_F_K_Na'],3-Oxodecanoic acid
+299,185.155,-0.0002483,-H(-),C11H22O2,HMDB0000947,['hmdb40_kegg_H_F_K_Na'],Undecanoic acid
+300,186.1133,0.0002293,-H(-),C9H17NO3,HMDB0013010,['hmdb40_kegg_H_F_K_Na'],N-Heptanoylglycine
+301,187.007,8.36E-05,-H(-),C7H8O4S,HMDB0011635,['hmdb40_kegg_H_F_K_Na'],p-Cresol sulfate
+302,187.0609,0.0002745,-H(-),C8H12O5,HMDB0059767,['hmdb40_kegg_H_F_K_Na'],2-Oxosuberate
+303,187.0765,-7.13E-05,-H(-),C12H12O2,HMDB0029495,['hmdb40_kegg_H_F_K_Na'],Trigoforin
+304,187.0979,-0.0003311,-H(-),C9H16O4,HMDB0000784,['hmdb40_kegg_H_F_K_Na'],Azelaic acid
+305,187.1341,-0.0001727,-H(-),C10H20O3,HMDB0002203,['hmdb40_kegg_H_F_K_Na'],3-Hydroxycapric acid
+306,187.9966,-0.0003153,-H(-),C6H5O7,HMDB0304308,['hmdb40_kegg_H_F_K_Na'],Uric acid
+307,188.0022,0.0001386,-H(-),C6H7NO4S,HMDB0004823,['hmdb40_kegg_H_F_K_Na'],Lanthionine ketimine
+308,188.0359,-0.0005387,-H(-),C10H7NO3,HMDB0000715,['hmdb40_kegg_H_F_K_Na'],Kynurenic acid
+309,188.0418,-0.0001303,-H(-),C6H12N3PS,HMDB0015576,['hmdb40_kegg_H_F_K_Na'],Thiotepa
+310,188.0564,5.50E-06,-H(-),C7H11NO5,HMDB0000590,['hmdb40_kegg_H_F_K_Na'],Glutarylglycine
+311,188.0717,-1.13E-05,-H(-),C11H11NO2,HMDB0002302,['hmdb40_kegg_H_F_K_Na'],Indole-3-propionic acid
+312,188.092,0.0008369,-H(-),C8H15NO4,HMDB0036604,['hmdb40_kegg_H_F_K_Na'],NA
+313,188.1113,0.0001858,-H(-),C9H19NOS,HMDB0251894,['hmdb40_kegg_H_F_K_Na'],NA
+314,188.9857,0.0005722,-H(-),C6H6O5S,HMDB0059724,['hmdb40_kegg_H_F_K_Na'],3-Sulfocatechol
+315,189.0186,0.0007579,-H(-),C10H6O4,HMDB0032944,['hmdb40_kegg_H_F_K_Na'],Coumarin-4-carboxylic acid
+316,189.0561,-0.0003897,-H(-),C11H10O3,HMDB0032991,['hmdb40_kegg_H_F_K_Na'],7-Methoxy-6-methyl-2H-1-benzopyran-2-one
+317,189.0763,0.0005065,-H(-),C8H14O5,HMDB0000325,['hmdb40_kegg_H_F_K_Na'],3-Hydroxysuberic acid
+318,189.0881,-6.10E-06,-H(-),C7H14N2O4,HMDB0001370,['hmdb40_kegg_H_F_K_Na'],Diaminopimelic acid
+319,189.0916,0.0005327,-H(-),C12H14O2,HMDB0030905,['hmdb40_kegg_H_F_K_Na'],1-(4-Methoxyphenyl)-1-penten-3-one
+320,189.1025,0.0008101,-H(-),C11H14N2O,HMDB0004095,['hmdb40_kegg_H_F_K_Na'],5-Methoxytryptamine
+321,189.1285,-4.79E-05,-H(-),C13H18O,HMDB0013804,['hmdb40_kegg_H_F_K_Na'],beta-Damascenone
+322,190.0548,-0.000425,-H(-),C7H13NO3S,HMDB0011745,['hmdb40_kegg_H_F_K_Na'],N-Acetyl-L-methionine
+323,191.0199,-0.0001763,-H(-),C6H8O7,HMDB0000094,['hmdb40_kegg_H_F_K_Na'],Citric acid
+324,191.1079,-0.0001033,-H(-),C12H16O2,HMDB0031571,['hmdb40_kegg_H_F_K_Na'],2-Methyl-1-phenyl-2-propanyl acetate
+325,192.0672,-0.0005577,-H(-),C10H11NO3,HMDB0000821,['hmdb40_kegg_H_F_K_Na'],Phenylacetylglycine
+326,193.0142,5.95E-05,-H(-),C9H6O5,HMDB0129377,['hmdb40_kegg_H_F_K_Na'],NA
+327,193.0352,0.0001417,-H(-),C6H10O7,HMDB0000127,['hmdb40_kegg_H_F_K_Na'],D-Glucuronic acid
+328,193.0502,0.0004039,-H(-),C10H10O4,HMDB0000537,['hmdb40_kegg_H_F_K_Na'],trans-Ferulic acid
+329,193.0651,0.0008161,-H(-),C14H10O,HMDB0059797,['hmdb40_kegg_H_F_K_Na'],1-Phenanthrol
+330,193.0876,-0.0006087,-H(-),C11H14O3,HMDB0031517,['hmdb40_kegg_H_F_K_Na'],(R)-3-Hydroxy-5-phenylpentanoic acid
+331,194.0673,-0.0002579,-H(-),C6H13NO6,HMDB0252768,['hmdb40_kegg_H_F_K_Na'],2'-Methoxyacetophenone
+332,194.9971,-0.0002222,-H(-),C5H8O6S,HMDB0128930,['hmdb40_kegg_H_F_K_Na'],NA
+333,195.0302,-0.0003295,-H(-),C9H8O5,HMDB0030800,['hmdb40_kegg_H_F_K_Na'],"3-Methoxy-4,5-methylenedioxybenzoic acid"
+334,195.051,7.57E-05,-H(-),C6H12O7,HMDB0000565,['hmdb40_kegg_H_F_K_Na'],Galactonic acid
+335,195.1388,0.0002277,-H(-),C12H20O2,HMDB0030867,['hmdb40_kegg_H_F_K_Na'],Dihydro-5-(2-octenyl)-2(3H)-furanone
+336,196.0352,0.0011399,-H(-),C7H7N3O4,HMDB0246344,['hmdb40_kegg_H_F_K_Na'],"4-Amino-2,6-dinitrotoluene"
+337,196.0617,-0.0002021,-H(-),C9H11NO4,HMDB0000181,['hmdb40_kegg_H_F_K_Na'],L-Dopa
+338,197.0085,0.0006501,-H(-),C8H6O6,HMDB0304184,['hmdb40_kegg_H_F_K_Na'],"3,4-Dihydroxyphthalate"
+339,197.025,-0.0005827,-H(-),C12H6O3,NA,['hmdb40_kegg_H_F_K_Na'],2-(4-Methoxyphenyl)naphthalic anhydride
+340,197.0453,0.0002335,-H(-),C9H10O5,HMDB0000291,['hmdb40_kegg_H_F_K_Na'],Vanillylmandelic acid
+341,197.0646,-0.0004306,-H(-),C10H14O2S,HMDB0036134,['hmdb40_kegg_H_F_K_Na'],NA
+342,197.0816,0.0003749,-H(-),C10H14O4,HMDB0004998,['hmdb40_kegg_H_F_K_Na'],Guaifenesin
+343,197.1546,0.0001417,-H(-),C12H22O2,HMDB0000529,['hmdb40_kegg_H_F_K_Na'],5-Dodecenoic acid
+344,198.0593,0.0001194,-H(-),C9H13NO2S,HMDB0032424,['hmdb40_kegg_H_F_K_Na'],2-(4-Methyl-5-thiazolyl)ethyl propionate
+345,199.0072,-0.0001814,-H(-),C8H8O4S,HMDB0062775,['hmdb40_kegg_H_F_K_Na'],NA
+346,199.04,9.83E-05,-H(-),C12H8O3,NA,['hmdb40_kegg_H_F_K_Na'],NA
+347,199.0613,-5.45E-05,-H(-),C9H12O5,HMDB0033091,['hmdb40_kegg_H_F_K_Na'],(Z)-3-(1-Formyl-1-propenyl)pentanedioic acid
+348,199.0764,9.17E-05,-H(-),C13H12O2,HMDB0014738,['hmdb40_kegg_H_F_K_Na'],Monobenzone
+349,199.1341,-0.0001047,-H(-),C11H20O3,HMDB0032662,['hmdb40_kegg_H_F_K_Na'],(S)-9-Hydroxy-10-undecenoic acid
+350,199.1704,-9.30E-06,-H(-),C12H24O2,HMDB0000638,['hmdb40_kegg_H_F_K_Na'],Dodecanoic acid
+351,200.1295,-0.0002387,-H(-),C10H19NO3,HMDB0000832,['hmdb40_kegg_H_F_K_Na'],Capryloylglycine
+352,200.9866,-0.0002978,-H(-),C7H6O5S,HMDB0240374,['hmdb40_kegg_H_F_K_Na'],4-Sulfobenzoate
+353,201.0193,6.79E-05,-H(-),C11H6O4,HMDB0013679,['hmdb40_kegg_H_F_K_Na'],Bergaptol
+354,201.0552,0.0005133,-H(-),C12H10O3,HMDB0032706,['hmdb40_kegg_H_F_K_Na'],(2-Naphthalenyloxy)acetic acid
+355,201.0766,0.0002015,-H(-),C9H14O5,HMDB0032306,['hmdb40_kegg_H_F_K_Na'],4-Heptenal diethyl acetal
+356,201.0918,0.0002827,-H(-),C13H14O2,HMDB0030816,['hmdb40_kegg_H_F_K_Na'],"6-Acetyl-2,2-dimethyl-2H-1-benzopyran"
+357,201.1132,3.89E-05,-H(-),C10H18O4,HMDB0000792,['hmdb40_kegg_H_F_K_Na'],Sebacic acid
+358,201.1251,-0.0006777,-H(-),C9H18N2O3,HMDB0028690,['hmdb40_kegg_H_F_K_Na'],Alanyl-Isoleucine
+359,201.1496,-3.07E-05,-H(-),C11H22O3,HMDB0032443,['hmdb40_kegg_H_F_K_Na'],3-Hydroxynonyl acetate
+360,202.0721,2.05E-05,-H(-),C8H13NO5,HMDB0062715,['hmdb40_kegg_H_F_K_Na'],N2-Acetyl-L-aminoadipate
+361,203.0019,4.92E-05,-H(-),C7H8O5S,HMDB0060013,['hmdb40_kegg_H_F_K_Na'],NA
+362,203.0349,0.0001019,-H(-),C11H8O4,HMDB0302137,['hmdb40_kegg_H_F_K_Na'],"1,4-Dihydroxy-2-naphthoate"
+363,203.0744,0.000328,-H(-),C9H16O3S,NA,['hmdb40_kegg_H_F_K_Na'],2-Oxo-8-methylthiooctanoic acid
+364,203.0829,-0.0002633,-H(-),C11H12N2O2,HMDB0000929,['hmdb40_kegg_H_F_K_Na'],L-Tryptophan
+365,203.1038,-7.01E-05,-H(-),C8H16N2O4,HMDB0029052,['hmdb40_kegg_H_F_K_Na'],Serylvaline
+366,204.0662,0.0004263,-H(-),C11H11NO3,HMDB0000671,['hmdb40_kegg_H_F_K_Na'],Indolelactic acid
+367,204.9815,-0.0002322,-H(-),C6H6O6S,HMDB0059752,['hmdb40_kegg_H_F_K_Na'],5-Hydroxymethyl-2-furancarboxaldehyde
+368,205.0714,0.0003941,-H(-),C8H14O6,HMDB0033584,['hmdb40_kegg_H_F_K_Na'],Diethyl tartrate
+369,205.0871,-0.0001137,-H(-),C12H14O3,HMDB0030762,['hmdb40_kegg_H_F_K_Na'],Ethyl trans-p-methoxycinnamate
+370,205.1241,-0.0006893,-H(-),C13H18O2,HMDB0001872,['hmdb40_kegg_H_F_K_Na'],Ibuprofen
+371,205.1601,-0.0003089,-H(-),C14H22O,HMDB0013825,['hmdb40_kegg_H_F_K_Na'],"4-(1,1,3,3-Tetramethylbutyl)-phenol"
+372,206.0481,0.0011066,-H(-),C7H13NO4S,HMDB0030411,['hmdb40_kegg_H_F_K_Na'],"(2R,2'S)-Isobuteine"
+373,206.0825,-0.0002297,-H(-),C11H13NO3,HMDB0000512,['hmdb40_kegg_H_F_K_Na'],N-Acetyl-L-phenylalanine
+374,206.9968,0.0009492,-H(-),C7H12OS3,HMDB0032653,['hmdb40_kegg_H_F_K_Na'],(Z)-[3-(Methylsulfinyl)-1-propenyl] 2-propenyl disulfide
+375,207.0125,-0.000346,-H(-),C10H8O3S,HMDB0255446,['hmdb40_kegg_H_F_K_Na'],1-Naphthalenesulfonic acid
+376,207.0301,-0.0001945,-H(-),C10H8O5,HMDB0129376,['hmdb40_kegg_H_F_K_Na'],NA
+377,207.0484,0.0001274,-H(-),C11H12O2S,HMDB0034759,['hmdb40_kegg_H_F_K_Na'],Methyl 5-(1-Propynyl)-2-thiophenepropanoate
+378,207.0665,-0.0001811,-H(-),C11H12O4,HMDB0012127,['hmdb40_kegg_H_F_K_Na'],(R)-2-Benzylsuccinate
+379,207.078,-0.0004547,-H(-),C10H12N2O3,HMDB0000183,['hmdb40_kegg_H_F_K_Na'],L-Kynurenine
+380,207.088,-0.0006069,-H(-),C8H16O6,HMDB0029968,['hmdb40_kegg_H_F_K_Na'],Ethyl beta-D-glucopyranoside
+381,207.1022,0.0004173,-H(-),C12H16O3,HMDB0029867,['hmdb40_kegg_H_F_K_Na'],Isoelemicin
+382,207.1389,0.0001567,-H(-),C13H20O2,HMDB0029668,['hmdb40_kegg_H_F_K_Na'],Eremopetasinorol
+383,208.0889,-0.0008835,-H(-),C13H11N3,HMDB0015255,['hmdb40_kegg_H_F_K_Na'],Proflavine
+384,209.0304,-0.0001517,-H(-),C6H10O8,HMDB0000639,['hmdb40_kegg_H_F_K_Na'],Galactaric acid
+385,209.0674,-0.0006963,-H(-),C7H14O7,HMDB0003219,['hmdb40_kegg_H_F_K_Na'],Sedoheptulose
+386,209.1184,-0.0001077,-H(-),C12H18O3,HMDB0032797,['hmdb40_kegg_H_F_K_Na'],Jasmonic acid
+387,209.1545,0.0001727,-H(-),C13H22O2,HMDB0030425,['hmdb40_kegg_H_F_K_Na'],Linalyl propionate
+388,210.068,-0.0007249,-H(-),C12H9N3O,HMDB0014380,['hmdb40_kegg_H_F_K_Na'],Milrinone
+389,210.9536,-0.0006553,-H(-),C8H4O3S2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+390,211.0015,-0.0001528,-H(-),C5H9O7P,NA,['hmdb40_kegg_H_F_K_Na'],2-Phosphinomethylmalate
+391,211.0244,0.0004131,-H(-),C9H8O6,HMDB0125210,['hmdb40_kegg_H_F_K_Na'],NA
+392,211.0967,0.0008909,-H(-),C11H16O4,HMDB0059744,['hmdb40_kegg_H_F_K_Na'],7-Deoxyloganetin
+393,211.1335,0.0004233,-H(-),C12H20O3,HMDB0029388,['hmdb40_kegg_H_F_K_Na'],Cucurbic acid
+394,211.1704,-8.30E-06,-H(-),C13H24O2,HMDB0031017,['hmdb40_kegg_H_F_K_Na'],10-Undecenyl acetate
+395,212.0022,0.0001456,-H(-),C8H7NO4S,HMDB0000682,['hmdb40_kegg_H_F_K_Na'],Indoxyl sulfate
+396,212.0336,-0.0006844,-H(-),C5H12NO6P,HMDB0032357,['hmdb40_kegg_H_F_K_Na'],N-Lactoyl ethanolamine phosphate
+397,212.0919,0.0009639,-H(-),C10H15NO4,HMDB0125517,['hmdb40_kegg_H_F_K_Na'],N-(3-oxo-hexanoyl)-homoserine lactone
+398,212.1293,-0.0001247,-H(-),C11H19NO3,HMDB0094807,['hmdb40_kegg_H_F_K_Na'],N-heptanoyl-homoserine lactone
+399,213.0414,-0.0009769,-H(-),C9H10O6,HMDB0128186,['hmdb40_kegg_H_F_K_Na'],"2-Hydroxy-6-oxonona-2,4-diene-1,9-dioate"
+400,213.1134,-0.0001961,-H(-),C11H18O4,HMDB0030984,['hmdb40_kegg_H_F_K_Na'],5-Hexyltetrahydro-2-oxo-3-furancarboxylic acid
+401,213.1495,0.0001113,-H(-),C12H22O3,HMDB0010727,['hmdb40_kegg_H_F_K_Na'],3-Oxododecanoic acid
+402,213.186,2.07E-05,-H(-),C13H26O2,HMDB0000910,['hmdb40_kegg_H_F_K_Na'],Tridecanoic acid
+403,214.145,-0.0001667,-H(-),C11H21NO3,HMDB0013279,['hmdb40_kegg_H_F_K_Na'],N-Nonanoylglycine
+404,215.0329,-0.0003008,-H(-),C5H13O7P,HMDB0304061,['hmdb40_kegg_H_F_K_Na'],2-C-Methyl-D-erythritol 4-phosphate
+405,215.0553,0.0007971,-H(-),C9H12O6,HMDB0341280,['hmdb40_kegg_H_F_K_Na'],cis-(Homo)3-aconitate
+406,215.1291,-0.0002361,-H(-),C11H20O4,HMDB0000888,['hmdb40_kegg_H_F_K_Na'],Undecanedioic acid
+407,215.1653,-2.97E-05,-H(-),C12H24O3,HMDB0000387,['hmdb40_kegg_H_F_K_Na'],3-Hydroxydodecanoic acid
+408,217.0504,0.0002679,-H(-),C12H10O4,HMDB0029518,['hmdb40_kegg_H_F_K_Na'],Liqcoumarin
+409,217.0712,0.0005561,-H(-),C9H14O6,HMDB0029592,['hmdb40_kegg_H_F_K_Na'],Triacetin
+410,217.1082,-9.95E-05,-H(-),C10H18O5,HMDB0000350,['hmdb40_kegg_H_F_K_Na'],3-Hydroxysebacic acid
+411,217.1236,-0.0001803,-H(-),C14H18O2,HMDB0030759,['hmdb40_kegg_H_F_K_Na'],(R)-Pterosin B
+412,217.1599,-8.99E-05,-H(-),C15H22O,HMDB0013687,['hmdb40_kegg_H_F_K_Na'],Nookatone
+413,217.1805,0.0004003,-H(-),C12H26O3,HMDB0040219,['hmdb40_kegg_H_F_K_Na'],"8,8-Diethoxy-2,6-dimethyl-2-octanol"
+414,218.0669,0.0009635,-H(-),C9H17NOS2,HMDB0038441,['hmdb40_kegg_H_F_K_Na'],O-Succinyl-L-homoserine
+415,218.0775,0.0007105,-H(-),C7H13N3O5,HMDB0028740,['hmdb40_kegg_H_F_K_Na'],Asparaginyl-Serine
+416,218.1038,-0.0003825,-H(-),C9H17NO5,HMDB0000210,['hmdb40_kegg_H_F_K_Na'],Pantothenic acid
+417,219.0481,0.0004664,-H(-),C12H12O2S,HMDB0034857,['hmdb40_kegg_H_F_K_Na'],"2-(2-Thienylmethylene)-1,6-dioxaspiro[4.4]non-3-ene"
+418,219.0662,7.39E-05,-H(-),C12H12O4,HMDB0029467,['hmdb40_kegg_H_F_K_Na'],Eugenitin
+419,219.0876,0.0011687,-H(-),C10H12N4O2,HMDB0060724,['hmdb40_kegg_H_F_K_Na'],Prazosin
+420,219.1028,-0.0001007,-H(-),C13H16O3,HMDB0032589,['hmdb40_kegg_H_F_K_Na'],1-(5-Acetyl-2-hydroxyphenyl)-3-methyl-1-butanone
+421,219.1386,0.0004847,-H(-),C14H20O2,HMDB0013817,['hmdb40_kegg_H_F_K_Na'],"2,6-Di-tert-butylbenzoquinone"
+422,219.1752,0.0002631,-H(-),C15H24O,HMDB0013688,['hmdb40_kegg_H_F_K_Na'],Nootkatol
+423,220.064,0.0008746,-H(-),C8H15NO4S,HMDB0062182,['hmdb40_kegg_H_F_K_Na'],N-Acetyl-L-methionine
+424,221.0274,0.000383,-H(-),C11H10O3S,HMDB0039585,['hmdb40_kegg_H_F_K_Na'],NA
+425,221.0605,-0.0003134,-H(-),C7H14N2O4S,HMDB0000099,['hmdb40_kegg_H_F_K_Na'],L-Cystathionine
+426,221.0817,0.0002419,-H(-),C12H14O4,HMDB0002056,['hmdb40_kegg_H_F_K_Na'],Monoisobutyl phthalic acid
+427,221.1182,8.53E-05,-H(-),C13H18O3,HMDB0032121,['hmdb40_kegg_H_F_K_Na'],Annuionone B
+428,221.154,0.0006677,-H(-),C14H22O2,HMDB0035593,['hmdb40_kegg_H_F_K_Na'],Rishitin
+429,222.0404,0.0003875,-H(-),C10H9NO5,HMDB0004083,['hmdb40_kegg_H_F_K_Na'],"4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoic acid"
+430,222.0767,0.0004859,-H(-),C11H13NO4,HMDB0000866,['hmdb40_kegg_H_F_K_Na'],N-Acetyl-L-tyrosine
+431,222.1506,-0.0006663,-H(-),C13H21NO2,HMDB0029828,['hmdb40_kegg_H_F_K_Na'],Dihydrodioscorine
+432,223.1346,-0.0006167,-H(-),C13H20O3,HMDB0029670,['hmdb40_kegg_H_F_K_Na'],Epoxyeremopetasinorol
+433,224.0788,9.73E-05,-H(-),C8H11N5O3,HMDB0014925,['hmdb40_kegg_H_F_K_Na'],Aciclovir
+434,225.0993,5.53E-05,-H(-),C9H14N4O3,HMDB0000033,['hmdb40_kegg_H_F_K_Na'],Carnosine
+435,225.1027,0.0006381,-H(-),C14H14N2O,HMDB0015146,['hmdb40_kegg_H_F_K_Na'],Metyrapone
+436,225.1135,-0.0002641,-H(-),C12H18O4,HMDB0040705,['hmdb40_kegg_H_F_K_Na'],Allicin
+437,225.1495,0.0001043,-H(-),C13H22O3,HMDB0031740,['hmdb40_kegg_H_F_K_Na'],Methyl dihydrojasmonate
+438,225.1607,0.0001727,-H(-),C12H22N2O2,NA,['hmdb40_kegg_H_F_K_Na'],Cyclotetradecane
+439,225.1862,-0.0002183,-H(-),C14H26O2,HMDB0000499,['hmdb40_kegg_H_F_K_Na'],5-Tetradecenoic acid
+440,225.2229,-0.0005019,-H(-),C15H30O,HMDB0031078,['hmdb40_kegg_H_F_K_Na'],Pentadecanal
+441,226.0834,-3.11E-05,-H(-),C9H13N3O4,HMDB0000014,['hmdb40_kegg_H_F_K_Na'],Deoxycytidine
+442,227.0343,0.0006639,-H(-),C13H8O4,HMDB0013695,['hmdb40_kegg_H_F_K_Na'],Urolithin A
+443,227.0676,-0.0002395,-H(-),C9H12N2O5,HMDB0000012,['hmdb40_kegg_H_F_K_Na'],Deoxyuridine
+444,227.0925,-3.65E-05,-H(-),C11H16O5,HMDB0032496,['hmdb40_kegg_H_F_K_Na'],Propyl propane thiosulfonate
+445,227.1647,0.0005823,-H(-),C13H24O3,HMDB0032367,['hmdb40_kegg_H_F_K_Na'],"L-Menthone 1,2-glycerol ketal"
+446,227.2016,5.87E-05,-H(-),C14H28O2,HMDB0000806,['hmdb40_kegg_H_F_K_Na'],Myristic acid
+447,228.1603,0.0002233,-H(-),C12H23NO3,HMDB0013267,['hmdb40_kegg_H_F_K_Na'],N-Decanoylglycine
+448,229.0874,-0.0003577,-H(-),C14H14O3,HMDB0001923,['hmdb40_kegg_H_F_K_Na'],Naproxen
+449,229.0984,-0.0001173,-H(-),C13H14N2O2,HMDB0037942,['hmdb40_kegg_H_F_K_Na'],"(1xi,3S)-1,2,3,4-Tetrahydro-1-methyl-beta-carboline-1,3-dicarboxylic acid"
+450,229.1193,7.19E-05,-H(-),C10H18N2O4,HMDB0028876,['hmdb40_kegg_H_F_K_Na'],Hydroxyprolyl-Valine
+451,229.1444,0.0001779,-H(-),C12H22O4,HMDB0000623,['hmdb40_kegg_H_F_K_Na'],Dodecanedioic acid
+452,229.1563,-0.0004997,-H(-),C11H22N2O3,HMDB0028920,['hmdb40_kegg_H_F_K_Na'],Isoleucyl-Valine
+453,229.1809,5.63E-05,-H(-),C13H26O3,HMDB0036133,['hmdb40_kegg_H_F_K_Na'],NA
+454,230.0131,-0.0001928,-H(-),C8H9NO5S,HMDB0059911,['hmdb40_kegg_H_F_K_Na'],Paracetamol sulfate
+455,231.0164,-0.0003961,-H(-),C9H4N4O4,HMDB0250384,['hmdb40_kegg_H_F_K_Na'],NA
+456,231.0296,0.0002895,-H(-),C12H8O5,HMDB0032659,['hmdb40_kegg_H_F_K_Na'],"4-Hydroxy-8-methoxy-2H-furo[2,3-h]-1-benzopyran-2-one"
+457,231.0482,0.0002784,-H(-),C13H12O2S,HMDB0031070,['hmdb40_kegg_H_F_K_Na'],"(2E,11Z)-5-[5-(Methylthio)-4-penten-2-ynyl]-2-furanacrolein"
+458,231.0876,-0.0001749,-H(-),C10H16O6,HMDB0031640,['hmdb40_kegg_H_F_K_Na'],Glycerol 1-propanoate diacetate
+459,231.0996,-0.0009275,-H(-),C9H16N2O5,HMDB0001199,['hmdb40_kegg_H_F_K_Na'],N2-Succinyl-L-ornithine
+460,231.1357,-0.0006511,-H(-),C10H20N2O4,HMDB0013075,['hmdb40_kegg_H_F_K_Na'],Spermic acid 2
+461,232.9842,0.0007105,-H(-),C10H6N2OS2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+462,233.01,6.65E-05,-H(-),C12H10OS2,HMDB0034453,['hmdb40_kegg_H_F_K_Na'],"4-[2,2'-Bithiophen-5-yl]-3-butyn-1-ol"
+463,233.0275,0.000327,-H(-),C12H10O3S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+464,233.0658,0.0008897,-H(-),C9H14O7,HMDB0032438,['hmdb40_kegg_H_F_K_Na'],1-Isopropyl citrate
+465,233.082,-6.81E-05,-H(-),C13H14O4,HMDB0030486,['hmdb40_kegg_H_F_K_Na'],"(S)-2,3-Dihydro-6-hydroxy-5-(hydroxyacetyl)-2-isopropenylbenzofuran"
+466,233.1549,-0.0001623,-H(-),C15H22O2,HMDB0030016,['hmdb40_kegg_H_F_K_Na'],Valerenic acid
+467,233.1655,0.0004741,-H(-),C14H22N2O,HMDB0014426,['hmdb40_kegg_H_F_K_Na'],Lidocaine
+468,235.0241,0.0007381,-H(-),C11H8O6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+469,235.0617,-0.0005255,-H(-),C12H12O5,HMDB0030582,['hmdb40_kegg_H_F_K_Na'],Dillapional
+470,235.0978,-0.0002671,-H(-),C13H16O4,HMDB0037683,['hmdb40_kegg_H_F_K_Na'],2-hydroxy-2-[4-hydroxy-3-(3-methylbut-2-en-1-yl)phenyl]acetic acid
+471,235.1334,0.0005643,-H(-),C14H20O3,HMDB0034462,['hmdb40_kegg_H_F_K_Na'],Heptyl 4-hydroxybenzoate
+472,235.1703,3.67E-05,-H(-),C15H24O2,HMDB0002352,['hmdb40_kegg_H_F_K_Na'],Capsidiol
+473,236.0569,-0.0004415,-H(-),C11H11NO5,HMDB0034251,['hmdb40_kegg_H_F_K_Na'],N-Benzoylaspartic acid
+474,236.0711,0.0006217,-H(-),C15H11NO2,HMDB0243816,['hmdb40_kegg_H_F_K_Na'],NA
+475,236.0785,-0.0009343,-H(-),C8H15NO7,HMDB0037848,['hmdb40_kegg_H_F_K_Na'],NA
+476,237.0397,0.0007911,-H(-),C11H10O6,HMDB0039494,['hmdb40_kegg_H_F_K_Na'],Caffeoylmalic acid
+477,237.0767,0.0001915,-H(-),C12H14O5,HMDB0002511,['hmdb40_kegg_H_F_K_Na'],"3,4,5-Trimethoxycinnamic acid"
+478,237.088,0.0001289,-H(-),C11H14N2O4,HMDB0015084,['hmdb40_kegg_H_F_K_Na'],Felbamate
+479,237.1129,0.0002829,-H(-),C13H18O4,HMDB0033191,['hmdb40_kegg_H_F_K_Na'],"2,2,4,4,-Tetramethyl-6-(1-oxopropyl)-1,3,5-cyclohexanetrione"
+480,237.1347,0.0010137,-H(-),C11H18N4O2,HMDB0256598,['hmdb40_kegg_H_F_K_Na'],NA
+481,237.1493,0.0003623,-H(-),C14H22O3,HMDB0038256,['hmdb40_kegg_H_F_K_Na'],3-keto-2-Methylbutyrate
+482,237.1859,7.27E-05,-H(-),C15H26O2,HMDB0029350,['hmdb40_kegg_H_F_K_Na'],Geranyl 3-methylbutanoate
+483,237.2227,-0.0003459,-H(-),C16H30O,HMDB0034181,['hmdb40_kegg_H_F_K_Na'],3-Methylcyclopentadecanone
+484,238.891,0.0006974,-H(-),H3O9P3,HMDB0059921,['hmdb40_kegg_H_F_K_Na'],Trimetaphosphoric acid
+485,239.06,0.0003572,-H(-),C9H20OS3,HMDB0033071,['hmdb40_kegg_H_F_K_Na'],Propyl 1-(propylsulfinyl)propyl disulfide
+486,239.2019,-0.0002723,-H(-),C15H28O2,HMDB0029765,['hmdb40_kegg_H_F_K_Na'],9-Pentadecenoic acid
+487,241.0119,2.08E-05,-H(-),C6H11O8P,HMDB0001125,['hmdb40_kegg_H_F_K_Na'],Inositol cyclic phosphate
+488,241.0833,-0.0003265,-H(-),C10H14N2O5,HMDB0000273,['hmdb40_kegg_H_F_K_Na'],Thymidine
+489,241.2173,2.57E-05,-H(-),C15H30O2,HMDB0000826,['hmdb40_kegg_H_F_K_Na'],Pentadecanoic acid
+490,242.0311,-0.0004943,-H(-),C9H9NO7,HMDB0126648,['hmdb40_kegg_H_F_K_Na'],NA
+491,242.0792,-0.0009745,-H(-),C9H13N3O5,HMDB0000089,['hmdb40_kegg_H_F_K_Na'],Cytidine
+492,242.1762,-9.70E-06,-H(-),C13H25NO3,HMDB0013286,['hmdb40_kegg_H_F_K_Na'],N-Undecanoylglycine
+493,243.0331,0.0001952,-H(-),C10H12O5S,HMDB0059983,['hmdb40_kegg_H_F_K_Na'],NA
+494,243.0626,-0.0003199,-H(-),C9H12N2O6,HMDB0000296,['hmdb40_kegg_H_F_K_Na'],Uridine
+495,243.0997,-0.0010205,-H(-),C10H16N2O5,HMDB0028827,['hmdb40_kegg_H_F_K_Na'],Glutamylproline
+496,243.1244,-0.0005635,-H(-),C12H20O5,HMDB0032472,['hmdb40_kegg_H_F_K_Na'],"Polyethylene, oxidized"
+497,243.1344,0.0006119,-H(-),C11H20N2O4,HMDB0028866,['hmdb40_kegg_H_F_K_Na'],Hydroxyprolyl-Isoleucine
+498,243.1601,3.39E-05,-H(-),C13H24O4,HMDB0002327,['hmdb40_kegg_H_F_K_Na'],"1,11-Undecanedicarboxylic acid"
+499,243.1964,0.0001333,-H(-),C14H28O3,HMDB0002261,['hmdb40_kegg_H_F_K_Na'],2-Hydroxymyristic acid
+500,244.0835,0.0005207,-H(-),C11H11N5O2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+501,244.0941,-0.0001995,-H(-),C9H15N3O5,HMDB0028732,['hmdb40_kegg_H_F_K_Na'],Asparaginyl-Hydroxyproline
+502,244.9985,7.07E-05,-H(-),C5H12O7P2,HMDB0001120,['hmdb40_kegg_H_F_K_Na'],Dimethylallylpyrophosphate
+503,245.044,-0.0008022,-H(-),C6H15O8P,HMDB0240316,['hmdb40_kegg_H_F_K_Na'],1-Acyl-sn-glycero-3-phosphoglycerol
+504,245.0811,0.0008639,-H(-),C14H14O4,HMDB0030786,['hmdb40_kegg_H_F_K_Na'],Marmesin
+505,245.1257,-0.0001861,-H(-),C9H18N4O4,HMDB0255912,['hmdb40_kegg_H_F_K_Na'],N2-(D-1-Carboxyethyl)-L-arginine
+506,245.1394,1.35E-05,-H(-),C12H22O5,HMDB0000413,['hmdb40_kegg_H_F_K_Na'],3-Hydroxydodecanedioic acid
+507,245.1541,0.0006197,-H(-),C16H22O2,HMDB0036207,['hmdb40_kegg_H_F_K_Na'],NA
+508,246.0083,-0.0004922,-H(-),C8H9NO6S,HMDB0062547,['hmdb40_kegg_H_F_K_Na'],2-Hydroxyacetaminophen sulfate
+509,246.9405,0.0009359,-H(-),C3H6O9P2,NA,['hmdb40_kegg_H_F_K_Na'],"2,3-Diphosphoglyceric acid"
+510,247.0609,0.0003395,-H(-),C13H12O5,HMDB0029971,['hmdb40_kegg_H_F_K_Na'],Coriandrone E
+511,247.0972,0.0003489,-H(-),C14H16O4,HMDB0029575,['hmdb40_kegg_H_F_K_Na'],"(+)-cis-5,6-Dihydro-5-hydroxy-4-methoxy-6-(2-phenylethyl)-2H-pyran-2-one"
+512,247.1187,3.41E-05,-H(-),C11H20O6,HMDB0031876,['hmdb40_kegg_H_F_K_Na'],Prenyl glucoside
+513,247.1343,-0.0002877,-H(-),C15H20O3,HMDB0030757,['hmdb40_kegg_H_F_K_Na'],(S)-Pterosin A
+514,247.1703,4.70E-06,-H(-),C16H24O2,HMDB0032228,['hmdb40_kegg_H_F_K_Na'],Dimethylbenzyl carbinyl hexanoate
+515,248.0492,0.0007324,-H(-),C11H11N3O2S,HMDB0015028,['hmdb40_kegg_H_F_K_Na'],Sulfapyridine
+516,249.067,-5.13E-05,-H(-),C15H10N2O2,HMDB0030227,['hmdb40_kegg_H_F_K_Na'],5-Methoxycanthin-6-one
+517,249.0768,2.35E-05,-H(-),C13H14O5,HMDB0038926,['hmdb40_kegg_H_F_K_Na'],Citrinin
+518,249.1132,6.19E-05,-H(-),C14H18O4,HMDB0002012,['hmdb40_kegg_H_F_K_Na'],Ubiquinone-1
+519,249.1865,-0.0004673,-H(-),C16H26O2,HMDB0035293,['hmdb40_kegg_H_F_K_Na'],Norambreinolide
+520,249.2225,-0.0001509,-H(-),C17H30O,HMDB0031336,['hmdb40_kegg_H_F_K_Na'],(Z)-9-Cycloheptadecen-1-one
+521,250.0927,0.0005107,-H(-),C9H17NO7,HMDB0003254,['hmdb40_kegg_H_F_K_Na'],Muramic acid
+522,250.1451,-0.0001977,-H(-),C14H21NO3,HMDB0245262,['hmdb40_kegg_H_F_K_Na'],NA
+523,251.032,-0.0010069,-H(-),C10H8N2O6,NA,['hmdb40_kegg_H_F_K_Na'],"1,2,3,4-Tetrahydro-beta-carboline"
+524,251.0357,-0.0007041,-H(-),C15H8O4,NA,['hmdb40_kegg_H_F_K_Na'],NA
+525,251.056,0.0001151,-H(-),C12H12O6,HMDB0041195,['hmdb40_kegg_H_F_K_Na'],NA
+526,251.0777,0.0009229,-H(-),C10H12N4O4,HMDB0000071,['hmdb40_kegg_H_F_K_Na'],Deoxyinosine
+527,251.0935,-0.0009895,-H(-),C13H16O5,HMDB0030668,['hmdb40_kegg_H_F_K_Na'],"1-(2,4,6-Trimethoxyphenyl)-1,3-butanedione"
+528,251.1129,0.0007317,-H(-),C10H20O7,HMDB0040822,['hmdb40_kegg_H_F_K_Na'],NA
+529,251.1294,-0.0005211,-H(-),C14H20O4,HMDB0033197,['hmdb40_kegg_H_F_K_Na'],"2,2,4,4-Tetramethyl-6-(1-oxobutyl)-1,3,5-cyclohexanetrione"
+530,251.1654,-0.0001817,-H(-),C15H24O3,HMDB0030918,['hmdb40_kegg_H_F_K_Na'],1-Hydroxyepiacorone
+531,251.2016,3.47E-05,-H(-),C16H28O2,HMDB0000477,['hmdb40_kegg_H_F_K_Na'],"7Z,10Z-Hexadecadienoic acid"
+532,252.0737,0.0001579,-H(-),C9H11N5O4,HMDB0000727,['hmdb40_kegg_H_F_K_Na'],L-Threoneopterin
+533,252.0876,0.0001315,-H(-),C12H15NO5,HMDB0011716,['hmdb40_kegg_H_F_K_Na'],N-Acetylvanilalanine
+534,253.0031,-0.000722,-H(-),C7H10O8S,HMDB0130162,['hmdb40_kegg_H_F_K_Na'],NA
+535,253.0516,-0.0010131,-H(-),C15H10O4,HMDB0003312,['hmdb40_kegg_H_F_K_Na'],Daidzein
+536,253.0721,-0.0003799,-H(-),C12H14O6,HMDB0128666,['hmdb40_kegg_H_F_K_Na'],NA
+537,253.0928,8.93E-05,-H(-),C9H18O8,HMDB0006790,['hmdb40_kegg_H_F_K_Na'],Galactosylglycerol
+538,253.1081,6.55E-05,-H(-),C13H18O5,HMDB0032796,['hmdb40_kegg_H_F_K_Na'],"Methyl 3-(2,3-dihydroxy-3-methylbutyl)-4-hydroxybenzoate"
+539,253.1294,0.0011833,-H(-),C11H18N4O3,HMDB0005767,['hmdb40_kegg_H_F_K_Na'],Homoanserine
+540,253.1806,0.0003083,-H(-),C15H26O3,HMDB0029604,['hmdb40_kegg_H_F_K_Na'],Lubiminol
+541,253.196,0.0002155,-H(-),C19H26,HMDB0041371,['hmdb40_kegg_H_F_K_Na'],NA
+542,253.2178,-0.0004513,-H(-),C16H30O2,HMDB0002186,['hmdb40_kegg_H_F_K_Na'],Hypogeic acid
+543,254.1023,0.0011345,-H(-),C12H17NO5,NA,['hmdb40_kegg_H_F_K_Na'],NA
+544,254.2491,-0.0001519,-H(-),C16H33NO,HMDB0012273,['hmdb40_kegg_H_F_K_Na'],Palmitic amide
+545,254.9822,-0.0005334,-H(-),C6H8O9S,HMDB0060649,['hmdb40_kegg_H_F_K_Na'],NA
+546,254.9907,0.0004094,-H(-),C6H9O9P,HMDB0247883,['hmdb40_kegg_H_F_K_Na'],L-Ascorbate 6-phosphate
+547,255.0323,0.0009252,-H(-),C11H12O5S,HMDB0133689,['hmdb40_kegg_H_F_K_Na'],NA
+548,255.0514,-0.0003723,-H(-),C11H12O7,HMDB0030809,['hmdb40_kegg_H_F_K_Na'],"(2R,3S)-Piscidic acid"
+549,255.0663,-1.41E-05,-H(-),C15H12O4,HMDB0005760,['hmdb40_kegg_H_F_K_Na'],Dihydrodaidzein
+550,255.1022,0.0004283,-H(-),C16H16O3,HMDB0029539,['hmdb40_kegg_H_F_K_Na'],Xenognosin A
+551,255.1022,0.0004283,-H(-),C16H16O3,HMDB0037686,['hmdb40_kegg_H_F_K_Na'],NA
+552,255.1965,0.0001033,-H(-),C15H28O3,HMDB0040904,['hmdb40_kegg_H_F_K_Na'],NA
+553,255.2333,-0.0003023,-H(-),C16H32O2,HMDB0000220,['hmdb40_kegg_H_F_K_Na'],Palmitic acid
+554,256.156,-0.0005931,-H(-),C13H23NO4,HMDB0013161,['hmdb40_kegg_H_F_K_Na'],2-Hexenoylcarnitine
+555,257.0079,-0.0011266,-H(-),C6H11O9P,HMDB0001127,['hmdb40_kegg_H_F_K_Na'],6-Phosphonoglucono-D-lactone
+556,257.0807,0.0011839,-H(-),C15H14O4,HMDB0004629,['hmdb40_kegg_H_F_K_Na'],O-Desmethylangolensin
+557,257.1032,-0.0001359,-H(-),C12H18O6,HMDB0032527,['hmdb40_kegg_H_F_K_Na'],"1,1'-(Tetrahydro-6a-hydroxy-2,3a,5-trimethylfuro[2,3-d]-1,3-dioxole-2,5-diyl)bis-ethanone"
+558,257.1151,-0.0008155,-H(-),C11H18N2O5,HMDB0038614,['hmdb40_kegg_H_F_K_Na'],NA
+559,257.1549,-0.0001993,-H(-),C17H22O2,HMDB0030431,['hmdb40_kegg_H_F_K_Na'],Linalyl benzoate
+560,257.1759,-4.91E-05,-H(-),C14H26O4,HMDB0000872,['hmdb40_kegg_H_F_K_Na'],Tetradecanedioic acid
+561,257.2123,-0.0001077,-H(-),C15H30O3,HMDB0031061,['hmdb40_kegg_H_F_K_Na'],10-Hydroxymyristic acid methyl ester
+562,258.0387,-0.0002842,-H(-),C6H14NO8P,HMDB0001109,['hmdb40_kegg_H_F_K_Na'],Glucosamine-1P
+563,258.0531,0.000577,-H(-),C10H14NO5P,HMDB0246536,['hmdb40_kegg_H_F_K_Na'],NA
+564,259.0224,4.40E-06,-H(-),C6H13O9P,HMDB0000124,['hmdb40_kegg_H_F_K_Na'],Fructose 6-phosphate
+565,259.0969,0.0007139,-H(-),C15H16O4,HMDB0030110,['hmdb40_kegg_H_F_K_Na'],Celerin
+566,259.1189,-0.0002049,-H(-),C12H20O6,HMDB0032857,['hmdb40_kegg_H_F_K_Na'],Glycerol tripropanoate
+567,259.1305,-0.0006045,-H(-),C11H20N2O5,HMDB0011170,['hmdb40_kegg_H_F_K_Na'],gamma-Glutamylisoleucine
+568,259.1816,-4.69E-05,-H(-),C16H24N2O,HMDB0014413,['hmdb40_kegg_H_F_K_Na'],Ropinirole
+569,261.0719,0.0009027,-H(-),C9H14N2O7,HMDB0011164,['hmdb40_kegg_H_F_K_Na'],L-beta-aspartyl-L-glutamic acid
+570,261.1137,-0.0004441,-H(-),C15H18O4,HMDB0030549,['hmdb40_kegg_H_F_K_Na'],"5,6-Dihydro-4-methoxy-6-[2-(4-methoxyphenyl)ethyl]-2H-pyran-2-one"
+571,261.1344,-1.29E-05,-H(-),C12H22O6,HMDB0031897,['hmdb40_kegg_H_F_K_Na'],Phaseolic acid
+572,261.1504,-0.0007777,-H(-),C16H22O3,HMDB0133034,['hmdb40_kegg_H_F_K_Na'],3''-Hydroxy-geranylhydroquinone
+573,263.0768,0.0004733,-H(-),C10H16O8,HMDB0034681,['hmdb40_kegg_H_F_K_Na'],3-Hydroxy-4-butanolide
+574,263.0968,-0.0009468,-H(-),C11H20O5S,NA,['hmdb40_kegg_H_F_K_Na'],2-(6'-Methylthio)hexylmalic acid
+575,263.1036,9.59E-05,-H(-),C13H16N2O4,HMDB0004259,['hmdb40_kegg_H_F_K_Na'],Acetyl-N-formyl-5-methoxykynurenamine
+576,263.1085,-0.0007883,-H(-),C18H16O2,HMDB0033832,['hmdb40_kegg_H_F_K_Na'],Cinnamyl cinnamate
+577,263.1142,-0.0005943,-H(-),C11H20O7,HMDB0041186,['hmdb40_kegg_H_F_K_Na'],NA
+578,263.1298,-0.0008911,-H(-),C15H20O4,HMDB0001931,['hmdb40_kegg_H_F_K_Na'],Gamma-CEHC
+579,263.1652,3.93E-05,-H(-),C16H24O3,HMDB0032090,['hmdb40_kegg_H_F_K_Na'],"12-Oxo-2,3-dinor-10,15-phytodienoic acid"
+580,264.1108,-0.0005567,-H(-),C11H15N5O3,HMDB0254142,['hmdb40_kegg_H_F_K_Na'],NA
+581,265.0827,0.0003285,-H(-),C12H14N2O5,HMDB0255007,['hmdb40_kegg_H_F_K_Na'],NA
+582,265.1082,-9.25E-05,-H(-),C14H18O5,HMDB0040891,['hmdb40_kegg_H_F_K_Na'],NA
+583,265.2175,-0.0001553,-H(-),C17H30O2,HMDB0031050,['hmdb40_kegg_H_F_K_Na'],"Methyl 2E,4Z-hexadecadienoate"
+584,265.2541,-0.0003889,-H(-),C18H34O,HMDB0030965,['hmdb40_kegg_H_F_K_Na'],9-Octadecenal
+585,266.0894,2.89E-05,-H(-),C10H13N5O4,HMDB0000050,['hmdb40_kegg_H_F_K_Na'],Adenosine
+586,267.0483,-0.0004687,-H(-),C8H16N2O4S2,HMDB0000575,['hmdb40_kegg_H_F_K_Na'],DL-Homocystine
+587,267.074,-0.0005515,-H(-),C10H12N4O5,HMDB0000195,['hmdb40_kegg_H_F_K_Na'],Inosine
+588,267.1016,0.0011013,-H(-),C17H16O3,HMDB0032056,['hmdb40_kegg_H_F_K_Na'],Eugenyl benzoate
+589,267.1144,-0.00023274,-H(-) [+2],C14H18O5,HMDB0040891,['hmdb40_kegg_H_F_K_Na'],NA
+590,267.2332,-0.0002043,-H(-),C17H32O2,HMDB0030997,['hmdb40_kegg_H_F_K_Na'],Cyclohexaneundecanoic acid
+591,267.2694,-5.19E-05,-H(-),C18H36O,HMDB0002384,['hmdb40_kegg_H_F_K_Na'],Stearaldehyde
+592,268.9432,-2.13E-05,-H(-),C6H6O8S2,HMDB0029845,['hmdb40_kegg_H_F_K_Na'],Chymopapain
+593,269.061,-0.0008064,-H(-),C11H14N2O4S,HMDB0240217,['hmdb40_kegg_H_F_K_Na'],S-(Hydroxyphenylacetothiohydroximoyl)-L-cysteine
+594,269.065,0.0006286,-H(-),C6H15N4O6P,NA,['hmdb40_kegg_H_F_K_Na'],D-Lombricine
+595,269.0816,0.0003019,-H(-),C16H14O4,HMDB0031612,['hmdb40_kegg_H_F_K_Na'],"3,5-Dimethoxy-2,7-phenanthrenediol"
+596,269.1179,0.0004093,-H(-),C17H18O3,HMDB0041314,['hmdb40_kegg_H_F_K_Na'],NA
+597,269.1763,-0.0004451,-H(-),C15H26O4,HMDB0040459,['hmdb40_kegg_H_F_K_Na'],(10S)-Juvenile hormone III acid diol
+598,269.2122,-1.07E-05,-H(-),C16H30O3,HMDB0010733,['hmdb40_kegg_H_F_K_Na'],3-Oxohexadecanoic acid
+599,269.2277,-0.0002555,-H(-),C20H30,HMDB0039155,['hmdb40_kegg_H_F_K_Na'],NA
+600,269.2487,-0.0001363,-H(-),C17H34O2,HMDB0002259,['hmdb40_kegg_H_F_K_Na'],Heptadecanoic acid
+601,270.0372,-0.0004293,-H(-),C9H9N3O7,NA,['hmdb40_kegg_H_F_K_Na'],NA
+602,271.0615,-0.0002835,-H(-),C15H12O5,HMDB0002670,['hmdb40_kegg_H_F_K_Na'],Naringenin
+603,271.082,0.0003407,-H(-),C12H16O7,HMDB0029943,['hmdb40_kegg_H_F_K_Na'],Arbutin
+604,271.1329,0.0010903,-H(-),C17H20O3,HMDB0036558,['hmdb40_kegg_H_F_K_Na'],NA
+605,271.1908,0.0007099,-H(-),C15H28O4,HMDB0035918,['hmdb40_kegg_H_F_K_Na'],"7(14)-Bisabolene-2,3,10,11-tetrol"
+606,271.2279,7.30E-06,-H(-),C16H32O3,HMDB0006294,['hmdb40_kegg_H_F_K_Na'],16-Hydroxy hexadecanoic acid
+607,272.1289,0.0002693,-H(-),C16H19NO3,HMDB0030187,['hmdb40_kegg_H_F_K_Na'],"(E,E)-Piperlonguminine"
+608,273.0402,0.0002311,-H(-),C14H10O6,HMDB0033326,['hmdb40_kegg_H_F_K_Na'],BR-Xanthone B
+609,273.0973,0.0007107,-H(-),C12H18O7,HMDB0244610,['hmdb40_kegg_H_F_K_Na'],NA
+610,273.113,0.0002589,-H(-),C16H18O4,HMDB0033921,['hmdb40_kegg_H_F_K_Na'],"3-(1,1-Dimethyl-2-propenyl)-7,8-dimethoxy-2H-1-benzopyran-2-one"
+611,273.1708,-7.85E-05,-H(-),C14H26O5,HMDB0000394,['hmdb40_kegg_H_F_K_Na'],3-Hydroxytetradecanedioic acid
+612,274.0485,0.0001106,-H(-),C10H14NO6P,HMDB0013035,['hmdb40_kegg_H_F_K_Na'],Paraoxon
+613,274.1043,0.0001471,-H(-),C10H17N3O6,HMDB0005766,['hmdb40_kegg_H_F_K_Na'],Norophthalmic acid
+614,275.0176,-0.00022,-H(-),C6H13O10P,HMDB0001316,['hmdb40_kegg_H_F_K_Na'],6-Phosphogluconic acid
+615,275.0926,-9.15E-05,-H(-),C15H16O5,HMDB0030145,['hmdb40_kegg_H_F_K_Na'],Ascochitine
+616,275.113,0.0006137,-H(-),C12H20O7,HMDB0034263,['hmdb40_kegg_H_F_K_Na'],Triethyl citrate
+617,275.1662,-0.0009037,-H(-),C17H24O3,HMDB0015586,['hmdb40_kegg_H_F_K_Na'],Cyclandelate
+618,275.2381,-0.0001029,-H(-),C19H32O,HMDB0005830,['hmdb40_kegg_H_F_K_Na'],5a-Androstan-3b-ol
+619,276.1609,-0.0004307,-H(-),C16H23NO3,HMDB0036325,['hmdb40_kegg_H_F_K_Na'],NA
+620,277.0709,0.0009051,-H(-),C14H14O6,HMDB0128947,['hmdb40_kegg_H_F_K_Na'],NA
+621,277.108,0.0001175,-H(-),C15H18O5,HMDB0030766,['hmdb40_kegg_H_F_K_Na'],11-Hydroxy-12-methoxydihydrokawain
+622,277.1449,-0.0003871,-H(-),C16H22O4,HMDB0001518,['hmdb40_kegg_H_F_K_Na'],Alpha-CEHC
+623,277.2174,-0.0001463,-H(-),C18H30O2,HMDB0001388,['hmdb40_kegg_H_F_K_Na'],Alpha-Linolenic acid
+624,277.2533,0.0003531,-H(-),C19H34O,HMDB0033609,['hmdb40_kegg_H_F_K_Na'],2-Pentadecylfuran
+625,278.2494,-0.0004139,-H(-),C18H33NO,HMDB0062656,['hmdb40_kegg_H_F_K_Na'],Linoleamide
+626,279.0563,-0.000586,-H(-),C11H12N4O3S,HMDB0014802,['hmdb40_kegg_H_F_K_Na'],Sulfametopyrazine
+627,279.0871,0.0002691,-H(-),C14H16O6,HMDB0033884,['hmdb40_kegg_H_F_K_Na'],Gravolenic acid
+628,279.1243,-0.0005525,-H(-),C15H20O5,HMDB0035620,['hmdb40_kegg_H_F_K_Na'],Artabsinolide A
+629,279.1392,-0.0001513,-H(-),C19H20O2,HMDB0033295,['hmdb40_kegg_H_F_K_Na'],7-(4-Hydroxyphenyl)-1-phenyl-4-hepten-3-one
+630,279.2336,-0.0006513,-H(-),C18H32O2,HMDB0000673,['hmdb40_kegg_H_F_K_Na'],Linoleic acid
+631,280.1051,6.39E-05,-H(-),C11H15N5O4,HMDB0003331,['hmdb40_kegg_H_F_K_Na'],1-Methyladenosine
+632,280.2651,-0.0005139,-H(-),C18H35NO,HMDB0002117,['hmdb40_kegg_H_F_K_Na'],Oleamide
+633,281.0308,-0.0005217,-H(-),C12H10O8,HMDB0034034,['hmdb40_kegg_H_F_K_Na'],Bikojic acid
+634,281.0466,-0.0010485,-H(-),C16H10O5,HMDB0029584,['hmdb40_kegg_H_F_K_Na'],3-O-Methylcoumestrol
+635,281.1051,-0.0006913,-H(-),C15H14N4O2,HMDB0013911,['hmdb40_kegg_H_F_K_Na'],12-Hydroxynevirapine
+636,281.1546,6.87E-05,-H(-),C19H22O2,HMDB0035080,['hmdb40_kegg_H_F_K_Na'],Miltirone
+637,281.1753,0.0005319,-H(-),C16H26O4,HMDB0033630,['hmdb40_kegg_H_F_K_Na'],Lactapiperanol C
+638,281.19,0.0010551,-H(-),C20H26O,HMDB0035695,['hmdb40_kegg_H_F_K_Na'],Vitamin A2 aldehyde
+639,281.2112,0.0010513,-H(-),C17H30O3,NA,['hmdb40_kegg_H_F_K_Na'],NA
+640,282.0835,0.0009065,-H(-),C10H13N5O5,HMDB0000133,['hmdb40_kegg_H_F_K_Na'],Guanosine
+641,282.1238,0.0009777,-H(-),C16H17N3O2,HMDB0248346,['hmdb40_kegg_H_F_K_Na'],Brevianamide F
+642,282.1704,0.0006879,-H(-),C15H25NO4,HMDB0060994,['hmdb40_kegg_H_F_K_Na'],NA
+643,283.0527,-0.0006588,-H(-),C12H14NO5S,NA,['hmdb40_kegg_H_F_K_Na'],Faropenem
+644,283.0686,-0.0001619,-H(-),C10H12N4O6,HMDB0000299,['hmdb40_kegg_H_F_K_Na'],Xanthosine
+645,283.2276,0.0003123,-H(-),C17H32O3,HMDB0035473,['hmdb40_kegg_H_F_K_Na'],Avocadyne
+646,283.2645,-0.0002083,-H(-),C18H36O2,HMDB0000827,['hmdb40_kegg_H_F_K_Na'],Stearic acid
+647,285.0393,0.0011361,-H(-),C15H10O6,HMDB0005800,['hmdb40_kegg_H_F_K_Na'],Luteolin
+648,285.0623,-0.0007017,-H(-),C12H14O8,HMDB0029498,['hmdb40_kegg_H_F_K_Na'],3'-Methoxyfukiic acid
+649,285.0792,0.0009732,-H(-),C13H18O5S,HMDB0132959,['hmdb40_kegg_H_F_K_Na'],NA
+650,285.0976,0.0003757,-H(-),C13H18O7,HMDB0003546,['hmdb40_kegg_H_F_K_Na'],Salicin
+651,285.1134,-0.0002011,-H(-),C17H18O4,HMDB0030152,['hmdb40_kegg_H_F_K_Na'],"4'-Hydroxy-5,7-dimethoxyflavan"
+652,285.186,3.57E-05,-H(-),C19H26O2,HMDB0000053,['hmdb40_kegg_H_F_K_Na'],Androstenedione
+653,285.244,-0.0004637,-H(-),C17H34O3,HMDB0031042,['hmdb40_kegg_H_F_K_Na'],Avocadene
+654,286.1413,-0.0004375,-H(-),C12H21N3O5,NA,['hmdb40_kegg_H_F_K_Na'],NA
+655,287.0772,-8.70E-06,-H(-),C12H16O8,HMDB0035589,['hmdb40_kegg_H_F_K_Na'],Phlorin
+656,287.1197,-0.0006689,-H(-),C19H16N2O,NA,['hmdb40_kegg_H_F_K_Na'],NA
+657,287.186,0.0003945,-H(-),C15H28O5,HMDB0031885,['hmdb40_kegg_H_F_K_Na'],6-Hydroxypentadecanedioic acid
+658,287.202,-0.0003063,-H(-),C19H28O2,HMDB0000077,['hmdb40_kegg_H_F_K_Na'],Dehydroepiandrosterone
+659,288.0516,-0.0002239,-H(-),C14H11NO6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+660,288.9492,-0.0001465,-H(-),C10H10O2S4,HMDB0036168,['hmdb40_kegg_H_F_K_Na'],NA
+661,289.1652,0.0004321,-H(-),C14H26O6,HMDB0032959,['hmdb40_kegg_H_F_K_Na'],1-Octen-3-yl glucoside
+662,289.217,0.0003297,-H(-),C19H30O2,HMDB0000031,['hmdb40_kegg_H_F_K_Na'],Androsterone
+663,289.2537,-4.29E-05,-H(-),C20H34O,HMDB0035083,['hmdb40_kegg_H_F_K_Na'],"(3S,6E,10E)-1,6,10,14-Phytatetraen-3-ol"
+664,290.0662,0.0008591,-H(-),C14H13NO6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+665,290.0722,-0.0005166,-H(-),C12H13N5O2S,HMDB0256807,['hmdb40_kegg_H_F_K_Na'],NA
+666,290.0881,8.13E-05,-H(-),C11H17NO8,HMDB0245680,['hmdb40_kegg_H_F_K_Na'],NA
+667,290.9677,-3.45E-05,-H(-),C5H10O10P2,NA,['hmdb40_kegg_H_F_K_Na'],"alpha-D-Ribose 1,2-cyclic phosphate 5-phosphate"
+668,291.0148,0.0007067,-H(-),C14H12O3S2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+669,291.0839,-0.0005567,-H(-),C10H16N2O8,HMDB0015109,['hmdb40_kegg_H_F_K_Na'],Edetic Acid
+670,291.1077,0.0008493,-H(-),C12H20O8,HMDB0041269,['hmdb40_kegg_H_F_K_Na'],NA
+671,291.1248,-0.0010325,-H(-),C16H20O5,HMDB0030767,['hmdb40_kegg_H_F_K_Na'],"11,12-Dimethoxydihydrokawain"
+672,292.0825,0.0001391,-H(-),C14H15NO6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+673,293.1036,-0.0005509,-H(-),C15H18O6,HMDB0039825,['hmdb40_kegg_H_F_K_Na'],NA
+674,293.1185,-0.0002307,-H(-),C19H18O3,HMDB0033331,['hmdb40_kegg_H_F_K_Na'],"(E)-1-[4-Hydroxy-3-(3-methyl-1,3-butadienyl)phenyl]-2-(3,5-dihydroxyphenyl)ethylene"
+675,293.1385,0.0009175,-H(-),C16H22O5,HMDB0030555,['hmdb40_kegg_H_F_K_Na'],Tocopheronic acid
+676,293.1782,0.0009886,-H(-),C14H30O4S,HMDB0014607,['hmdb40_kegg_H_F_K_Na'],Sodium Tetradecyl Sulfate
+677,293.2114,0.0008563,-H(-),C18H30O3,HMDB0004668,['hmdb40_kegg_H_F_K_Na'],13-OxoODE
+678,293.2488,-0.0002383,-H(-),C19H34O2,HMDB0034381,['hmdb40_kegg_H_F_K_Na'],Methyl linoleate
+679,295.0451,0.0008383,-H(-),C13H12O8,HMDB0029318,['hmdb40_kegg_H_F_K_Na'],Caffeoylmalic acid
+680,295.0616,-0.0003565,-H(-),C17H12O5,HMDB0034126,['hmdb40_kegg_H_F_K_Na'],Gyrocyanin
+681,295.0717,0.0006939,-H(-),C16H12N2O4,HMDB0029301,['hmdb40_kegg_H_F_K_Na'],"5,5',6,6'-Tetrahydroxy-3,3'-biindolyl"
+682,295.0824,-4.43E-05,-H(-),C14H16O7,HMDB0124987,['hmdb40_kegg_H_F_K_Na'],de-Hypoxanthine futalosine
+683,295.0964,-0.0012158,-H(-),C11H21O7P,HMDB0011685,['hmdb40_kegg_H_F_K_Na'],DHAP(8:0)
+684,295.1336,0.0003613,-H(-),C19H20O3,HMDB0030599,['hmdb40_kegg_H_F_K_Na'],"5-[(4-Hydroxypheny)ethenyl]-2-(3-methyl-1-butenyl)-1,3-benzenediol"
+685,295.1911,0.0003949,-H(-),C17H28O4,HMDB0035075,['hmdb40_kegg_H_F_K_Na'],Tanacetol B
+686,295.2282,-0.0002867,-H(-),C18H32O3,HMDB0004667,['hmdb40_kegg_H_F_K_Na'],13S-hydroxyoctadecadienoic acid
+687,295.2643,-1.93E-05,-H(-),C19H36O2,HMDB0013622,['hmdb40_kegg_H_F_K_Na'],Nonadeca-10(Z)-enoic acid
+688,296.1117,-0.0002112,-H(-),C18H19NOS,HMDB0014619,['hmdb40_kegg_H_F_K_Na'],Duloxetine
+689,296.2599,-0.0003573,-H(-),C18H35NO2,HMDB0013648,['hmdb40_kegg_H_F_K_Na'],Palmitoleoyl Ethanolamide
+690,296.2962,-0.0002709,-H(-),C19H39NO,HMDB0031810,['hmdb40_kegg_H_F_K_Na'],Tridemorph
+691,297.0237,-0.0009554,-H(-),C16H10O4S,NA,['hmdb40_kegg_H_F_K_Na'],1-Pyrenylsulfate
+692,297.0471,-0.0002925,-H(-),C16H10O4S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+693,297.113,0.0002199,-H(-),C18H18O4,HMDB0004808,['hmdb40_kegg_H_F_K_Na'],7C-aglycone
+694,297.1341,0.0002971,-H(-),C15H22O6,HMDB0036159,['hmdb40_kegg_H_F_K_Na'],NA
+695,297.1719,0.0002311,-H(-),C17H22N4O,HMDB0014943,['hmdb40_kegg_H_F_K_Na'],Minaprine
+696,297.2067,0.0004639,-H(-),C17H30O4,NA,['hmdb40_kegg_H_F_K_Na'],NA
+697,297.2439,-0.0003617,-H(-),C18H34O3,HMDB0010736,['hmdb40_kegg_H_F_K_Na'],3-Oxooctadecanoic acid
+698,297.2793,0.0006097,-H(-),C19H38O2,HMDB0000772,['hmdb40_kegg_H_F_K_Na'],Nonadecanoic acid
+699,298.145,-0.0001317,-H(-),C18H21NO3,HMDB0004995,['hmdb40_kegg_H_F_K_Na'],Codeine
+700,298.2747,0.0004067,-H(-),C18H37NO2,HMDB0000252,['hmdb40_kegg_H_F_K_Na'],Sphingosine
+701,299.104,-0.0002721,-H(-),C16H16N2O4,HMDB0256405,['hmdb40_kegg_H_F_K_Na'],NA
+702,299.1285,0.0003559,-H(-),C18H20O4,HMDB0030755,['hmdb40_kegg_H_F_K_Na'],Myrigalone E
+703,299.1647,0.0005613,-H(-),C19H24O3,HMDB0000010,['hmdb40_kegg_H_F_K_Na'],2-Methoxyestrone
+704,299.2012,0.0004397,-H(-),C20H28O2,HMDB0001852,['hmdb40_kegg_H_F_K_Na'],All-trans-retinoic acid
+705,299.2379,0.0001021,-H(-),C21H32O,HMDB0015500,['hmdb40_kegg_H_F_K_Na'],Allylestrenol
+706,299.2599,-0.0007347,-H(-),C18H36O3,HMDB0010737,['hmdb40_kegg_H_F_K_Na'],(R)-3-Hydroxy-Octadecanoic acid
+707,300.0447,0.000132,-H(-),C14H11N3O3S,HMDB0255688,['hmdb40_kegg_H_F_K_Na'],NA
+708,300.1573,-0.0007735,-H(-),C13H23N3O5,NA,['hmdb40_kegg_H_F_K_Na'],NA
+709,300.1603,0.0002343,-H(-),C18H23NO3,HMDB0014979,['hmdb40_kegg_H_F_K_Na'],Dobutamine
+710,301.0711,0.0006621,-H(-),C16H14O6,HMDB0005782,['hmdb40_kegg_H_F_K_Na'],Hesperetin
+711,301.1632,-0.0002031,-H(-),C11H22N6O4,HMDB0028707,['hmdb40_kegg_H_F_K_Na'],Arginyl-Glutamine
+712,301.2173,3.67E-05,-H(-),C20H30O2,HMDB0001999,['hmdb40_kegg_H_F_K_Na'],Eicosapentaenoic acid
+713,301.2532,0.0004581,-H(-),C21H34O,HMDB0030482,['hmdb40_kegg_H_F_K_Na'],Cardanolmonoene
+714,303.0181,-0.000113,-H(-),C11H12O8S,HMDB0059985,['hmdb40_kegg_H_F_K_Na'],NA
+715,303.0873,0.0001441,-H(-),C16H16O6,HMDB0029175,['hmdb40_kegg_H_F_K_Na'],3'-O-methyl-(-)-epicatechin
+716,303.1596,0.0006039,-H(-),C18H24O4,HMDB0060352,['hmdb40_kegg_H_F_K_Na'],"2-Polyprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone"
+717,303.1973,-0.0007317,-H(-),C19H28O3,HMDB0000309,['hmdb40_kegg_H_F_K_Na'],"3a,16b-Dihydroxyandrostenone"
+718,303.2331,-0.0001063,-H(-),C20H32O2,HMDB0001043,['hmdb40_kegg_H_F_K_Na'],Arachidonic acid
+719,304.0341,-0.0001008,-H(-),C9H12N3O7P,HMDB0011691,['hmdb40_kegg_H_F_K_Na'],"Cytidine 2',3'-cyclic phosphate"
+720,305.0872,0.0005699,-H(-),C12H18O9,HMDB0029891,['hmdb40_kegg_H_F_K_Na'],Starch acetate
+721,305.1372,-0.0004497,-H(-),C13H18N6O3,NA,['hmdb40_kegg_H_F_K_Na'],Lupinate
+722,305.2484,0.0002007,-H(-),C20H34O2,HMDB0002925,['hmdb40_kegg_H_F_K_Na'],"8,11,14-Eicosatrienoic acid"
+723,306.0497,-7.88E-05,-H(-),C9H14N3O7P,HMDB0001202,['hmdb40_kegg_H_F_K_Na'],dCMP
+724,306.1096,-2.25E-05,-H(-),C14H17N3O5,HMDB0142220,['hmdb40_kegg_H_F_K_Na'],NA
+725,306.1144,-0.0008147,-H(-),C19H17NO3,HMDB0030349,['hmdb40_kegg_H_F_K_Na'],N-Acetylanonaine
+726,306.1354,-0.0007065,-H(-),C16H21NO5,HMDB0038582,['hmdb40_kegg_H_F_K_Na'],NA
+727,307.0337,-5.02E-05,-H(-),C9H13N2O8P,HMDB0001409,['hmdb40_kegg_H_F_K_Na'],dUMP
+728,307.0813,0.0010617,-H(-),C15H16O7,HMDB0040692,['hmdb40_kegg_H_F_K_Na'],NA
+729,307.0975,7.09E-05,-H(-),C19H16O4,HMDB0001935,['hmdb40_kegg_H_F_K_Na'],Warfarin
+730,307.2126,-7.90E-06,-H(-),C15H32O6,HMDB0037162,['hmdb40_kegg_H_F_K_Na'],NA
+731,307.264,0.0002357,-H(-),C20H36O2,HMDB0005060,['hmdb40_kegg_H_F_K_Na'],Eicosadienoic acid
+732,308.2956,0.0002671,-H(-),C20H39NO,HMDB0032740,['hmdb40_kegg_H_F_K_Na'],N-Hexadecanoylpyrrolidine
+733,309.0413,-0.0008459,-H(-),C17H10O6,HMDB0033657,['hmdb40_kegg_H_F_K_Na'],De-O-methylsterigmatocystin
+734,309.0722,0.0006727,-H(-),C13H14N2O7,NA,['hmdb40_kegg_H_F_K_Na'],NA
+735,309.2072,-7.01E-05,-H(-),C18H30O4,HMDB0013623,['hmdb40_kegg_H_F_K_Na'],12(13)Ep-9-KODE
+736,309.243,0.0005083,-H(-),C19H34O3,HMDB0031060,['hmdb40_kegg_H_F_K_Na'],(R)-2-Hydroxysterculic acid
+737,309.2799,-2.33E-05,-H(-),C20H38O2,HMDB0002231,['hmdb40_kegg_H_F_K_Na'],Eicosenoic acid
+738,310.1152,0.0004695,-H(-),C12H17N5O5,HMDB0001961,['hmdb40_kegg_H_F_K_Na'],"1,7-Dimethylguanosine"
+739,311.0419,-0.0010031,-H(-),C13H12O9,HMDB0013680,['hmdb40_kegg_H_F_K_Na'],Caftaric acid
+740,311.0982,0.0001665,-H(-),C11H20O10,HMDB0011677,['hmdb40_kegg_H_F_K_Na'],"Galactose-beta-1,4-xylose"
+741,311.1286,0.0003099,-H(-),C19H20O4,HMDB0030600,['hmdb40_kegg_H_F_K_Na'],"4-(3-Methyl-1-butenyl)-3,3',4',5-tetrahydroxystilbene"
+742,311.1687,-2.00E-05,-H(-),C17H28O3S,HMDB0032549,['hmdb40_kegg_H_F_K_Na'],N-Undecylbenzenesulfonic acid
+743,311.2015,0.0001797,-H(-),C21H28O2,HMDB0000995,['hmdb40_kegg_H_F_K_Na'],16-Dehydroprogesterone
+744,311.2228,-5.10E-06,-H(-),C18H32O4,HMDB0003871,['hmdb40_kegg_H_F_K_Na'],13-L-Hydroperoxylinoleic acid
+745,311.2956,-7.63E-05,-H(-),C20H40O2,HMDB0000417,['hmdb40_kegg_H_F_K_Na'],"3D,7D,11D-Phytanic acid"
+746,312.2552,-0.0008107,-H(-),C18H35NO3,HMDB0013034,['hmdb40_kegg_H_F_K_Na'],Palmitoylglycine
+747,313.0552,-0.0012214,-H(-),C17H14O4S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+748,313.1917,0.0004907,-H(-),C19H26N2O2,HMDB0030263,['hmdb40_kegg_H_F_K_Na'],Rhazidigenine Nb-oxide
+749,313.2173,-1.30E-06,-H(-),C21H30O2,HMDB0001830,['hmdb40_kegg_H_F_K_Na'],Progesterone
+750,313.2383,0.0001409,-H(-),C18H34O4,HMDB0000782,['hmdb40_kegg_H_F_K_Na'],Octadecanedioic acid
+751,313.2748,4.53E-05,-H(-),C19H38O3,HMDB0061651,['hmdb40_kegg_H_F_K_Na'],NA
+752,314.0792,0.0003361,-H(-),C17H15O6,NA,['hmdb40_kegg_H_F_K_Na'],Rosinidin
+753,315.16,0.0001709,-H(-),C19H24O4,HMDB0029566,['hmdb40_kegg_H_F_K_Na'],Isopulegone caffeate
+754,315.1814,-4.79E-05,-H(-),C16H28O6,HMDB0029346,['hmdb40_kegg_H_F_K_Na'],Neryl glucoside
+755,315.1961,0.0004363,-H(-),C20H28O3,HMDB0000344,['hmdb40_kegg_H_F_K_Na'],2-Methoxyestradiol-3-methylether
+756,315.233,-9.30E-06,-H(-),C21H32O2,HMDB0000253,['hmdb40_kegg_H_F_K_Na'],Pregnenolone
+757,315.2543,-0.0002231,-H(-),C18H36O4,HMDB0011532,['hmdb40_kegg_H_F_K_Na'],MG(0:0/15:0/0:0)
+758,315.2904,7.13E-05,-H(-),C19H40O3,HMDB0032112,['hmdb40_kegg_H_F_K_Na'],"1,2,4-Nonadecanetriol"
+759,317.1033,-0.0002169,-H(-),C17H18O6,HMDB0030663,['hmdb40_kegg_H_F_K_Na'],"4',7-Di-O-methylcatechin"
+760,317.1758,6.59E-05,-H(-),C19H26O4,HMDB0006709,['hmdb40_kegg_H_F_K_Na'],Ubiquinone-2
+761,317.2123,-0.0001077,-H(-),C20H30O3,HMDB0001337,['hmdb40_kegg_H_F_K_Na'],Leukotriene A4
+762,317.2484,0.0001577,-H(-),C21H34O2,HMDB0001449,['hmdb40_kegg_H_F_K_Na'],Allopregnanolone
+763,319.1918,-0.0003351,-H(-),(C5H8)nC14H20O4,HMDB0001304,['hmdb40_kegg_H_F_K_Na'],QH2
+764,319.2639,0.0003087,-H(-),C21H36O2,HMDB0002156,['hmdb40_kegg_H_F_K_Na'],"3a,20b-Pregnanediol"
+765,320.1736,-0.0007527,-H(-),C15H23N5O3,HMDB0028716,['hmdb40_kegg_H_F_K_Na'],Arginyl-Phenylalanine
+766,321.1566,-0.0011477,-H(-),C14H26O8,HMDB0031694,['hmdb40_kegg_H_F_K_Na'],Butyl (S)-3-hydroxybutyrate glucoside
+767,322.0447,-0.0001372,-H(-),C9H14N3O8P,HMDB0000095,['hmdb40_kegg_H_F_K_Na'],Cytidine monophosphate
+768,322.2752,7.00E-07,-H(-),C20H37NO2,HMDB0012252,['hmdb40_kegg_H_F_K_Na'],Linoleoyl ethanolamide
+769,323.0287,-0.0001086,-H(-),C9H13N2O9P,HMDB0000288,['hmdb40_kegg_H_F_K_Na'],Uridine 5'-monophosphate
+770,323.0983,0.0001145,-H(-),C12H20O10,HMDB0251271,['hmdb40_kegg_H_F_K_Na'],NA
+771,323.1136,6.17E-05,-H(-),C16H20O7,HMDB0133619,['hmdb40_kegg_H_F_K_Na'],NA
+772,323.1683,0.000386,-H(-),C18H28O3S,HMDB0258607,['hmdb40_kegg_H_F_K_Na'],NA
+773,324.2907,0.0001487,-H(-),C20H39NO2,HMDB0002088,['hmdb40_kegg_H_F_K_Na'],N-Oleoylethanolamine
+774,325.036,-0.0006653,-H(-),C17H10O7,HMDB0128433,['hmdb40_kegg_H_F_K_Na'],NA
+775,325.0719,-0.0001799,-H(-),C18H14O6,HMDB0030590,['hmdb40_kegg_H_F_K_Na'],Dihydrosterigmatocystin
+776,325.1082,-2.45E-05,-H(-),C19H18O5,HMDB0030605,['hmdb40_kegg_H_F_K_Na'],"1,5-Dihydroxy-3-methoxy-2-prenylxanthone"
+777,325.1843,-4.30E-05,-H(-),C18H30O3S,HMDB0031031,['hmdb40_kegg_H_F_K_Na'],2-Dodecylbenzenesulfonic acid
+778,325.2378,0.0006659,-H(-),C19H34O4,HMDB0031006,['hmdb40_kegg_H_F_K_Na'],1-Acetoxy-2-hydroxy-16-heptadecen-4-one
+779,325.3112,-3.93E-05,-H(-),C21H42O2,HMDB0002337,['hmdb40_kegg_H_F_K_Na'],Homophytanic acid
+780,326.0882,-8.97E-05,-H(-),C14H17NO8,HMDB0010316,['hmdb40_kegg_H_F_K_Na'],Acetaminophen glucuronide
+781,326.2695,0.0005213,-H(-),C19H37NO3,HMDB0013246,['hmdb40_kegg_H_F_K_Na'],Margaroylglycine
+782,327.0509,0.0001597,-H(-),C17H12O7,HMDB0006558,['hmdb40_kegg_H_F_K_Na'],"2,3-Epoxyaflatoxin B1"
+783,327.0874,-3.19E-05,-H(-),C18H16O6,HMDB0029677,['hmdb40_kegg_H_F_K_Na'],Zapotinin
+784,327.1238,-2.55E-05,-H(-),C19H20O5,HMDB0040670,['hmdb40_kegg_H_F_K_Na'],NA
+785,327.1609,-0.0007661,-H(-),C20H24O4,HMDB0029524,['hmdb40_kegg_H_F_K_Na'],5-Hydroxy-7-(4-hydroxy-3-methoxyphenyl)-1-phenyl-3-heptanone
+786,327.1721,-0.0006467,-H(-),C19H24N2O3,HMDB0014736,['hmdb40_kegg_H_F_K_Na'],Labetalol
+787,327.2176,5.55E-05,-H(-),C18H32O5,HMDB0035919,['hmdb40_kegg_H_F_K_Na'],Corchorifatty acid F
+788,327.2332,-0.0002003,-H(-),C22H32O2,HMDB0002183,['hmdb40_kegg_H_F_K_Na'],Docosahexaenoic acid
+789,327.2904,1.83E-05,-H(-),C20H40O3,HMDB0032477,['hmdb40_kegg_H_F_K_Na'],Polyoxyethylene 40 monostearate
+790,328.0454,-0.0006076,-H(-),C10H20NO5PS2,HMDB0031800,['hmdb40_kegg_H_F_K_Na'],Mecarbam
+791,328.1192,-0.0001085,-H(-),C18H19NO5,HMDB0032805,['hmdb40_kegg_H_F_K_Na'],N-trans-Feruloyloctopamine
+792,328.2857,-3.70E-06,-H(-),C19H39NO3,HMDB0004608,['hmdb40_kegg_H_F_K_Na'],Dihydroceramide
+793,329.0303,2.30E-06,-H(-),C16H10O8,HMDB0030643,['hmdb40_kegg_H_F_K_Na'],Blighinone
+794,329.0669,-0.0002573,-H(-),C17H14O7,HMDB0029263,['hmdb40_kegg_H_F_K_Na'],"3,7-Dimethylquercetin"
+795,329.1025,0.0005151,-H(-),C18H18O6,HMDB0011672,['hmdb40_kegg_H_F_K_Na'],Aflatoxin B1 dialcohol
+796,329.1396,-0.0001315,-H(-),C19H22O5,HMDB0031076,['hmdb40_kegg_H_F_K_Na'],Gibberellin A105
+797,329.1755,0.0003759,-H(-),C20H26O4,HMDB0002121,['hmdb40_kegg_H_F_K_Na'],Carnosol
+798,329.2122,-1.87E-05,-H(-),C21H30O3,HMDB0000016,['hmdb40_kegg_H_F_K_Na'],Deoxycorticosterone
+799,329.2339,-0.0005755,-H(-),C18H34O5,HMDB0004708,['hmdb40_kegg_H_F_K_Na'],"9,12,13-TriHOME"
+800,329.2485,8.37E-05,-H(-),C22H34O2,HMDB0001976,['hmdb40_kegg_H_F_K_Na'],Docosapentaenoic acid (22n-6)
+801,330.0921,-0.000364,-H(-),C16H17N3O3S,HMDB0014011,['hmdb40_kegg_H_F_K_Na'],5'-O-Desmethyl omeprazole
+802,330.1052,0.0012151,-H(-),C12H21N5O2S2,HMDB0014723,['hmdb40_kegg_H_F_K_Na'],Nizatidine
+803,331.0682,-0.0010945,-H(-),C13H16O10,HMDB0034051,['hmdb40_kegg_H_F_K_Na'],6-Galloylglucose
+804,331.1184,0.0003101,-H(-),C18H20O6,HMDB0030664,['hmdb40_kegg_H_F_K_Na'],"3,3'-Dihydroxy-4',5,7-trimethoxyflavan"
+805,331.1548,0.0003105,-H(-),C19H24O5,HMDB0030787,['hmdb40_kegg_H_F_K_Na'],(R)-Marmin
+806,331.1762,6.37E-05,-H(-),C16H28O7,HMDB0029784,['hmdb40_kegg_H_F_K_Na'],Unshuoside A
+807,331.1915,-6.61E-05,-H(-),C20H28O4,HMDB0002358,['hmdb40_kegg_H_F_K_Na'],Carnosic acid
+808,331.2281,-0.0001907,-H(-),C21H32O3,HMDB0000315,['hmdb40_kegg_H_F_K_Na'],16-a-Hydroxypregnenolone
+809,331.2489,5.65E-05,-H(-),C18H36O5,HMDB0030935,['hmdb40_kegg_H_F_K_Na'],"9,10,13-Trihydroxystearic acid"
+810,331.264,0.0002277,-H(-),C22H36O2,HMDB0002226,['hmdb40_kegg_H_F_K_Na'],Adrenic acid
+811,333.0484,0.0009718,-H(-),C11H15N2O8P,HMDB0000229,['hmdb40_kegg_H_F_K_Na'],Nicotinamide ribotide
+812,333.1093,-0.0001049,-H(-),C16H18N2O6,HMDB0034937,['hmdb40_kegg_H_F_K_Na'],Cappariloside A
+813,333.1546,0.0009343,-H(-),C15H26O8,HMDB0040461,['hmdb40_kegg_H_F_K_Na'],NA
+814,333.1713,-0.0005365,-H(-),C19H26O5,HMDB0032699,['hmdb40_kegg_H_F_K_Na'],"3-(2-Methylpropanoyloxy)-8-(2-methylbutanoyloxy)-9,10-epoxy-p-mentha-1,3,5-triene"
+815,333.2071,7.89E-05,-H(-),C20H30O4,HMDB0001244,['hmdb40_kegg_H_F_K_Na'],"15-Keto-13,14-dihydroprostaglandin A2"
+816,333.244,-0.0004537,-H(-),C21H34O3,HMDB0000879,['hmdb40_kegg_H_F_K_Na'],Tetrahydrodeoxycorticosterone
+817,333.2798,7.57E-05,-H(-),C22H38O2,HMDB0002823,['hmdb40_kegg_H_F_K_Na'],Docosatrienoic acid
+818,334.2156,-0.0005971,-H(-),C20H31O4,HMDB0060098,['hmdb40_kegg_H_F_K_Na'],NA
+819,334.3116,-0.0001089,-H(-),C22H41NO,HMDB0031678,['hmdb40_kegg_H_F_K_Na'],Pipericine
+820,335.0598,-0.0002752,-H(-),C16H16O6S,HMDB0127797,['hmdb40_kegg_H_F_K_Na'],NA
+821,335.0762,0.0009973,-H(-),C16H16O8,HMDB0029287,['hmdb40_kegg_H_F_K_Na'],"3-Caffeoyl-1,5-quinolactone"
+822,335.1159,0.0003809,-H(-),C20H18NO4,HMDB0003409,['hmdb40_kegg_H_F_K_Na'],Berberine
+823,335.1944,-0.0007909,-H(-),C13H28N4O6,NA,['hmdb40_kegg_H_F_K_Na'],Istamycin KL1
+824,335.2225,0.0003239,-H(-),C20H32O4,HMDB0001085,['hmdb40_kegg_H_F_K_Na'],Leukotriene B4
+825,335.2954,0.0001877,-H(-),C22H40O2,HMDB0061714,['hmdb40_kegg_H_F_K_Na'],Docosadienoate (22:2n6)
+826,336.0386,-0.0009772,-H(-),C8H15N7O2S3,HMDB0001919,['hmdb40_kegg_H_F_K_Na'],Famotidine
+827,337.0366,-0.0012133,-H(-),C18H10O7,NA,['hmdb40_kegg_H_F_K_Na'],Versicolorin A
+828,337.0556,-0.0001202,-H(-),C9H15N4O8P,HMDB0001517,['hmdb40_kegg_H_F_K_Na'],AICAR
+829,337.0929,1.13E-05,-H(-),C16H18O8,HMDB0029681,['hmdb40_kegg_H_F_K_Na'],3-O-p-Coumaroylquinic acid
+830,337.1083,-0.0001935,-H(-),C20H18O5,HMDB0030618,['hmdb40_kegg_H_F_K_Na'],Otobanone
+831,337.1288,0.0005247,-H(-),C17H22O7,HMDB0033444,['hmdb40_kegg_H_F_K_Na'],15-Acetyl-4-deoxynivalenol
+832,337.2033,9.31E-05,-H(-),C20H26N4O,HMDB0014727,['hmdb40_kegg_H_F_K_Na'],Lisuride
+833,337.2747,0.0001513,-H(-),C21H38O3,NA,['hmdb40_kegg_H_F_K_Na'],NA
+834,337.3111,5.47E-05,-H(-),C22H42O2,HMDB0002068,['hmdb40_kegg_H_F_K_Na'],Erucic acid
+835,338.1179,8.46E-05,-H(-),C15H21N3O4S,HMDB0014027,['hmdb40_kegg_H_F_K_Na'],7-Hydroxygliclazide
+836,339.0182,-0.000181,-H(-),C14H12O8S,HMDB0128972,['hmdb40_kegg_H_F_K_Na'],NA
+837,339.0878,-0.0003799,-H(-),C19H16O6,HMDB0030591,['hmdb40_kegg_H_F_K_Na'],Dihydro-O-methylsterigmatocystin
+838,339.2176,0.0001075,-H(-),C19H32O5,HMDB0302962,['hmdb40_kegg_H_F_K_Na'],"3alpha-Hydroxy-3,5-dihydromonacolin L acid"
+839,339.2329,1.47E-05,-H(-),C23H32O2,HMDB0033786,['hmdb40_kegg_H_F_K_Na'],Plastoquinone 3
+840,339.2905,-7.70E-06,-H(-),C21H40O3,HMDB0032476,['hmdb40_kegg_H_F_K_Na'],Polyoxyethylene (600) monoricinoleate
+841,339.3269,-1.23E-05,-H(-),C22H44O2,HMDB0000944,['hmdb40_kegg_H_F_K_Na'],Behenic acid
+842,341.1091,-0.0001359,-H(-),C12H22O11,HMDB0000048,['hmdb40_kegg_H_F_K_Na'],Melibiose
+843,341.2122,-6.70E-06,-H(-),C22H30O3,HMDB0002726,['hmdb40_kegg_H_F_K_Na'],Guggulsterone
+844,341.2336,-0.0002035,-H(-),C19H34O5,HMDB0040901,['hmdb40_kegg_H_F_K_Na'],NA
+845,341.3055,0.0005893,-H(-),C21H42O3,HMDB0011153,['hmdb40_kegg_H_F_K_Na'],MG(P-18:0e/0:0/0:0)
+846,343.0668,0.0003125,-H(-),C14H16O10,HMDB0039287,['hmdb40_kegg_H_F_K_Na'],Bluensidine 6-phosphate
+847,343.0822,0.0001287,-H(-),C18H16O7,HMDB0029469,['hmdb40_kegg_H_F_K_Na'],Eupatilin
+848,343.1039,-0.0004071,-H(-),C15H20O9,HMDB0029647,['hmdb40_kegg_H_F_K_Na'],Domesticoside
+849,343.1188,-0.0001349,-H(-),C19H20O6,HMDB0035029,['hmdb40_kegg_H_F_K_Na'],Dehydrocyanaropicrin
+850,343.1241,0.0004701,-H(-),C12H24O11,HMDB0002928,['hmdb40_kegg_H_F_K_Na'],Maltitol
+851,343.1711,-0.0007953,-H(-),C24H24O2,HMDB0142450,['hmdb40_kegg_H_F_K_Na'],"alpha,alpha'-diethyl-4,4'-bis(2-propynyloxy)stilbene"
+852,343.2276,0.0002293,-H(-),C22H32O3,HMDB0001939,['hmdb40_kegg_H_F_K_Na'],Medroxyprogesterone
+853,343.265,-0.0007903,-H(-),C23H36O2,HMDB0035582,['hmdb40_kegg_H_F_K_Na'],"1-Phenyl-1,3-heptadecanedione"
+854,344.0403,-0.0001508,-H(-),C10H12N5O7P,HMDB0001314,['hmdb40_kegg_H_F_K_Na'],Cyclic GMP
+855,345.0616,3.83E-05,-H(-),C17H14O8,HMDB0029516,['hmdb40_kegg_H_F_K_Na'],Limocitrin
+856,345.1085,0.0007001,-H(-),C17H18N2O6,HMDB0015247,['hmdb40_kegg_H_F_K_Na'],Nifedipine
+857,345.1137,-0.0004931,-H(-),C22H18O4,HMDB0034692,['hmdb40_kegg_H_F_K_Na'],"9-(3,4-Dimethoxyphenyl)-2-methoxy-1H-phenalen-1-one"
+858,345.1344,-2.90E-06,-H(-),C19H22O6,HMDB0003559,['hmdb40_kegg_H_F_K_Na'],Gibberellin A3
+859,345.1544,0.0010433,-H(-),C16H26O8,HMDB0033222,['hmdb40_kegg_H_F_K_Na'],"(1R,3S,4S,6R)-6,9-Dihydroxyfenchone 6-O-b-D-glucoside"
+860,345.1703,0.0004785,-H(-),C20H26O5,HMDB0032819,['hmdb40_kegg_H_F_K_Na'],Gibberellin A113
+861,345.2279,0.0003331,-H(-),C18H34O6,HMDB0029885,['hmdb40_kegg_H_F_K_Na'],Sorbitan laurate
+862,345.2436,-5.37E-05,-H(-),C22H34O3,HMDB0031465,['hmdb40_kegg_H_F_K_Na'],Methyl-[10]-shogaol
+863,345.2804,-0.0004513,-H(-),C23H38O2,HMDB0035678,['hmdb40_kegg_H_F_K_Na'],3-Hydroxy-1-phenyl-1-heptadecanone
+864,346.056,-0.0001598,-H(-),C10H14N5O7P,HMDB0000045,['hmdb40_kegg_H_F_K_Na'],Adenosine monophosphate
+865,346.1299,-0.0002779,-H(-),C18H21NO6,HMDB0255456,['hmdb40_kegg_H_F_K_Na'],Cotinine glucuronide
+866,347.0401,-0.0002452,-H(-),C10H13N4O8P,HMDB0000175,['hmdb40_kegg_H_F_K_Na'],Inosinic acid
+867,347.0773,-1.27E-05,-H(-),C17H16O8,HMDB0062442,['hmdb40_kegg_H_F_K_Na'],"alpha-(1,2-Dihydroxyethyl)-1,2,3,4-tetrahydro-7-hydroxy-9-methoxy-3,4-dioxocyclopenta[c][1]benzopyran-6-acetaldehyde"
+868,347.1131,0.0005697,-H(-),C18H20O7,HMDB0124870,['hmdb40_kegg_H_F_K_Na'],NA
+869,347.1498,0.0002521,-H(-),C19H24O6,HMDB0034988,['hmdb40_kegg_H_F_K_Na'],Gibberellin A60
+870,347.2226,0.0002089,-H(-),C21H32O4,HMDB0000353,['hmdb40_kegg_H_F_K_Na'],"3b,15b,17a-Trihydroxy-pregnenone"
+871,349.0931,-0.0002587,-H(-),C17H18O8,HMDB0029289,['hmdb40_kegg_H_F_K_Na'],"3-Feruloyl-1,5-quinolactone"
+872,349.112,-0.0004358,-H(-),C18H22O5S,HMDB0001425,['hmdb40_kegg_H_F_K_Na'],Estrone sulfate
+873,349.1654,0.0002751,-H(-),C19H26O6,HMDB0034915,['hmdb40_kegg_H_F_K_Na'],Calonectrin
+874,349.2023,-0.0002475,-H(-),C20H30O5,HMDB0002341,['hmdb40_kegg_H_F_K_Na'],8-iso-15-keto-PGE2
+875,349.2381,0.0003769,-H(-),C21H34O4,HMDB0000268,['hmdb40_kegg_H_F_K_Na'],Tetrahydrocorticosterone
+876,349.2749,-0.0001247,-H(-),C22H38O3,HMDB0031126,['hmdb40_kegg_H_F_K_Na'],"3,4-Dimethyl-5-pentyl-2-furanundecanoic acid"
+877,351.0727,-0.0005531,-H(-),C16H16O9,HMDB0029383,['hmdb40_kegg_H_F_K_Na'],Chlorogenoquinone
+878,351.0883,-0.0008979,-H(-),C20H16O6,HMDB0034019,['hmdb40_kegg_H_F_K_Na'],Parvisoflavone A
+879,351.1082,0.0003523,-H(-),C17H20O8,HMDB0126417,['hmdb40_kegg_H_F_K_Na'],NA
+880,351.1819,-0.0005889,-H(-),C19H28O6,HMDB0039132,['hmdb40_kegg_H_F_K_Na'],NA
+881,351.2187,-0.0010005,-H(-),C20H32O5,HMDB0001220,['hmdb40_kegg_H_F_K_Na'],Prostaglandin E2
+882,351.2532,0.0008719,-H(-),C21H36O4,HMDB0011539,['hmdb40_kegg_H_F_K_Na'],"MG(0:0/18:3(6Z,9Z,12Z)/0:0)"
+883,352.086,5.08E-05,-H(-),C16H19NO6S,HMDB0032802,['hmdb40_kegg_H_F_K_Na'],4-Hydroxybenzyl isothiocyanate 4''-acetylrhamnoside
+884,353.0308,-0.0005197,-H(-),C18H10O8,HMDB0029682,['hmdb40_kegg_H_F_K_Na'],Cyclovariegatin
+885,353.0522,-0.0007745,-H(-),C15H14O10,HMDB0040570,['hmdb40_kegg_H_F_K_Na'],NA
+886,353.0878,1.19E-05,-H(-),C16H18O9,HMDB0002336,['hmdb40_kegg_H_F_K_Na'],Biflorin
+887,353.1035,-0.0004569,-H(-),C20H18O6,HMDB0030848,['hmdb40_kegg_H_F_K_Na'],Artocarpesin
+888,353.1395,-2.95E-05,-H(-),C21H22O5,HMDB0029319,['hmdb40_kegg_H_F_K_Na'],1-Methoxyphaseollidin
+889,353.1446,0.0007285,-H(-),C14H26O10,HMDB0041513,['hmdb40_kegg_H_F_K_Na'],NA
+890,353.1605,0.0001047,-H(-),C18H26O7,HMDB0060933,['hmdb40_kegg_H_F_K_Na'],5-Hydroxytryptophol glucuronide
+891,353.2699,-0.0001511,-H(-),C21H38O4,HMDB0011538,['hmdb40_kegg_H_F_K_Na'],"MG(0:0/18:2(9Z,12Z)/0:0)"
+892,353.3062,-7.17E-05,-H(-),C22H42O3,HMDB0255988,['hmdb40_kegg_H_F_K_Na'],22-Oxodocosanoate
+893,353.3425,-2.33E-05,-H(-),C23H46O2,HMDB0001160,['hmdb40_kegg_H_F_K_Na'],Tricosanoic acid
+894,354.0007,0.0002943,-H(-),C7H11N5O8P2,NA,['hmdb40_kegg_H_F_K_Na'],"2-Amino-7,8-dihydro-4-hydroxy-6-(diphosphooxymethyl)pteridine"
+895,355.083,-0.0007113,-H(-),C19H16O7,HMDB0033659,['hmdb40_kegg_H_F_K_Na'],Dihydrohydroxy-O-methylsterigmatocystin
+896,355.1029,0.0005319,-H(-),C16H20O9,HMDB0036938,['hmdb40_kegg_H_F_K_Na'],b-D-fructosyl-a-D-(6-O-(E))-feruloylglucoside
+897,355.1405,-0.0006457,-H(-),C17H24O8,HMDB0031695,['hmdb40_kegg_H_F_K_Na'],xi-3-Hydroxy-5-phenylpentanoic acid O-beta-D-Glucopyranoside
+898,355.2117,0.0009191,-H(-),C19H32O6,HMDB0041044,['hmdb40_kegg_H_F_K_Na'],NA
+899,355.249,-9.50E-06,-H(-),C20H36O5,HMDB0002685,['hmdb40_kegg_H_F_K_Na'],Prostaglandin F1a
+900,355.2643,-7.53E-05,-H(-),C24H36O2,HMDB0002007,['hmdb40_kegg_H_F_K_Na'],Tetracosahexaenoic acid
+901,355.2853,3.79E-05,-H(-),C21H40O4,HMDB0011536,['hmdb40_kegg_H_F_K_Na'],MG(0:0/18:1(11Z)/0:0)
+902,355.3218,1.03E-05,-H(-),C22H44O3,HMDB0061660,['hmdb40_kegg_H_F_K_Na'],NA
+903,356.0547,-0.0009097,-H(-),C18H13O8,HMDB0124736,['hmdb40_kegg_H_F_K_Na'],13-hydroxy-docosanoic acid
+904,356.1333,-0.000748,-H(-),C20H23NO3S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+905,356.1714,3.67E-05,-H(-),C17H27NO7,NA,['hmdb40_kegg_H_F_K_Na'],NA
+906,357.0607,0.0008873,-H(-),C18H14O8,HMDB0029272,['hmdb40_kegg_H_F_K_Na'],"5,4'-Dihydroxy-3,3'-dimethoxy-6:7-methylenedioxyflavone"
+907,357.0981,-0.0001313,-H(-),C19H18O7,HMDB0034218,['hmdb40_kegg_H_F_K_Na'],Chrysoobtusin
+908,357.171,-0.0002755,-H(-),C21H26O5,HMDB0005798,['hmdb40_kegg_H_F_K_Na'],Malabaricone C
+909,357.2642,0.0004795,-H(-),C20H38O5,HMDB0005076,['hmdb40_kegg_H_F_K_Na'],"13,14-Dihydro PGF-1a"
+910,357.2799,-3.23E-05,-H(-),C24H38O2,HMDB0006322,['hmdb40_kegg_H_F_K_Na'],Tetracosapentaenoic acid (24:5n-6)
+911,359.1132,0.0004747,-H(-),C19H20O7,HMDB0035051,['hmdb40_kegg_H_F_K_Na'],Gibberellin A59
+912,359.1347,2.19E-05,-H(-),C16H24O9,HMDB0034626,['hmdb40_kegg_H_F_K_Na'],"1-(3,4-Dimethoxyphenyl)-1,2-ethanediol 1-O-b-D-glucoside"
+913,359.151,-0.0009399,-H(-),C20H24O6,HMDB0037235,['hmdb40_kegg_H_F_K_Na'],NA
+914,359.1866,-0.0001595,-H(-),C21H28O5,HMDB0000037,['hmdb40_kegg_H_F_K_Na'],Aldosterone
+915,361.0575,-0.0010421,-H(-),C17H14O9,HMDB0128749,['hmdb40_kegg_H_F_K_Na'],NA
+916,361.1304,-0.0011653,-H(-),C19H22O7,HMDB0031366,['hmdb40_kegg_H_F_K_Na'],Gibberellin A93
+917,361.1632,-0.0001881,-H(-),C16H22N6O4,HMDB0060080,['hmdb40_kegg_H_F_K_Na'],Thyrotropin releasing hormone
+918,361.2381,0.0003029,-H(-),C22H34O4,HMDB0010214,['hmdb40_kegg_H_F_K_Na'],"19,20-DiHDPA"
+919,361.3119,-0.0007293,-H(-),C24H42O2,HMDB0038380,['hmdb40_kegg_H_F_K_Na'],NA
+920,362.0508,-5.42E-05,-H(-),C10H14N5O8P,HMDB0001397,['hmdb40_kegg_H_F_K_Na'],Guanosine monophosphate
+921,362.1155,-0.0008441,-H(-),C20H17N3O4,NA,['hmdb40_kegg_H_F_K_Na'],NA
+922,363.0348,-0.0001116,-H(-),C10H13N4O9P,HMDB0001554,['hmdb40_kegg_H_F_K_Na'],Xanthylic acid
+923,363.0776,-0.0007718,-H(-),C15H16N4O5S,HMDB0258595,['hmdb40_kegg_H_F_K_Na'],NA
+924,363.1805,0.0008051,-H(-),C20H28O6,HMDB0012550,['hmdb40_kegg_H_F_K_Na'],12-Oxo-20-carboxy-leukotriene B4
+925,363.2534,0.0007309,-H(-),C22H36O4,HMDB0036803,['hmdb40_kegg_H_F_K_Na'],NA
+926,364.0972,4.12E-05,-H(-),C16H19N3O5S,HMDB0015193,['hmdb40_kegg_H_F_K_Na'],Amoxicillin
+927,364.2854,0.0002753,-H(-),C22H39NO3,HMDB0062334,['hmdb40_kegg_H_F_K_Na'],NA
+928,365.0329,0.000741,-H(-),C16H14O8S,HMDB0126071,['hmdb40_kegg_H_F_K_Na'],NA
+929,365.1967,0.0002271,-H(-),C20H30O6,HMDB0004235,['hmdb40_kegg_H_F_K_Na'],20-Carboxy-leukotriene B4
+930,365.3424,5.87E-05,-H(-),C24H46O2,HMDB0002368,['hmdb40_kegg_H_F_K_Na'],Nervonic acid
+931,366.0985,-0.0001669,-H(-),C20H17NO6,HMDB0243531,['hmdb40_kegg_H_F_K_Na'],Bicuculline
+932,367.1189,-0.0002169,-H(-),C21H20O6,HMDB0002269,['hmdb40_kegg_H_F_K_Na'],Curcumin
+933,367.1585,-2.38E-05,-H(-),C19H28O5S,HMDB0001032,['hmdb40_kegg_H_F_K_Na'],Dehydroepiandrosterone sulfate
+934,367.2141,0.0012103,-H(-),C23H30NO3,HMDB0014920,['hmdb40_kegg_H_F_K_Na'],Propantheline
+935,367.264,0.0002677,-H(-),C25H36O2,HMDB0036013,['hmdb40_kegg_H_F_K_Na'],"(R)-3,4-Dihydro-2-(4,8,12-trimethyl-3,7,11-tridecatrienyl)-2H-1-benzopyran-6-ol"
+936,367.2847,0.0007199,-H(-),C22H40O4,HMDB0038073,['hmdb40_kegg_H_F_K_Na'],Stearyl citrate
+937,367.3581,5.67E-05,-H(-),C24H48O2,HMDB0002003,['hmdb40_kegg_H_F_K_Na'],Tetracosanoic acid
+938,368.1613,0.0002489,-H(-),C20H23N3O4,HMDB0251835,['hmdb40_kegg_H_F_K_Na'],Propranolol
+939,369.028,0.0005626,-H(-),C15H14O9S,HMDB0012467,['hmdb40_kegg_H_F_K_Na'],(-)-Epicatechin sulfate
+940,369.1564,-0.0009097,-H(-),C18H26O8,HMDB0133009,['hmdb40_kegg_H_F_K_Na'],NA
+941,369.174,0.0001642,-H(-),C19H30O5S,HMDB0002759,['hmdb40_kegg_H_F_K_Na'],Androsterone sulfate
+942,369.1919,-1.43E-05,-H(-),C19H30O7,HMDB0032841,['hmdb40_kegg_H_F_K_Na'],"5-Megastigmen-7-yne-3,9-diol 9-glucoside"
+943,369.2128,0.0001859,-H(-),C16H34O9,HMDB0094680,['hmdb40_kegg_H_F_K_Na'],Octaethylene glycol
+944,369.2284,-0.0001369,-H(-),C20H34O6,HMDB0002886,['hmdb40_kegg_H_F_K_Na'],6-Keto-prostaglandin F1a
+945,369.243,0.0005203,-H(-),C24H34O3,HMDB0000476,['hmdb40_kegg_H_F_K_Na'],"3-Oxo-4,6-choladienoic acid"
+946,369.301,1.49E-05,-H(-),C22H42O4,HMDB0040270,['hmdb40_kegg_H_F_K_Na'],Diethylhexyl adipate
+947,370.9718,-0.0002982,-H(-),C13H8O11S,HMDB0031592,['hmdb40_kegg_H_F_K_Na'],Brevifolincarboxylic acid 9-sulfate
+948,371.0406,0.0002429,-H(-),C18H12O9,HMDB0033542,['hmdb40_kegg_H_F_K_Na'],Gomphidic acid
+949,371.1134,0.0002407,-H(-),C20H20O7,HMDB0030539,['hmdb40_kegg_H_F_K_Na'],Tangeritin
+950,371.1562,0.0009887,-H(-),C15H24N4O7,NA,['hmdb40_kegg_H_F_K_Na'],Patulin
+951,371.1865,-0.0001035,-H(-),C22H28O5,HMDB0030781,['hmdb40_kegg_H_F_K_Na'],Isomammein
+952,371.208,-0.0005233,-H(-),C19H32O7,HMDB0040668,['hmdb40_kegg_H_F_K_Na'],NA
+953,371.2438,7.21E-05,-H(-),C20H36O6,NA,['hmdb40_kegg_H_F_K_Na'],"8,8a-Deoxyoleandolide"
+954,371.2588,0.0003873,-H(-),C24H36O3,HMDB0013627,['hmdb40_kegg_H_F_K_Na'],Cervonoyl ethanolamide
+955,371.2791,0.0012035,-H(-),C21H40O5,HMDB0092901,['hmdb40_kegg_H_F_K_Na'],NA
+956,373.1291,0.0001667,-H(-),C20H22O7,HMDB0030598,['hmdb40_kegg_H_F_K_Na'],(-)-Wikstromol
+957,373.1499,0.0004889,-H(-),C17H26O9,HMDB0251007,['hmdb40_kegg_H_F_K_Na'],Deoxyloganin
+958,373.1866,0.0001443,-H(-),C18H30O8,HMDB0029782,['hmdb40_kegg_H_F_K_Na'],6-Epi-7-isocucurbic acid glucoside
+959,373.2748,-6.70E-06,-H(-),C24H38O3,HMDB0000308,['hmdb40_kegg_H_F_K_Na'],3b-Hydroxy-5-cholenoic acid
+960,373.31,0.0011577,-H(-),C25H42O2,HMDB0031677,['hmdb40_kegg_H_F_K_Na'],"5-(14-Nonadecenyl)-1,3-benzenediol"
+961,374.306,0.0004687,-H(-),C24H41NO2,HMDB0013626,['hmdb40_kegg_H_F_K_Na'],Adrenoyl ethanolamide
+962,375.1081,0.0004333,-H(-),C19H20O8,HMDB0138522,['hmdb40_kegg_H_F_K_Na'],NA
+963,375.131,-3.19E-05,-H(-),C17H20N4O6,HMDB0000244,['hmdb40_kegg_H_F_K_Na'],Riboflavin
+964,375.2907,-0.0002067,-H(-),C24H40O3,HMDB0000381,['hmdb40_kegg_H_F_K_Na'],Allolithocholic acid
+965,377.0735,0.0007068,-H(-),C11H17N5O8P,HMDB0059612,['hmdb40_kegg_H_F_K_Na'],7-Methylguanosine 5'-phosphate
+966,377.2698,-6.71E-05,-H(-),C23H38O4,HMDB0004666,['hmdb40_kegg_H_F_K_Na'],2-Arachidonylglycerol
+967,378.1034,0.0007521,-H(-),C14H21NO11,HMDB0000629,['hmdb40_kegg_H_F_K_Na'],Chondroitin
+968,381.3738,4.77E-05,-H(-),C25H50O2,HMDB0002361,['hmdb40_kegg_H_F_K_Na'],Pentacosanoic acid
+969,383.098,0.0003275,-H(-),C17H20O10,HMDB0029549,['hmdb40_kegg_H_F_K_Na'],Eleutheroside B1
+970,383.1145,-0.0008673,-H(-),C21H20O7,HMDB0029541,['hmdb40_kegg_H_F_K_Na'],(+)-Zeylenol
+971,383.3167,1.69E-05,-H(-),C23H44O4,HMDB0011543,['hmdb40_kegg_H_F_K_Na'],MG(0:0/20:1(11Z)/0:0)
+972,383.353,5.73E-05,-H(-),C24H48O3,HMDB0039540,['hmdb40_kegg_H_F_K_Na'],Cerebronic acid
+973,385.0717,-0.000626,-H(-),C15H18N2O8S,NA,['hmdb40_kegg_H_F_K_Na'],(7R)-7-(4-Carboxybutanamido)cephalosporanate
+974,385.0923,0.0005603,-H(-),C20H18O8,HMDB0029277,['hmdb40_kegg_H_F_K_Na'],8-8'-Dehydrodiferulic acid
+975,385.1298,-0.0005743,-H(-),C21H22O7,HMDB0030601,['hmdb40_kegg_H_F_K_Na'],Edultin
+976,385.166,-0.0002959,-H(-),C22H26O6,HMDB0030810,['hmdb40_kegg_H_F_K_Na'],Porson
+977,387,5.01E-05,-H(-),C9H14N2O11P2,HMDB0001000,['hmdb40_kegg_H_F_K_Na'],dUDP
+978,387.0872,0.0001771,-H(-),C23H16O6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+979,387.0928,0.0005281,-H(-),C16H20O11,HMDB0124952,['hmdb40_kegg_H_F_K_Na'],NA
+980,387.1093,-0.0007447,-H(-),C20H20O8,HMDB0029227,['hmdb40_kegg_H_F_K_Na'],"5-Hydroxy-3,3',4',7,8-pentamethoxyflavone"
+981,387.2021,0.0003583,-H(-),C19H32O8,HMDB0031676,['hmdb40_kegg_H_F_K_Na'],"5a,6a-Epoxy-7E-megastigmene-3a,9e-diol 3-glucoside"
+982,387.2541,-3.11E-05,-H(-),C24H36O4,HMDB0030366,['hmdb40_kegg_H_F_K_Na'],NA
+983,387.2903,0.0001273,-H(-),C25H40O3,HMDB0038523,['hmdb40_kegg_H_F_K_Na'],NA
+984,388.1984,0.0006349,-H(-),C19H27N5O4,HMDB0014490,['hmdb40_kegg_H_F_K_Na'],Alfuzosin
+985,388.2574,6.43E-05,-H(-) [+1],C24H36O4,HMDB0030366,['hmdb40_kegg_H_F_K_Na'],Sannamycin A
+986,389.1968,0.0001411,-H(-),C22H30O6,HMDB0030844,['hmdb40_kegg_H_F_K_Na'],"6,7-Dimethoxy-7-epirosmanol"
+987,389.2697,3.49E-05,-H(-),C24H38O4,HMDB0000328,['hmdb40_kegg_H_F_K_Na'],12-Ketodeoxycholic acid
+988,390.1607,0.0004891,-H(-),C26H21N3O,HMDB0254104,['hmdb40_kegg_H_F_K_Na'],Adenine
+989,391.2857,-0.0003361,-H(-),C24H40O4,HMDB0000348,['hmdb40_kegg_H_F_K_Na'],"3b,12a-Dihydroxy-5a-cholanoic acid"
+990,391.3222,-0.0004307,-H(-),C25H44O3,HMDB0112082,['hmdb40_kegg_H_F_K_Na'],NA
+991,393.0704,6.60E-05,-H(-),C13H19N2O10P,NA,['hmdb40_kegg_H_F_K_Na'],5'-Butyrylphosphoinosine
+992,393.1814,0.0005389,-H(-),C23H26N2O4,HMDB0249406,['hmdb40_kegg_H_F_K_Na'],D-Lombricine
+993,393.2439,-0.0003347,-H(-),C26H34O3,HMDB0258482,['hmdb40_kegg_H_F_K_Na'],NA
+994,393.3164,-6.39E-05,-H(-),C28H42O,HMDB0041050,['hmdb40_kegg_H_F_K_Na'],"Ergosta-5,7,22,24(28)-tetraen-3beta-ol"
+995,395.0082,-0.0004018,-H(-),C16H12O10S,HMDB0128825,['hmdb40_kegg_H_F_K_Na'],NA
+996,395.1351,-0.0003091,-H(-),C19H24O9,HMDB0040565,['hmdb40_kegg_H_F_K_Na'],2'-Oxoaloesol 7-glucoside
+997,395.1618,-0.0005125,-H(-),C22H24N2O5,HMDB0060582,['hmdb40_kegg_H_F_K_Na'],Benazepril
+998,395.3894,3.07E-05,-H(-),C26H52O2,HMDB0002356,['hmdb40_kegg_H_F_K_Na'],Hexacosanoic acid
+999,396.1453,-5.19E-05,-H(-),C22H23NO6,HMDB0030435,['hmdb40_kegg_H_F_K_Na'],Simulansamide
+1000,396.2525,-0.0004854,-H(-),C18H40NO6P,HMDB0012280,['hmdb40_kegg_H_F_K_Na'],Phytosphingosine-1-P
+1001,397.1401,0.0003921,-H(-),C21H22N2O6,HMDB0029356,['hmdb40_kegg_H_F_K_Na'],N-Feruloylglycyl-L-phenylalanine
+1002,397.1648,0.0009101,-H(-),C23H26O6,HMDB0041101,['hmdb40_kegg_H_F_K_Na'],4'-O-Methylkanzonol W
+1003,397.3321,0.0002089,-H(-),C24H46O4,HMDB0302983,['hmdb40_kegg_H_F_K_Na'],NA
+1004,397.3684,0.0002723,-H(-),C25H50O3,HMDB0040909,['hmdb40_kegg_H_F_K_Na'],Alpha-Hydroxyisobutyric acid
+1005,399.002,0.0007808,-H(-),C15H12O11S,HMDB0125257,['hmdb40_kegg_H_F_K_Na'],NA
+1006,399.1654,0.0006819,-H(-),C19H28O9,HMDB0030975,['hmdb40_kegg_H_F_K_Na'],Corchoionoside B
+1007,399.2023,0.0001343,-H(-),C20H32O8,HMDB0036855,['hmdb40_kegg_H_F_K_Na'],NA
+1008,399.22,-0.0009189,-H(-),C25H28N4O,NA,['hmdb40_kegg_H_F_K_Na'],Endomorphin-2
+1009,401.001,-0.0003307,-H(-),C15H14O9S2,HMDB0127816,['hmdb40_kegg_H_F_K_Na'],NA
+1010,401.0511,0.0003055,-H(-),C19H14O10,HMDB0034589,['hmdb40_kegg_H_F_K_Na'],Shoyuflavone B
+1011,401.0879,-5.31E-05,-H(-),C20H18O9,HMDB0041257,['hmdb40_kegg_H_F_K_Na'],"1-hydroxy-2-(beta-D-glucosyloxy)-9,10-anthraquinone"
+1012,402.0109,3.61E-05,-H(-),C9H15N3O11P2,HMDB0001546,['hmdb40_kegg_H_F_K_Na'],CDP
+1013,402.9949,3.87E-05,-H(-),C9H14N2O12P2,HMDB0000295,['hmdb40_kegg_H_F_K_Na'],Uridine 5'-diphosphate
+1014,403.0101,-0.0003438,-H(-),C14H16N2O6S3,HMDB0015276,['hmdb40_kegg_H_F_K_Na'],Sulfoxone
+1015,403.0983,-6.66E-05,-H(-),C20H16N6O2S,HMDB0032299,['hmdb40_kegg_H_F_K_Na'],Glyceryl lactopalmitate
+1016,403.1555,-0.0004175,-H(-),C25H24O5,HMDB0030785,['hmdb40_kegg_H_F_K_Na'],Mammeigin
+1017,403.1953,-0.0004494,-H(-),C23H32O4S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1018,403.2489,0.0001345,-H(-),C24H36O5,HMDB0000447,['hmdb40_kegg_H_F_K_Na'],Lovastatin
+1019,403.2851,0.0002769,-H(-),C25H40O4,HMDB0011555,['hmdb40_kegg_H_F_K_Na'],"MG(0:0/22:5(4Z,7Z,10Z,13Z,16Z)/0:0)"
+1020,404.0926,-0.0004512,-H(-),C18H19N3O6S,HMDB0014827,['hmdb40_kegg_H_F_K_Na'],Cephaloglycin
+1021,404.2188,0.0002915,-H(-),C21H31N3O5,HMDB0001938,['hmdb40_kegg_H_F_K_Na'],Lisinopril
+1022,404.2522,0.000226371,-H(-) [+1],C24H36O5,HMDB0000447,['hmdb40_kegg_H_F_K_Na'],Fortimicin A
+1023,407.1536,-0.0002582,-H(-),C21H28O6S,HMDB0034998,['hmdb40_kegg_H_F_K_Na'],Bakkenolide D
+1024,407.2805,-0.0001845,-H(-),C24H40O5,HMDB0000312,['hmdb40_kegg_H_F_K_Na'],"3a,7a,12b-Trihydroxy-5b-cholanoic acid"
+1025,409.1134,0.0005715,-H(-),C19H22O10,HMDB0130066,['hmdb40_kegg_H_F_K_Na'],NA
+1026,409.3108,0.0003907,-H(-),C28H42O2,HMDB0012958,['hmdb40_kegg_H_F_K_Na'],Gamma-Tocotrienol
+1027,409.3322,8.49E-05,-H(-),C25H46O4,HMDB0011553,['hmdb40_kegg_H_F_K_Na'],"MG(0:0/22:2(13Z,16Z)/0:0)"
+1028,409.4047,0.0004387,-H(-),C27H54O2,HMDB0002063,['hmdb40_kegg_H_F_K_Na'],Heptacosanoic acid
+1029,410.2332,0.0005239,-H(-),C25H33NO4,HMDB0242562,['hmdb40_kegg_H_F_K_Na'],Dextromethorphan
+1030,411.2021,0.0003253,-H(-),C21H32O8,HMDB0030082,['hmdb40_kegg_H_F_K_Na'],"5-(2,3-Dihydroxy-3-methylbutyl)-4-(3,4-epoxy-4-methylpentanoyl)-3,4-dihydroxy-2-isopentanoyl-2-cyclopenten-1-one"
+1031,411.2396,-0.0004878,-H(-),C18H39NO7P,HMDB0003752,['hmdb40_kegg_H_F_K_Na'],LysoPC(10:0)
+1032,411.3479,8.79E-05,-H(-),C25H48O4,HMDB0011552,['hmdb40_kegg_H_F_K_Na'],MG(0:0/22:1(13Z)/0:0)
+1033,412.9828,-0.0008176,-H(-),C15H10O12S,HMDB0129448,['hmdb40_kegg_H_F_K_Na'],NA
+1034,413.1109,-0.0006153,-H(-),C19H18N4O7,NA,['hmdb40_kegg_H_F_K_Na'],Futalosine
+1035,413.1969,0.0001081,-H(-),C24H30O6,HMDB0014838,['hmdb40_kegg_H_F_K_Na'],Eplerenone
+1036,413.2177,0.0004133,-H(-),C21H34O8,HMDB0030895,['hmdb40_kegg_H_F_K_Na'],"(4R,5S,7R,11x)-11,12-Dihydroxy-1(10)-spirovetiven-2-one 12-glucoside"
+1037,415.092,0.00089,-H(-),C15H20N4O8S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1038,415.3219,-8.37E-05,-H(-),C27H44O3,HMDB0000430,['hmdb40_kegg_H_F_K_Na'],"24,25-Dihydroxyvitamin D"
+1039,415.358,0.0002007,-H(-),C28H48O2,HMDB0001492,['hmdb40_kegg_H_F_K_Na'],Gamma-Tocopherol
+1040,416.9961,-0.0005691,-H(-),C15H14O10S2,HMDB0127807,['hmdb40_kegg_H_F_K_Na'],NA
+1041,417.1193,-0.0001881,-H(-),C21H22O9,HMDB0029520,['hmdb40_kegg_H_F_K_Na'],Liquiritin
+1042,417.1556,-0.0001517,-H(-),C22H26O8,HMDB0038928,['hmdb40_kegg_H_F_K_Na'],NA
+1043,417.3009,8.89E-05,-H(-),C26H42O4,HMDB0012515,['hmdb40_kegg_H_F_K_Na'],11'-Carboxy-alpha-chromanol
+1044,417.3372,0.0002223,-H(-),C27H46O3,HMDB0006280,['hmdb40_kegg_H_F_K_Na'],"7-a,25-Dihydroxycholesterol"
+1045,419.1338,0.0009619,-H(-),C21H24O9,HMDB0037483,['hmdb40_kegg_H_F_K_Na'],NA
+1046,419.2069,0.0006317,-H(-),C23H32O7,HMDB0035779,['hmdb40_kegg_H_F_K_Na'],Armillane
+1047,419.3159,0.0007489,-H(-),C26H44O4,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1048,419.3521,0.0009343,-H(-),C27H48O3,HMDB0001457,['hmdb40_kegg_H_F_K_Na'],"5-b-Cholestane-3a ,7a ,12a-triol"
+1049,421.1131,0.0008935,-H(-),C20H22O10,HMDB0036398,['hmdb40_kegg_H_F_K_Na'],Catechin 7-glucoside
+1050,421.2266,-2.86E-05,-H(-),C20H38O7S,HMDB0032386,['hmdb40_kegg_H_F_K_Na'],2-Methylacetophenone
+1051,421.405,0.0001337,-H(-),C28H54O2,HMDB0035538,['hmdb40_kegg_H_F_K_Na'],"12,14-Octacosanedione"
+1052,422.1229,0.0009476,-H(-),C15H25N3O9S,HMDB0128932,['hmdb40_kegg_H_F_K_Na'],NA
+1053,422.1519,-0.0008387,-H(-),C26H21N3O3,HMDB0250397,['hmdb40_kegg_H_F_K_Na'],NA
+1054,423.1301,-0.0004435,-H(-),C20H24O10,HMDB0029605,['hmdb40_kegg_H_F_K_Na'],Ginkgolide J
+1055,423.14,0.0008839,-H(-),C19H24N2O9,HMDB0060786,['hmdb40_kegg_H_F_K_Na'],NA
+1056,423.2388,6.27E-05,-H(-),C23H36O7,HMDB0005022,['hmdb40_kegg_H_F_K_Na'],Pravastatin
+1057,423.274,0.0011651,-H(-),C24H40O6,HMDB0000307,['hmdb40_kegg_H_F_K_Na'],1b-Hydroxycholic acid
+1058,423.4205,0.0002747,-H(-),C28H56O2,HMDB0002348,['hmdb40_kegg_H_F_K_Na'],Octacosanoic acid
+1059,425.2175,0.0006023,-H(-),C22H34O8,HMDB0036011,['hmdb40_kegg_H_F_K_Na'],Cinnzeylanine
+1060,425.306,0.0001063,-H(-),C28H42O3,HMDB0012562,['hmdb40_kegg_H_F_K_Na'],13'-Hydroxy-gamma-tocotrienol
+1061,426.0222,-2.25E-05,-H(-),C10H15N5O10P2,HMDB0000061,['hmdb40_kegg_H_F_K_Na'],"Adenosine 3',5'-diphosphate"
+1062,427.0064,-0.0002869,-H(-),C10H14N4O11P2,HMDB0003335,['hmdb40_kegg_H_F_K_Na'],IDP
+1063,427.1243,0.0003311,-H(-),C19H24O11,HMDB0125492,['hmdb40_kegg_H_F_K_Na'],NA
+1064,427.1968,0.0005729,-H(-),C21H32O9,HMDB0035610,['hmdb40_kegg_H_F_K_Na'],Taraxacolide 1-O-b-D-glucopyranoside
+1065,427.2255,-0.0002749,-H(-),C25H28N6O,HMDB0015163,['hmdb40_kegg_H_F_K_Na'],Irbesartan
+1066,429.1562,-0.0006657,-H(-),C23H26O8,HMDB0033259,['hmdb40_kegg_H_F_K_Na'],Cubebinone
+1067,429.3738,4.57E-05,-H(-),C29H50O2,HMDB0001893,['hmdb40_kegg_H_F_K_Na'],Alpha-Tocopherol
+1068,431.1347,7.29E-05,-H(-),C22H24O9,HMDB0031723,['hmdb40_kegg_H_F_K_Na'],Trichocarposide
+1069,431.2284,0.0002649,-H(-),C21H36O9,HMDB0037823,['hmdb40_kegg_H_F_K_Na'],NA
+1070,431.3167,-4.91E-05,-H(-),C27H44O4,HMDB0006228,['hmdb40_kegg_H_F_K_Na'],24-Hydroxycalcitriol
+1071,431.3529,0.0001333,-H(-),C28H48O3,HMDB0012561,['hmdb40_kegg_H_F_K_Na'],13'-Hydroxy-gamma-tocopherol
+1072,432.2038,-0.0010493,-H(-),C23H31NO7,HMDB0010341,['hmdb40_kegg_H_F_K_Na'],Dextrorphan O-glucuronide
+1073,433.3113,-6.73E-05,-H(-),C30H42O2,HMDB0035685,['hmdb40_kegg_H_F_K_Na'],beta-Citraurol
+1074,433.3322,9.39E-05,-H(-),C27H46O4,HMDB0000359,['hmdb40_kegg_H_F_K_Na'],"3a,7a-Dihydroxycoprostanic acid"
+1075,434.2201,-0.0003067,-H(-),C24H29N5O3,HMDB0014323,['hmdb40_kegg_H_F_K_Na'],Valsartan
+1076,435.2513,0.0003632,-H(-),C21H41O7P,HMDB0000443,['hmdb40_kegg_H_F_K_Na'],LysoPA(0:0/18:1(9Z))
+1077,435.312,-0.0004015,-H(-),C26H44O5,HMDB0002195,['hmdb40_kegg_H_F_K_Na'],Varanic acid
+1078,435.3476,0.0003829,-H(-),C27H48O4,HMDB0000520,['hmdb40_kegg_H_F_K_Na'],"5a-Cholestane-3a,7a,12a,25-tetrol"
+1079,436.2117,0.0012075,-H(-),C26H31NO5,HMDB0030229,['hmdb40_kegg_H_F_K_Na'],Lagerstroemine
+1080,437.0868,-9.20E-06,-H(-),C17H19N4O8P,HMDB0059614,['hmdb40_kegg_H_F_K_Na'],"Riboflavin cyclic-4',5'-phosphate"
+1081,437.1975,-0.0005749,-H(-),C26H30O6,HMDB0036597,['hmdb40_kegg_H_F_K_Na'],Kurarinone
+1082,437.3268,0.0004625,-H(-),C26H46O5,HMDB0002126,['hmdb40_kegg_H_F_K_Na'],"27-Nor-5b-cholestane-3a,7a,12a,24,25-pentol"
+1083,438.2621,0.0004702,-H(-),C20H42NO7P,HMDB0011472,['hmdb40_kegg_H_F_K_Na'],LysoPE(0:0/15:0)
+1084,439.1974,-5.21E-05,-H(-),C22H32O9,HMDB0036162,['hmdb40_kegg_H_F_K_Na'],10-Deacetyl-2-debenzoylbaccatin III
+1085,439.3211,0.0006673,-H(-),C29H44O3,HMDB0012560,['hmdb40_kegg_H_F_K_Na'],13'-Hydroxy-alpha-tocotrienol
+1086,439.3425,0.0003665,-H(-),C26H48O5,HMDB0029804,['hmdb40_kegg_H_F_K_Na'],Momordol
+1087,439.3791,0.0001959,-H(-),C27H52O4,HMDB0011559,['hmdb40_kegg_H_F_K_Na'],MG(0:0/24:1(15Z)/0:0)
+1088,440.1323,-0.0003821,-H(-),C19H27N3O5S2,HMDB0014349,['hmdb40_kegg_H_F_K_Na'],Dofetilide
+1089,441.2858,2.07E-05,-H(-),C24H42O7,HMDB0038242,['hmdb40_kegg_H_F_K_Na'],Ascorbic acid
+1090,441.3009,0.0001199,-H(-),C28H42O4,HMDB0032666,['hmdb40_kegg_H_F_K_Na'],"(3beta,5alpha,9alpha,22E,24R)-5,9-Epidioxy-3-hydroxyergosta-7,22-dien-6-one"
+1091,441.3224,-0.0002249,-H(-),C25H46O6,HMDB0059931,['hmdb40_kegg_H_F_K_Na'],NA
+1092,442.0171,-3.69E-05,-H(-),C10H15N5O11P2,HMDB0001201,['hmdb40_kegg_H_F_K_Na'],Guanosine diphosphate
+1093,443.1722,-0.0010297,-H(-),C24H28O8,HMDB0132661,['hmdb40_kegg_H_F_K_Na'],NA
+1094,443.3003,0.0011507,-H(-),C24H44O7,HMDB0032521,['hmdb40_kegg_H_F_K_Na'],Stearyl citrate
+1095,443.3164,0.0002429,-H(-),C28H44O4,HMDB0006227,['hmdb40_kegg_H_F_K_Na'],"1-a,24R,25-Trihydroxyvitamin D2"
+1096,443.3528,0.0002333,-H(-),C29H48O3,HMDB0011662,['hmdb40_kegg_H_F_K_Na'],3-beta-Hydroxy-4-beta-methyl-5-alpha-cholest-7-ene-4-alpha-carboxylate
+1097,444.312,-5.81E-05,-H(-),C27H43NO4,HMDB0062337,['hmdb40_kegg_H_F_K_Na'],Caffeoyl tyrosine
+1098,445.0539,-0.0008269,-H(-),C11H20N4O11P2,HMDB0001564,['hmdb40_kegg_H_F_K_Na'],CDP-Ethanolamine
+1099,445.2349,0.0008417,-H(-),C25H30N6O2,HMDB0013845,['hmdb40_kegg_H_F_K_Na'],SR 49498
+1100,445.3322,0.0001069,-H(-),C28H46O4,HMDB0012557,['hmdb40_kegg_H_F_K_Na'],13'-Carboxy-gamma-tocopherol
+1101,445.3687,2.23E-05,-H(-),C29H50O3,HMDB0012559,['hmdb40_kegg_H_F_K_Na'],13'-Hydroxy-alpha-tocopherol
+1102,446.0854,3.11E-05,-H(-),C21H19O11,HMDB0125152,['hmdb40_kegg_H_F_K_Na'],NA
+1103,447.2407,-0.0012058,-H(-),C18H36N6O5S,NA,['hmdb40_kegg_H_F_K_Na'],Glutathionylaminopropylcadaverine
+1104,447.3116,-4.50E-06,-H(-),C27H44O5,HMDB0032783,['hmdb40_kegg_H_F_K_Na'],Porrigenin A
+1105,447.3473,0.0006649,-H(-),C28H48O4,HMDB0034332,['hmdb40_kegg_H_F_K_Na'],6-Deoxodolichosterone
+1106,447.3835,0.0008653,-H(-),C29H52O3,HMDB0030014,['hmdb40_kegg_H_F_K_Na'],"(3beta,5alpha,6beta,24R)-Stigmastane-3,5,6-triol"
+1107,448.2446,0.0006971,-H(-),C23H35N3O6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1108,448.3069,-4.15E-05,-H(-),C26H43NO5,HMDB0000631,['hmdb40_kegg_H_F_K_Na'],Deoxycholic acid glycine conjugate
+1109,449.3269,0.0003835,-H(-),C27H46O5,HMDB0000601,['hmdb40_kegg_H_F_K_Na'],Coprocholic acid
+1110,449.3632,0.0003909,-H(-),C28H50O4,HMDB0033984,['hmdb40_kegg_H_F_K_Na'],6-Deoxocastasterone
+1111,450.2145,0.0001399,-H(-),C24H29N5O4,HMDB0013848,['hmdb40_kegg_H_F_K_Na'],4-Hydroxyvalsartan
+1112,452.2782,4.62E-05,-H(-),C21H44NO7P,HMDB0011473,['hmdb40_kegg_H_F_K_Na'],LysoPE(0:0/16:0)
+1113,453.2483,0.0010813,-H(-),C24H38O8,HMDB0341226,['hmdb40_kegg_H_F_K_Na'],NA
+1114,453.322,0.0001741,-H(-),C26H46O6,HMDB0002157,['hmdb40_kegg_H_F_K_Na'],27-Norcholestanehexol
+1115,454.1478,0.0002851,-H(-),C20H21N7O6,HMDB0001354,['hmdb40_kegg_H_F_K_Na'],"5,10-Methenyltetrahydrofolic acid"
+1116,455.2085,-0.0010033,-H(-),C26H32O7,NA,['hmdb40_kegg_H_F_K_Na'],4-Coumaryl alcohol
+1117,455.218,0.0007391,-H(-),C25H32N2O6,HMDB0259814,['hmdb40_kegg_H_F_K_Na'],Vindoline
+1118,455.2473,-5.02E-05,-H(-),C24H40O6S,HMDB0000907,['hmdb40_kegg_H_F_K_Na'],Sulfolithocholic acid
+1119,455.3167,6.90E-06,-H(-),C29H44O4,NA,['hmdb40_kegg_H_F_K_Na'],Cilastatin
+1120,455.353,3.83E-05,-H(-),C30H48O3,HMDB0002364,['hmdb40_kegg_H_F_K_Na'],Oleanolic acid
+1121,457.0786,-0.0009999,-H(-),C22H18O11,HMDB0003153,['hmdb40_kegg_H_F_K_Na'],Epigallocatechin gallate
+1122,457.1191,-0.0003532,-H(-),C21H22N4O6S,HMDB0014438,['hmdb40_kegg_H_F_K_Na'],Raltitrexed
+1123,457.223,0.0001277,-H(-),C26H34O7,HMDB0034760,['hmdb40_kegg_H_F_K_Na'],Hydroxystrobilurin D
+1124,457.3317,0.0006469,-H(-),C29H46O4,HMDB0032669,['hmdb40_kegg_H_F_K_Na'],"(3beta,5alpha,9alpha,22E,24R)-3,5,9-Trihydroxy-23-methylergosta-7,22-dien-6-one"
+1125,457.3684,0.0003293,-H(-),C30H50O3,HMDB0033256,['hmdb40_kegg_H_F_K_Na'],"(20S,24E)-20,26-Dihydroxy-24-dammaren-3-one"
+1126,459.1308,-0.0011365,-H(-),C23H24O10,HMDB0030869,['hmdb40_kegg_H_F_K_Na'],Wistin
+1127,459.3114,0.0001485,-H(-),C28H44O5,HMDB0032690,['hmdb40_kegg_H_F_K_Na'],"(3beta,5alpha,9alpha,14alpha,22E,24R)-3,5,9,14-Tetrahydroxyergosta-7,22-dien-6-one"
+1128,459.3267,0.0001517,-H(-),C32H44O2,HMDB0032879,['hmdb40_kegg_H_F_K_Na'],all-trans-Carophyll yellow
+1129,459.3478,0.0001739,-H(-),C29H48O4,HMDB0012555,['hmdb40_kegg_H_F_K_Na'],13'-Carboxy-alpha-tocopherol
+1130,461.2671,0.0002732,-H(-),C23H43O7P,HMDB0062303,['hmdb40_kegg_H_F_K_Na'],NA
+1131,461.3282,-0.0009295,-H(-),C28H46O5,HMDB0034336,['hmdb40_kegg_H_F_K_Na'],Dolichosterone
+1132,461.3636,1.99E-05,-H(-),C29H50O4,HMDB0034430,['hmdb40_kegg_H_F_K_Na'],6-Deoxohomodolichosterone
+1133,462.117,-0.0001979,-H(-),C22H23O11,HMDB0013689,['hmdb40_kegg_H_F_K_Na'],Peonidin-3-glucoside
+1134,463.3061,0.0004521,-H(-),C27H44O6,HMDB0251684,['hmdb40_kegg_H_F_K_Na'],Ecdysone
+1135,464.3024,-0.0006249,-H(-),C26H43NO6,HMDB0000138,['hmdb40_kegg_H_F_K_Na'],Glycocholic acid
+1136,465.3043,5.36E-05,-H(-),C27H46O4S,HMDB0000653,['hmdb40_kegg_H_F_K_Na'],Cholesterol sulfate
+1137,465.3217,0.0004251,-H(-),C27H46O6,HMDB0062534,['hmdb40_kegg_H_F_K_Na'],NA
+1138,465.337,0.0003893,-H(-),C31H46O3,HMDB0002972,['hmdb40_kegg_H_F_K_Na'],"Vitamin K1 2,3-epoxide"
+1139,465.3583,0.0002315,-H(-),C28H50O5,HMDB0304235,['hmdb40_kegg_H_F_K_Na'],6alpha-Hydroxy-castasterone
+1140,465.4674,0.0003227,-H(-),C31H62O2,HMDB0032682,['hmdb40_kegg_H_F_K_Na'],10-Hydroxy-16-hentriacontanone
+1141,466.3076,-8.67E-05,-H(-),C28H41N3O3,HMDB0042042,['hmdb40_kegg_H_F_K_Na'],NA
+1142,466.9664,-3.86E-05,-H(-),C9H15N2O14P3,HMDB0001191,['hmdb40_kegg_H_F_K_Na'],Deoxyuridine triphosphate
+1143,467.0833,-0.0001757,-H(-),C20H20O13,HMDB0038888,['hmdb40_kegg_H_F_K_Na'],NA
+1144,467.2647,0.0003063,-H(-),C25H40O8,HMDB0010321,['hmdb40_kegg_H_F_K_Na'],"3,17-Androstanediol glucuronide"
+1145,467.3379,-0.0001189,-H(-),C27H48O6,HMDB0258186,['hmdb40_kegg_H_F_K_Na'],5beta-scymnol
+1146,467.3888,0.0006327,-H(-),C32H52O2,HMDB0035806,['hmdb40_kegg_H_F_K_Na'],psi-Taraxasteryl acetate
+1147,468.2508,-0.0003905,-H(-),C26H35N3O5,HMDB0253814,['hmdb40_kegg_H_F_K_Na'],NA
+1148,469.129,0.0003197,-H(-),C28H22O7,HMDB0129148,['hmdb40_kegg_H_F_K_Na'],NA
+1149,469.3322,0.0001559,-H(-),C30H46O4,HMDB0011628,['hmdb40_kegg_H_F_K_Na'],Glycyrrhetinic acid
+1150,470.182,5.73E-05,-H(-),C25H29NO8,HMDB0060629,['hmdb40_kegg_H_F_K_Na'],NA
+1151,470.2166,-0.0008105,-H(-),C22H29N7O5,HMDB0256926,['hmdb40_kegg_H_F_K_Na'],Puromycin
+1152,471.174,0.0005651,-H(-),C20H24N8O6,HMDB0001534,['hmdb40_kegg_H_F_K_Na'],5-Formiminotetrahydrofolic acid
+1153,471.2422,4.04E-05,-H(-),C24H40O7S,HMDB0002522,['hmdb40_kegg_H_F_K_Na'],Chenodeoxycholic acid sulfate
+1154,471.3476,0.0003449,-H(-),C30H48O4,HMDB0002392,['hmdb40_kegg_H_F_K_Na'],Maslinic acid
+1155,473.1811,0.0005709,-H(-),C25H30O9,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1156,473.3634,0.0001899,-H(-),C30H50O4,HMDB0034505,['hmdb40_kegg_H_F_K_Na'],Soyasapogenol A
+1157,475.2336,0.0001243,-H(-),C26H36O8,HMDB0003141,['hmdb40_kegg_H_F_K_Na'],Retinoyl b-glucuronide
+1158,475.3428,0.0001005,-H(-),C29H48O5,HMDB0034079,['hmdb40_kegg_H_F_K_Na'],Homodolichosterone
+1159,475.3788,0.0004729,-H(-),C30H52O4,HMDB0038244,['hmdb40_kegg_H_F_K_Na'],Chloropanaxydiol
+1160,477.3217,0.0004361,-H(-),C28H46O6,HMDB0034086,['hmdb40_kegg_H_F_K_Na'],Dolicholide
+1161,477.3747,-0.0009383,-H(-),C33H50O2,HMDB0034578,['hmdb40_kegg_H_F_K_Na'],Deterrol stearate
+1162,478.2937,0.0001622,-H(-),C23H46NO7P,HMDB0011475,['hmdb40_kegg_H_F_K_Na'],LysoPE(0:0/18:1(11Z))
+1163,479.2553,-0.0001585,-H(-),C28H36N2O5,NA,['hmdb40_kegg_H_F_K_Na'],Voacamine
+1164,479.3369,0.0008691,-H(-),C28H48O6,HMDB0034081,['hmdb40_kegg_H_F_K_Na'],Brassinolide
+1165,480.168,-0.0002921,-H(-),C27H23N5O4,HMDB0015481,['hmdb40_kegg_H_F_K_Na'],Pranlukast
+1166,480.3095,8.12E-05,-H(-),C23H48NO7P,HMDB0010381,['hmdb40_kegg_H_F_K_Na'],LysoPC(15:0)
+1167,481.1142,-0.0002115,-H(-),C25H22O10,HMDB0030583,['hmdb40_kegg_H_F_K_Na'],Silibinin
+1168,481.2239,-0.0006973,-H(-),C28H34O7,HMDB0029991,['hmdb40_kegg_H_F_K_Na'],Dulciol C
+1169,481.244,0.0003109,-H(-),C25H38O9,HMDB0010351,['hmdb40_kegg_H_F_K_Na'],11-beta-Hydroxyandrosterone-3-glucuronide
+1170,481.3321,0.0002139,-H(-),C31H46O4,HMDB0032111,['hmdb40_kegg_H_F_K_Na'],Adlupone
+1171,483.2965,-0.0001517,-H(-),C26H44O8,HMDB0038539,['hmdb40_kegg_H_F_K_Na'],NA
+1172,487.1,4.11E-05,-H(-),C14H26N4O11P2,HMDB0001413,['hmdb40_kegg_H_F_K_Na'],Citicoline
+1173,487.1975,-0.0001371,-H(-),C26H32O9,HMDB0035860,['hmdb40_kegg_H_F_K_Na'],Terretonin
+1174,487.2378,-0.000682,-H(-),C24H40O8S,HMDB0002421,['hmdb40_kegg_H_F_K_Na'],7-Sulfocholic acid
+1175,487.2541,0.0007315,-H(-),C24H40O10,HMDB0038732,['hmdb40_kegg_H_F_K_Na'],NA
+1176,487.3426,0.0002555,-H(-),C30H48O5,HMDB0034036,['hmdb40_kegg_H_F_K_Na'],Pitheduloside I
+1177,489.3581,0.0004395,-H(-),C30H50O5,HMDB0034525,['hmdb40_kegg_H_F_K_Na'],Barringtogenol C
+1178,490.2629,0.0003852,-H(-),C27H41NO5S,HMDB0251876,['hmdb40_kegg_H_F_K_Na'],epothilone D
+1179,490.2809,0.0008302,-H(-),C20H41N7O5S,NA,['hmdb40_kegg_H_F_K_Na'],Glutathionylspermine
+1180,490.9769,0.0006938,-H(-),C10H15N4O13P3,HMDB0003537,['hmdb40_kegg_H_F_K_Na'],2'-Deoxyinosine triphosphate
+1181,491.2284,0.0002329,-H(-),C26H36O9,HMDB0060123,['hmdb40_kegg_H_F_K_Na'],NA
+1182,491.264,0.0009923,-H(-),C27H40O8,HMDB0036313,['hmdb40_kegg_H_F_K_Na'],Erinacine G
+1183,492.0909,-0.0004649,-H(-),C21H23N3O7S2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1184,493.2235,-0.0003263,-H(-),C29H34O7,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1185,493.2441,0.0001779,-H(-),C26H38O9,HMDB0033655,['hmdb40_kegg_H_F_K_Na'],"7,11-Bisdeacetylvaltrate 7-(3-methylpentanoate) 11-(3-hydroxy-3-methylbutanoate)"
+1186,493.2937,-9.12E-05,-H(-),C24H47O8P,HMDB0115484,['hmdb40_kegg_H_F_K_Na'],NA
+1187,493.3168,0.0002367,-H(-),C28H46O7,NA,['hmdb40_kegg_H_F_K_Na'],makisterone B
+1188,493.4986,0.0003657,-H(-),C33H66O2,HMDB0039537,['hmdb40_kegg_H_F_K_Na'],NA
+1189,494.325,0.0001802,-H(-),C24H50NO7P,HMDB0010382,['hmdb40_kegg_H_F_K_Na'],LysoPC(16:0)
+1190,495.3323,0.0007172,-H(-),C24H51NO7P,HMDB0061702,['hmdb40_kegg_H_F_K_Na'],NA
+1191,498.2894,3.58E-05,-H(-),C26H45NO6S,HMDB0000874,['hmdb40_kegg_H_F_K_Na'],Tauroursodeoxycholic acid
+1192,499.3785,0.0008039,-H(-),C32H52O4,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1193,500.2805,0.0001669,-H(-),C32H39NO4,HMDB0005030,['hmdb40_kegg_H_F_K_Na'],Fexofenadine
+1194,501.0881,0.0004695,-H(-),C20H22O15,HMDB0127948,['hmdb40_kegg_H_F_K_Na'],NA
+1195,501.3221,7.81E-05,-H(-),C30H46O6,HMDB0034551,['hmdb40_kegg_H_F_K_Na'],Medicagenic acid
+1196,503.1614,0.0003701,-H(-),C18H32O16,HMDB0001262,['hmdb40_kegg_H_F_K_Na'],Maltotriose
+1197,503.2283,0.0003069,-H(-),C27H36O9,HMDB0039122,['hmdb40_kegg_H_F_K_Na'],Macrocin
+1198,503.3371,0.0007201,-H(-),C30H48O6,HMDB0034500,['hmdb40_kegg_H_F_K_Na'],Protobassic acid
+1199,504.3095,3.42E-05,-H(-),C25H48NO7P,HMDB0011483,['hmdb40_kegg_H_F_K_Na'],"LysoPE(0:0/20:2(11Z,14Z))"
+1200,505.3523,0.0011391,-H(-),C30H50O6,HMDB0034519,['hmdb40_kegg_H_F_K_Na'],Theasapogenol A
+1201,506.3248,0.0004422,-H(-),C25H50NO7P,HMDB0011482,['hmdb40_kegg_H_F_K_Na'],LysoPE(0:0/20:1(11Z))
+1202,507.369,8.51E-05,-H(-),C30H52O6,HMDB0035853,['hmdb40_kegg_H_F_K_Na'],Fasciculol C
+1203,508.3406,0.0002212,-H(-),C25H52NO7P,HMDB0011481,['hmdb40_kegg_H_F_K_Na'],LysoPE(0:0/20:0)
+1204,509.4573,0.0002019,-H(-),C32H62O4,HMDB0032494,['hmdb40_kegg_H_F_K_Na'],Propylene glycol mono- and diesters of fats and fatty acids
+1205,511.2707,-0.0005903,-H(-),C30H40O7,HMDB0035980,['hmdb40_kegg_H_F_K_Na'],"3,7,11,15,23-Pentaoxolanost-8-en-26-oic acid"
+1206,511.3424,0.0004845,-H(-),C32H48O5,HMDB0031879,['hmdb40_kegg_H_F_K_Na'],"11a,12a-Epoxy-3b-hydroxy-28,13-oleananolide 3-acetate"
+1207,511.3788,0.0004609,-H(-),C33H52O4,HMDB0035267,['hmdb40_kegg_H_F_K_Na'],Methyl 3b-hydroxy-13(18)-oleanen-28-oate
+1208,512.2417,0.0001958,-H(-),C25H40NO8P,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1209,513.271,-0.0004325,-H(-),C26H42O10,HMDB0030737,['hmdb40_kegg_H_F_K_Na'],Capsianoside V
+1210,514.2843,9.54E-05,-H(-),C26H45NO7S,HMDB0000036,['hmdb40_kegg_H_F_K_Na'],Taurocholic acid
+1211,515.2285,0.0001679,-H(-),C28H36O9,HMDB0030005,['hmdb40_kegg_H_F_K_Na'],Austalide A
+1212,516.2755,6.50E-06,-H(-),C32H39NO5,NA,['hmdb40_kegg_H_F_K_Na'],Terpendole K
+1213,517.1715,1.11E-05,-H(-),C26H30O11,HMDB0034813,['hmdb40_kegg_H_F_K_Na'],Lupiwighteone hydrate 7-glucoside
+1214,517.2079,-2.15E-05,-H(-),C27H34O10,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1215,517.2441,0.0001569,-H(-),C28H38O9,HMDB0030154,['hmdb40_kegg_H_F_K_Na'],Austalide G
+1216,517.3165,0.0005427,-H(-),C30H46O7,HMDB0034392,['hmdb40_kegg_H_F_K_Na'],Perulactone
+1217,517.3895,0.0003145,-H(-),C32H54O5,HMDB0037781,['hmdb40_kegg_H_F_K_Na'],NA
+1218,517.4045,0.0005817,-H(-),C36H54O2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1219,519.2036,-0.0011307,-H(-),C30H32O8,HMDB0032730,['hmdb40_kegg_H_F_K_Na'],Divanillyltetrahydrofuran ferulate
+1220,519.2226,0.0009845,-H(-),C27H36O10,HMDB0036525,['hmdb40_kegg_H_F_K_Na'],NA
+1221,519.2597,0.0002879,-H(-),C28H40O9,HMDB0030116,['hmdb40_kegg_H_F_K_Na'],Withaperuvin D
+1222,519.296,0.0003753,-H(-),C29H44O8,HMDB0041366,['hmdb40_kegg_H_F_K_Na'],Cucurbitacin P
+1223,519.3316,0.0011087,-H(-),C30H48O7,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1224,519.3695,-0.0003749,-H(-),C31H52O6,HMDB0038388,['hmdb40_kegg_H_F_K_Na'],NA
+1225,520.003,0.0010888,-H(-),C11H18N5O13P3,HMDB0060781,['hmdb40_kegg_H_F_K_Na'],Guanosine triphosphate
+1226,521.9834,-2.06E-05,-H(-),C10H16N5O14P3,HMDB0001273,['hmdb40_kegg_H_F_K_Na'],NA
+1227,527.0465,0.0008189,-H(-),C16H22N2O14P2,NA,['hmdb40_kegg_H_F_K_Na'],"dTDP-3,4-dioxo-2,6-dideoxy-D-glucose"
+1228,528.2629,0.000786,-H(-),C26H43NO8S,HMDB0002409,['hmdb40_kegg_H_F_K_Na'],"N-[(3a,5b,7b)-7-hydroxy-24-oxo-3-(sulfooxy)cholan-24-yl]-Glycine"
+1229,528.309,0.0005622,-H(-),C27H48NO7P,HMDB0011493,['hmdb40_kegg_H_F_K_Na'],"LysoPE(0:0/22:4(7Z,10Z,13Z,16Z))"
+1230,529.2644,0.0010341,-H(-),C26H42O11,HMDB0034679,['hmdb40_kegg_H_F_K_Na'],Cinncassiol D2 glucoside
+1231,529.3034,-0.0002329,-H(-),C28H42N4O6,HMDB0030392,['hmdb40_kegg_H_F_K_Na'],Kukoamine A
+1232,529.4625,0.0001203,-H(-),C35H62O3,HMDB0034033,['hmdb40_kegg_H_F_K_Na'],Sabadelin
+1233,530.1449,8.78E-05,-H(-),C21H29N3O11S,HMDB0128696,['hmdb40_kegg_H_F_K_Na'],NA
+1234,533.3122,-0.0001737,-H(-),C30H46O8,HMDB0035885,['hmdb40_kegg_H_F_K_Na'],Ganoderic acid L
+1235,533.3997,0.0003623,-H(-),C36H54O3,HMDB0034553,['hmdb40_kegg_H_F_K_Na'],"(3b,24R,25x)-26-Benzoyloxystigmast-5-ene-3-ol"
+1236,535.3409,-0.0003302,-H(-),C27H53O8P,HMDB0115487,['hmdb40_kegg_H_F_K_Na'],NA
+1237,536.0989,-0.0002051,-H(-),C30H19NO9,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1238,536.5049,-5.87E-05,-H(-),C34H67NO3,HMDB0000790,['hmdb40_kegg_H_F_K_Na'],N-Palmitoylsphingosine
+1239,537.4888,5.89E-05,-H(-),C34H66O4,HMDB0112106,['hmdb40_kegg_H_F_K_Na'],NA
+1240,539.4314,0.0003241,-H(-),C32H60O6,HMDB0071246,['hmdb40_kegg_H_F_K_Na'],NA
+1241,540.0539,-2.97E-05,-H(-),C15H21N5O13P2,HMDB0249529,['hmdb40_kegg_H_F_K_Na'],NA
+1242,541.1345,0.0006287,-H(-),C27H26O12,HMDB0034687,['hmdb40_kegg_H_F_K_Na'],Resveratrol 4'-(6-galloylglucoside)
+1243,549.1034,0.0004107,-H(-),C28H22O12,HMDB0039565,['hmdb40_kegg_H_F_K_Na'],NA
+1244,551.3044,0.0001715,-H(-),C22H44N6O10,HMDB0015642,['hmdb40_kegg_H_F_K_Na'],Arbekacin
+1245,551.4674,0.0006745,-H(-),C34H64O5,HMDB0007070,['hmdb40_kegg_H_F_K_Na'],DG(15:0/16:1(9Z)/0:0)
+1246,558.0642,0.0002409,-H(-),C15H23N5O14P2,HMDB0001178,['hmdb40_kegg_H_F_K_Na'],Adenosine diphosphate ribose
+1247,561.3434,-0.0001367,-H(-),C32H50O8,HMDB0246992,['hmdb40_kegg_H_F_K_Na'],NA
+1248,563.0686,-0.0001129,-H(-),C16H26N2O16P2,HMDB0001328,['hmdb40_kegg_H_F_K_Na'],dTDP-D-glucose
+1249,563.3722,-0.0004032,-H(-),C29H57O8P,HMDB0115489,['hmdb40_kegg_H_F_K_Na'],NA
+1250,563.5044,6.39E-05,-H(-),C36H68O4,HMDB0112105,['hmdb40_kegg_H_F_K_Na'],NA
+1251,565.0479,-0.0002013,-H(-),C15H24N2O17P2,HMDB0000286,['hmdb40_kegg_H_F_K_Na'],Uridine diphosphate glucose
+1252,566.3276,8.90E-06,-H(-),C37H45NO4,HMDB0256240,['hmdb40_kegg_H_F_K_Na'],Penitrem D
+1253,567.4625,0.0004731,-H(-),C34H64O6,HMDB0071165,['hmdb40_kegg_H_F_K_Na'],NA
+1254,571.4518,0.0002797,-H(-),C40H60O2,HMDB0003071,['hmdb40_kegg_H_F_K_Na'],"5,6-Dihydro-5,6-dihydroxy-y,y-carotene"
+1255,571.4731,9.69E-05,-H(-),C37H64O4,HMDB0029792,['hmdb40_kegg_H_F_K_Na'],Dieporeticenin
+1256,573.4523,0.0001165,-H(-),C36H62O5,HMDB0007077,['hmdb40_kegg_H_F_K_Na'],"DG(15:0/18:4(6Z,9Z,12Z,15Z)/0:0)"
+1257,573.4879,0.0009339,-H(-),C37H66O4,HMDB0029795,['hmdb40_kegg_H_F_K_Na'],Montecristin
+1258,575.1189,0.0005507,-H(-),C30H24O12,HMDB0034707,['hmdb40_kegg_H_F_K_Na'],"Epicatechin-(2beta->7,4beta->6)-catechin"
+1259,575.4675,0.0005965,-H(-),C36H64O5,HMDB0007075,['hmdb40_kegg_H_F_K_Na'],"DG(15:0/18:3(6Z,9Z,12Z)/0:0)"
+1260,577.4476,-0.0002729,-H(-),C35H62O6,HMDB0029957,['hmdb40_kegg_H_F_K_Na'],Squamocin K
+1261,577.4829,0.0008525,-H(-),C36H66O5,HMDB0007074,['hmdb40_kegg_H_F_K_Na'],"DG(15:0/18:2(9Z,12Z)/0:0)"
+1262,579.0271,-4.97E-05,-H(-),C15H22N2O18P2,HMDB0000935,['hmdb40_kegg_H_F_K_Na'],Uridine diphosphate glucuronic acid
+1263,579.4984,0.0010145,-H(-),C36H68O5,HMDB0007072,['hmdb40_kegg_H_F_K_Na'],DG(15:0/18:1(11Z)/0:0)
+1264,580.2838,-0.0002753,-H(-),C23H43N5O12,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1265,581.2404,0.0001081,-H(-),C33H34N4O6,HMDB0001008,['hmdb40_kegg_H_F_K_Na'],Biliverdin
+1266,581.515,1.65E-05,-H(-),C36H70O5,HMDB0007071,['hmdb40_kegg_H_F_K_Na'],DG(15:0/18:0/0:0)
+1267,583.2559,0.0003321,-H(-),C33H36N4O6,HMDB0000054,['hmdb40_kegg_H_F_K_Na'],Bilirubin
+1268,585.3429,0.0004313,-H(-),C34H50O8,HMDB0248490,['hmdb40_kegg_H_F_K_Na'],"6,8a-Seco-6,8a-deoxy-5-oxoavermectin ''2a'' aglycone"
+1269,587.2873,0.0001701,-H(-),C33H40N4O6,HMDB0004161,['hmdb40_kegg_H_F_K_Na'],D-Urobilin
+1270,588.0749,5.45E-05,-H(-),C16H25N5O15P2,HMDB0001095,['hmdb40_kegg_H_F_K_Na'],GDP-L-fucose
+1271,589.303,0.0001281,-H(-),C33H42N4O6,HMDB0004158,['hmdb40_kegg_H_F_K_Na'],D-Urobilinogen
+1272,590.0794,-1.29E-05,-H(-),C17H27N3O16P2,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1273,591.3186,0.0002021,-H(-),C33H44N4O6,HMDB0001898,['hmdb40_kegg_H_F_K_Na'],Mesobilirubinogen
+1274,593.3342,0.0002231,-H(-),C33H46N4O6,HMDB0004159,['hmdb40_kegg_H_F_K_Na'],L-Urobilin
+1275,595.35,0.0001071,-H(-),C33H48N4O6,HMDB0004157,['hmdb40_kegg_H_F_K_Na'],L-Urobilinogen
+1276,595.4938,0.0005381,-H(-),C36H68O6,HMDB0031089,['hmdb40_kegg_H_F_K_Na'],Glycerol triundecanoate
+1277,599.3194,0.0008072,-H(-),C27H53O12P,HMDB0061696,['hmdb40_kegg_H_F_K_Na'],1-Acylglycerophosphoinositol
+1278,601.2019,-0.0006455,-H(-),C25H30N8O10,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1279,601.4832,0.0005305,-H(-),C38H66O5,HMDB0007083,['hmdb40_kegg_H_F_K_Na'],"DG(15:0/20:4(5Z,8Z,11Z,14Z)/0:0)"
+1280,603.4418,7.69E-05,-H(-),C40H60O4,HMDB0036295,['hmdb40_kegg_H_F_K_Na'],NA
+1281,604.0699,9.10E-06,-H(-),C16H25N5O16P2,HMDB0001163,['hmdb40_kegg_H_F_K_Na'],Guanosine diphosphate mannose
+1282,605.2236,0.0004053,-H(-),C30H38O13,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1283,606.0744,-8.13E-05,-H(-),C17H27N3O17P2,HMDB0000290,['hmdb40_kegg_H_F_K_Na'],Uridine diphosphate-N-acetylglucosamine
+1284,610.3618,-0.0008289,-H(-),C33H49N5O6,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1285,613.3744,0.0002153,-H(-),C36H54O8,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1286,613.3947,0.0009865,-H(-),C33H58O10,HMDB0033335,['hmdb40_kegg_H_F_K_Na'],Antibiotic X 14889C
+1287,616.47,0.0011406,-H(-),C34H68NO6P,HMDB0010700,['hmdb40_kegg_H_F_K_Na'],CerP(d18:1/16:0)
+1288,619.2899,-0.0010278,-H(-),C29H49O12P,HMDB0061690,['hmdb40_kegg_H_F_K_Na'],NA
+1289,625.3598,-0.0004309,-H(-),C33H54O11,HMDB0034091,['hmdb40_kegg_H_F_K_Na'],Ponasteroside A
+1290,627.3328,-0.0001133,-H(-),C39H48O7,HMDB0037793,['hmdb40_kegg_H_F_K_Na'],NA
+1291,627.4993,0.0001115,-H(-),C40H68O5,HMDB0007090,['hmdb40_kegg_H_F_K_Na'],"DG(15:0/22:5(4Z,7Z,10Z,13Z,16Z)/0:0)"
+1292,629.5148,0.0002035,-H(-),C40H70O5,HMDB0007089,['hmdb40_kegg_H_F_K_Na'],"DG(15:0/22:4(7Z,10Z,13Z,16Z)/0:0)"
+1293,644.2414,-0.0006757,-H(-),C25H43NO18,HMDB0014429,['hmdb40_kegg_H_F_K_Na'],Acarbose
+1294,646.6142,0.0001643,-H(-),C42H81NO3,HMDB0004953,['hmdb40_kegg_H_F_K_Na'],Cer(d18:1/24:1(15Z))
+1295,648.6293,0.0006863,-H(-),C42H83NO3,HMDB0000831,['hmdb40_kegg_H_F_K_Na'],N-Lignoceroylsphingosine
+1296,651.4994,3.35E-05,-H(-),C42H68O5,HMDB0056293,['hmdb40_kegg_H_F_K_Na'],NA
+1297,653.5146,0.0004845,-H(-),C42H70O5,HMDB0056286,['hmdb40_kegg_H_F_K_Na'],NA
+1298,655.5304,0.0003385,-H(-),C42H72O5,HMDB0056237,['hmdb40_kegg_H_F_K_Na'],NA
+1299,663.4025,0.0006528,-H(-),C37H61O8P,HMDB0114803,['hmdb40_kegg_H_F_K_Na'],NA
+1300,664.2972,0.0002953,-H(-),C33H47NO13,HMDB0014964,['hmdb40_kegg_H_F_K_Na'],Natamycin
+1301,665.2145,5.01E-05,-H(-),C24H42O21,HMDB0000757,['hmdb40_kegg_H_F_K_Na'],Glycogen
+1302,665.3908,-0.0001779,-H(-),C36H58O11,HMDB0032836,['hmdb40_kegg_H_F_K_Na'],Lucyoside R
+1303,679.5454,0.0005317,-H(-),C48H72O2,HMDB0030129,['hmdb40_kegg_H_F_K_Na'],Plastoquinone 8
+1304,687.4034,-0.0002472,-H(-),C39H61O8P,HMDB0115038,['hmdb40_kegg_H_F_K_Na'],NA
+1305,695.5411,-0.0002657,-H(-),C48H72O3,NA,['hmdb40_kegg_H_F_K_Na'],"2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinone"
+1306,697.4807,0.0007208,-H(-),C39H71O8P,HMDB0114805,['hmdb40_kegg_H_F_K_Na'],NA
+1307,706.1542,-0.0002889,-H(-),C35H31O16,HMDB0029239,['hmdb40_kegg_H_F_K_Na'],p-Coumaroyl vitisin A
+1308,711.5366,-0.0007891,-H(-),C48H72O4,NA,['hmdb40_kegg_H_F_K_Na'],"2-Octaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone"
+1309,712.1497,-0.0004315,-H(-),C30H33O20,HMDB0039938,['hmdb40_kegg_H_F_K_Na'],Delphinidin 3-O-(6''-O-malonyl)-beta-glucoside-3'-O-beta-glucoside
+1310,714.5081,-0.0002082,-H(-),C39H74NO8P,HMDB0005322,['hmdb40_kegg_H_F_K_Na'],"PE(14:0/20:2(11Z,14Z))"
+1311,716.5226,0.0009278,-H(-),C39H76NO8P,HMDB0005320,['hmdb40_kegg_H_F_K_Na'],PC(15:0/16:1(9Z))
+1312,718.538,0.0012158,-H(-),C39H78NO8P,HMDB0005315,['hmdb40_kegg_H_F_K_Na'],PC(15:0/16:0)
+1313,722.5125,0.0005242,-H(-),C41H74NO7P,HMDB0009149,['hmdb40_kegg_H_F_K_Na'],"PE(18:3(6Z,9Z,12Z)/P-18:1(11Z))"
+1314,724.5277,0.0009852,-H(-),C41H76NO7P,HMDB0009116,['hmdb40_kegg_H_F_K_Na'],"PE(18:2(9Z,12Z)/P-18:1(11Z))"
+1315,726.5442,0.0001392,-H(-),C41H78NO7P,HMDB0009050,['hmdb40_kegg_H_F_K_Na'],PE(18:1(11Z)/P-18:1(11Z))
+1316,726.5528,-0.0002501,-H(-),C41H77NO9,HMDB0035990,['hmdb40_kegg_H_F_K_Na'],Cerebroside B
+1317,727.5525,-0.0006343,-H(-),C45H76O7,HMDB0116370,['hmdb40_kegg_H_F_K_Na'],NA
+1318,727.5663,0.0008039,-H(-),C49H76O4,HMDB0001060,['hmdb40_kegg_H_F_K_Na'],Ubiquinol 8
+1319,730.1758,-0.0007617,-H(-),C34H35O18,HMDB0125179,['hmdb40_kegg_H_F_K_Na'],NA
+1320,738.5084,-0.0005232,-H(-),C41H74NO8P,HMDB0005323,['hmdb40_kegg_H_F_K_Na'],"PC(15:0/18:4(6Z,9Z,12Z,15Z))"
+1321,741.4421,0.0009373,-H(-),C39H66O13,HMDB0038345,['hmdb40_kegg_H_F_K_Na'],NA
+1322,748.5285,0.0001452,-H(-),C43H76NO7P,HMDB0009413,['hmdb40_kegg_H_F_K_Na'],"PE(20:4(5Z,8Z,11Z,14Z)/P-18:1(11Z))"
+1323,749.3508,0.0007415,-H(-),C38H50N6O10,HMDB0060168,['hmdb40_kegg_H_F_K_Na'],NA
+1324,750.5442,0.0001082,-H(-),C43H78NO7P,HMDB0005779,['hmdb40_kegg_H_F_K_Na'],"PE(O-18:1(1Z)/20:4(5Z,8Z,11Z,14Z))"
+1325,762.5074,0.0004908,-H(-),C43H74NO8P,HMDB0005324,['hmdb40_kegg_H_F_K_Na'],"PE(16:0/22:6(4Z,7Z,10Z,13Z,16Z,19Z))"
+1326,766.5389,0.0003628,-H(-),C43H78NO8P,HMDB0005333,['hmdb40_kegg_H_F_K_Na'],"PC(15:0/20:4(5Z,8Z,11Z,14Z))"
+1327,772.5298,-0.0011158,-H(-),C45H76NO7P,HMDB0009710,['hmdb40_kegg_H_F_K_Na'],"PE(22:6(4Z,7Z,10Z,13Z,16Z,19Z)/P-18:1(11Z))"
+1328,774.545,-0.0006658,-H(-),C45H78NO7P,HMDB0009644,['hmdb40_kegg_H_F_K_Na'],"PE(22:5(4Z,7Z,10Z,13Z,16Z)/P-18:1(11Z))"
+1329,775.5484,-0.000808578,-H(-) [+1],C45H78NO7P,HMDB0009644,['hmdb40_kegg_H_F_K_Na'],NA
+1330,776.5609,-0.0009178,-H(-),C45H80NO7P,HMDB0009611,['hmdb40_kegg_H_F_K_Na'],"PE(22:4(7Z,10Z,13Z,16Z)/P-18:1(11Z))"
+1331,777.5643,-0.000997543,-H(-) [+1],C45H80NO7P,HMDB0009611,['hmdb40_kegg_H_F_K_Na'],NA
+1332,778.575,0.0005842,-H(-),C45H82NO7P,HMDB0009610,['hmdb40_kegg_H_F_K_Na'],"PE(22:4(7Z,10Z,13Z,16Z)/P-18:0)"
+1333,784.1497,0.0002055,-H(-),C27H33N9O15P2,HMDB0001248,['hmdb40_kegg_H_F_K_Na'],FAD
+1334,786.5282,0.000875,-H(-),C42H78NO10P,HMDB0012380,['hmdb40_kegg_H_F_K_Na'],"PS(18:0/18:2(9Z,12Z))"
+1335,795.4168,0.0004005,-H(-),C41H64O15,HMDB0001917,['hmdb40_kegg_H_F_K_Na'],Digoxin
+1336,826.1967,-0.0004975,-H(-),C39H39O20,HMDB0125086,['hmdb40_kegg_H_F_K_Na'],NA
+1337,833.5178,0.0007248,-H(-),C43H79O13P,HMDB0009784,['hmdb40_kegg_H_F_K_Na'],"PI(16:0/18:2(9Z,12Z))"
+1338,835.4858,-0.0008281,-H(-),C45H72O14,HMDB0034597,['hmdb40_kegg_H_F_K_Na'],Hebevinoside VII
+1339,848.1493,0.0004479,-H(-),C26H42N7O17P3S,HMDB0000993,['hmdb40_kegg_H_F_K_Na'],3-Methylcrotonyl-CoA
+1340,852.6851,7.52E-05,-H(-),C50H96NO7P,HMDB0008819,['hmdb40_kegg_H_F_K_Na'],PC(24:1(15Z)/P-18:1(11Z))
+1341,853.5009,-0.0007357,-H(-),C42H80O13P2,HMDB0013507,['hmdb40_kegg_H_F_K_Na'],"PGP(18:0/18:2(9Z,12Z))"
+1342,854.6997,0.0011162,-H(-),C50H98NO7P,HMDB0008786,['hmdb40_kegg_H_F_K_Na'],PC(24:0/P-18:1(11Z))
+1343,883.5351,-0.0009472,-H(-),C47H81O13P,HMDB0009795,['hmdb40_kegg_H_F_K_Na'],"PI(16:0/22:5(4Z,7Z,10Z,13Z,16Z))"
+1344,885.5491,0.0007018,-H(-),C47H83O13P,HMDB0009793,['hmdb40_kegg_H_F_K_Na'],"PI(16:0/22:4(10Z,13Z,16Z,19Z))"
+1345,890.1975,-0.0007391,-H(-),C29H48N7O17P3S,HMDB0002992,['hmdb40_kegg_H_F_K_Na'],S-2-Octenoyl CoA
+1346,892.1752,0.0008105,-H(-),C28H46N7O18P3S,HMDB0060373,['hmdb40_kegg_H_F_K_Na'],3-Hydroxy-5-methylhex-4-enoyl-CoA
+1347,922.1501,0.0001197,-H(-),C28H44N7O20P3S,HMDB0012158,['hmdb40_kegg_H_F_K_Na'],3-Oxopimelyl-CoA
+1348,930.1911,0.0005135,-H(-),C31H48N7O18P3S,NA,['hmdb40_kegg_H_F_K_Na'],NA
+1349,942.1554,-9.89E-05,-H(-),C31H44N7O19P3S,HMDB0304355,['hmdb40_kegg_H_F_K_Na'],Feruloyl-CoA
+1350,965.4246,-0.0011377,-H(-),C44H70O23,HMDB0034946,['hmdb40_kegg_H_F_K_Na'],Rebaudioside E
+1351,988.2487,0.0002775,-H(-),C45H49O25,HMDB0035452,['hmdb40_kegg_H_F_K_Na'],Pelargonidin 3-O-[b-D-Glucopyranosyl-(1->2)-[4-hydroxycinnamoyl-(->6)]-b-D-glucopyranoside](E-) 5-O-(6-O-malonyl-b-D-glucopyranoside)

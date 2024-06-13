@@ -1,0 +1,13 @@
+response	Responder	Responder	Responder	Nonresponder	Nonresponder	Nonresponder	Nonresponder
+sample	F0130	F0177	H0086	F0155	F0056	F0100	H0054
+k_Bacteria__p_Actinobacteria	1.18	0.38	3.68	0.38	7.00	0.90	0.04
+k_Bacteria__p_Bacteroidetes	11.36	 4.12	24.58	12.98	 6.68	36.34	 0.34
+k_Bacteria__p_Firmicutes	77.24	90.60	67.72	86.30	82.66	62.58	99.30
+k_Bacteria__p_Fusobacteria	0	0	0	0	0	0	0
+k_Bacteria__p_Lentisphaerae	0.02	0.00	0.00	0.00	0.00	0.00	0.00
+k_Bacteria__p_Proteobacteria	0.90	0.52	1.12	0.08	3.52	0.00	0.30
+k_Bacteria__p_Spirochaetes	0	0	0	0	0	0	0
+k_Bacteria__p_Synergistetes	0.04	0.00	0.00	0.00	0.00	0.00	0.00
+k_Bacteria__p_TM7	0	0	0	0	0	0	0
+k_Bacteria__p_Verrucomicrobia	0.00	0.00	0.08	0.00	0.00	0.18	0.00
+k_Bacteria__p_unassigned	9.26	4.38	2.82	0.26	0.14	0.00	0.02

@@ -1,0 +1,306 @@
+---
+title: "Fig2-all-tumor_first_sample"
+author: "Yujie Zhao"
+date: "2023-03-28"
+output: html_document
+---
+
+# Differential Analysis among all tumor type focusing on the first samples of each patient 
+ Fig2A: PCoA for 3 tumor types
+ Fig2B: heatmap
+
+```{r}
+rm(list=ls())
+library(ggplot2)
+library(vegan)
+library(permute)
+library(lattice)
+library(plyr)
+library(getopt)
+library(ggfortify)
+library(ade4)
+library(ggpubr)
+library(pheatmap)
+library(cowplot)
+color=c("#A94643","#3E4A7B","#BCBDB8")
+
+```
+
+# get sample summary
+```{r}
+group = read.csv("../analysis/A01.1-add-meta/non-melanoma-cohort-sample_10_10.csv")
+
+group = group[order(group$days.sample.collect),]
+group = group[order(match(group$patient_rename,unique(group$patient_rename))),]
+group = group[order(match(group$clinical.response,c("Responder","Nonresponder","Stable_Disease","Other"))),]
+group = group[order(match(group$Tumor,unique(group$Tumor))),]
+
+ID = unique(group$patient_rename)
+rownames(group)=group$sample_id
+
+first_sample = NULL
+for(i in ID){
+  tmp = group[group$patient_rename == i,]
+  tmp = tmp[tmp$days.sample.collect == min(tmp$days.sample.collect),]
+  first_sample = rbind(first_sample,tmp)
+}
+
+first_sample = as.data.frame(first_sample[first_sample$days.sample.collect < 180,])
+
+
+```
+
+
+
+# fig b
+```{r}
+color=c("Responder" = "#A94643", "Nonresponder"="#3E4A7B","Stable_Disease"="#79ADD6","Other"="grey")
+
+for (i in 1:nrow(group)){
+  if (group[i,"sample_id"] %in% first_sample$sample_id){
+    group[i,'sample_type'] = "First_sample"
+  }else{
+    group[i,'sample_type'] = "Follow_up"
+  }
+}
+i="genus"
+dat=read.csv(paste0("../analysis/A01.1-add-meta/jhmi-sears-non-melanoma.",i,".txt"),sep="\t",row.names = 1,check.names = F)
+    group_bcc = group
+    dat=dat[rownames(group_bcc),]
+    data=as.data.frame(dat[,10:ncol(dat)])
+    data=data[,which(colSums(data)>0.01)]
+    tab.dist<-vegdist(data,method="bray")
+    data$group = group_bcc$clinical.response
+    data$days_sample = group_bcc$days.sample.collect
+    data$sample_type = group_bcc$sample_type
+    data$patient = group_bcc$patient_rename
+    set.seed(123)
+    data.adonis<- adonis2(tab.dist~days_sample+group,data,permutations = 999)
+data.adonis
+    pr = data.adonis$`Pr(>F)`[2]
+    pcoa<- dudi.pco(tab.dist, scan = FALSE,nf=10)
+    #$eig means how much is each component among 10 components 
+    pcoa_eig <- (pcoa$eig)/ sum(pcoa$eig)
+    #get 10 components
+    plotdata <- data.frame({pcoa$li})
+    plotdata$names <- rownames(plotdata)
+    #name 10 components
+    names(plotdata)[1:3] <- c('PCoA1', 'PCoA2','PCoA3')
+    plotdata$response = as.factor(group_bcc$clinical.response)
+    plotdata$sample_type = as.factor(group_bcc$sample_type)
+    centroids <- aggregate(cbind(PCoA1,PCoA2)~response, data=plotdata, mean)
+    plotdata     <- merge(plotdata,centroids,by="response",suffixes=c("",".centroid"))
+    
+  pcall <- ggplot(plotdata, aes(x=PCoA1,y=PCoA2,fill = response)) +
+      geom_point(aes(x=PCoA1,y=PCoA2,fill=response,color=response,shape=sample_type), size=3, alpha=0.9) +
+      geom_point(data=centroids, aes(x=PCoA1,y=PCoA2, fill=response,color=response), pch=21, size=2) +
+      geom_segment(aes(x=PCoA1.centroid, y=PCoA2.centroid, xend=PCoA1, yend=PCoA2, color=response),linewidth=0.3, alpha=0.8) +
+      scale_fill_manual(values=color) +
+      scale_colour_manual(values=color) +
+      scale_shape_manual(values=c("First_sample" = 19,"Follow_up"=17))+
+      xlab(paste("PCoA Axis 1 (", round(100 * pcoa_eig[1], 2), "%)", sep="")) +
+      ylab(paste("PCoA Axis 2 (", round(100 * pcoa_eig[2], 2), "%)", sep="")) +
+      #ggtitle("ALL Tumor")+
+    ggtitle(paste0("All Tumor p=",round(pr,3), " R=",round(data.adonis$R2[2]*100,1),"%"))+
+      theme_bw() +
+      theme(panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(), 
+            plot.title = element_text(size=14,colour="black"),#legend.position = "none",
+            axis.text=element_text(size=14,colour="black"),text=element_text(size=14,colour="black"),
+            aspect.ratio=1) +
+      guides(fill = guide_legend(override.aes=list(shape=21)))
+  ggsave(pcall,file="../analysis/Graph/fig2A.pdf", width=8, height=6)
+##########################################
+dat=read.csv(paste0("../analysis/A01.1-add-meta/jhmi-sears-non-melanoma.",i,".txt"),sep="\t",row.names = 1,check.names = F)
+    group_bcc = group[group$Tumor == "BCC",]
+    dat=dat[rownames(group_bcc),]
+    data=as.data.frame(dat[,10:ncol(dat)])
+    data=data[,which(colSums(data)>0.01)]
+    tab.dist<-vegdist(data,method="bray")
+    data$group = group_bcc$clinical.response
+    data$days_sample = group_bcc$days.sample.collect
+    data$sample_type = group_bcc$sample_type
+    data$patient = group_bcc$patient_rename
+    set.seed(123)
+    data.adonis<- adonis2(tab.dist~days_sample+group,data,permutations = 999)
+data.adonis
+    pr = data.adonis$`Pr(>F)`[2]
+    pcoa<- dudi.pco(tab.dist, scan = FALSE,nf=10)
+    #$eig means how much is each component among 10 components 
+    pcoa_eig <- (pcoa$eig)/ sum(pcoa$eig)
+    #get 10 components
+    plotdata <- data.frame({pcoa$li})
+    plotdata$names <- rownames(plotdata)
+    #name 10 components
+    names(plotdata)[1:3] <- c('PCoA1', 'PCoA2','PCoA3')
+    plotdata$response = as.factor(group_bcc$clinical.response)
+    plotdata$sample_type = as.factor(group_bcc$sample_type)
+    centroids <- aggregate(cbind(PCoA1,PCoA2)~response, data=plotdata, mean)
+    plotdata     <- merge(plotdata,centroids,by="response",suffixes=c("",".centroid"))
+  pc1 <- ggplot(plotdata, aes(x=PCoA1,y=PCoA2,fill = response)) +
+      geom_point(aes(x=PCoA1,y=PCoA2,fill=response,color=response,shape=sample_type), size=3, alpha=0.9) +
+      geom_point(data=centroids, aes(x=PCoA1,y=PCoA2, fill=response,color=response), pch=21, size=2) +
+      geom_segment(aes(x=PCoA1.centroid, y=PCoA2.centroid, xend=PCoA1, yend=PCoA2, color=response),linewidth=0.3, alpha=0.8) +
+      scale_fill_manual(values=color) +
+      scale_colour_manual(values=color) +
+      scale_shape_manual(values=c("First_sample" = 19,"Follow_up"=17))+
+      xlab(paste("PCoA Axis 1 (", round(100 * pcoa_eig[1], 2), "%)", sep="")) +
+      ylab(paste("PCoA Axis 2 (", round(100 * pcoa_eig[2], 2), "%)", sep="")) +
+      #ggtitle(paste0("BCC p=",round(pr,3), " R=",round(data.adonis$R2[2]*100,1),"%"))+
+      theme_bw() +ggtitle("BCC")+
+      theme(panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(), 
+            plot.title = element_text(size=14,colour="black"),legend.position = "none",
+            axis.text=element_text(size=14,colour="black"),text=element_text(size=14,colour="black"),
+            aspect.ratio=1) +
+      guides(fill = guide_legend(override.aes=list(shape=21)))
+##########################################
+dat=read.csv(paste0("../analysis/A01.1-add-meta/jhmi-sears-non-melanoma.",i,".txt"),sep="\t",row.names = 1,check.names = F)
+    group_bcc = group[group$Tumor == "MCC",]
+    dat=dat[rownames(group_bcc),]
+    data=as.data.frame(dat[,10:ncol(dat)])
+    data=data[,which(colSums(data)>0.01)]
+    tab.dist<-vegdist(data,method="bray")
+    data$group = group_bcc$clinical.response
+    data$days_sample = group_bcc$days.sample.collect
+    data$sample_type = group_bcc$sample_type
+    data$patient = group_bcc$patient_rename
+    set.seed(123)
+    data.adonis<- adonis2(tab.dist~days_sample+group,data,permutations = 999)
+    pr = data.adonis$`Pr(>F)`[1]
+data.adonis
+    pcoa<- dudi.pco(tab.dist, scan = FALSE,nf=10)
+    #$eig means how much is each component among 10 components 
+    pcoa_eig <- (pcoa$eig)/ sum(pcoa$eig)
+    #get 10 components
+    plotdata <- data.frame({pcoa$li})
+    plotdata$names <- rownames(plotdata)
+    #name 10 components
+    names(plotdata)[1:3] <- c('PCoA1', 'PCoA2','PCoA3')
+    plotdata$response = as.factor(group_bcc$clinical.response)
+    plotdata$sample_type = as.factor(group_bcc$sample_type)
+    centroids <- aggregate(cbind(PCoA1,PCoA2)~response, data=plotdata, mean)
+    plotdata     <- merge(plotdata,centroids,by="response",suffixes=c("",".centroid"))
+  pc2 <- ggplot(plotdata, aes(x=PCoA1,y=PCoA2,fill = response)) +
+      geom_point(aes(x=PCoA1,y=PCoA2,fill=response,color=response,shape=sample_type), size=3, alpha=0.9) +
+      geom_point(data=centroids, aes(x=PCoA1,y=PCoA2, fill=response,color=response), pch=21, size=2) +
+      geom_segment(aes(x=PCoA1.centroid, y=PCoA2.centroid, xend=PCoA1, yend=PCoA2, color=response),linewidth=0.3, alpha=0.8) +
+      scale_fill_manual(values=color) +
+      scale_colour_manual(values=color) +
+      scale_shape_manual(values=c("First_sample" = 19,"Follow_up"=17))+
+      xlab(paste("PCoA Axis 1 (", round(100 * pcoa_eig[1], 2), "%)", sep="")) +
+      ylab(paste("PCoA Axis 2 (", round(100 * pcoa_eig[2], 2), "%)", sep="")) +
+      #ggtitle(paste0("MCC p=",round(pr,3), " R=",round(data.adonis$R2[2]*100,1),"%"))+
+    ggtitle("MCC")+
+      theme_bw() +
+      theme(panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(), 
+            plot.title = element_text(size=14,colour="black"),legend.position = "none",
+            axis.text=element_text(size=14,colour="black"),text=element_text(size=14,colour="black"),
+            aspect.ratio=1) +
+      guides(fill = guide_legend(override.aes=list(shape=21)))
+    
+###########################################################
+dat=read.csv(paste0("../analysis/A01.1-add-meta/jhmi-sears-non-melanoma.",i,".txt"),sep="\t",row.names = 1,check.names = F)
+    group_bcc = group[group$Tumor == "SCC",]
+    dat=dat[rownames(group_bcc),]
+    data=as.data.frame(dat[,10:ncol(dat)])
+    data=data[,which(colSums(data)>0.01)]
+    tab.dist<-vegdist(data,method="bray")
+    data$group = group_bcc$clinical.response
+    data$days_sample = group_bcc$days.sample.collect
+    data$sample_type = group_bcc$sample_type
+    data$patient = group_bcc$patient_rename
+    set.seed(123)
+    data.adonis<- adonis2(tab.dist~days_sample+group,data,permutations = 999)
+    pr = data.adonis$`Pr(>F)`[1]
+data.adonis
+    pcoa<- dudi.pco(tab.dist, scan = FALSE,nf=10)
+    #$eig means how much is each component among 10 components 
+    pcoa_eig <- (pcoa$eig)/ sum(pcoa$eig)
+    #get 10 components
+    plotdata <- data.frame({pcoa$li})
+    plotdata$names <- rownames(plotdata)
+    #name 10 components
+    names(plotdata)[1:3] <- c('PCoA1', 'PCoA2','PCoA3')
+    plotdata$response = as.factor(group_bcc$clinical.response)
+    plotdata$sample_type = as.factor(group_bcc$sample_type)
+    centroids <- aggregate(cbind(PCoA1,PCoA2)~response, data=plotdata, mean)
+    plotdata     <- merge(plotdata,centroids,by="response",suffixes=c("",".centroid"))
+  pc3 <- ggplot(plotdata, aes(x=PCoA1,y=PCoA2,fill = response)) +
+      geom_point(aes(x=PCoA1,y=PCoA2,fill=response,color=response,shape=sample_type), size=3, alpha=0.9) +
+      geom_point(data=centroids, aes(x=PCoA1,y=PCoA2, fill=response,color=response), pch=21, size=2) +
+      geom_segment(aes(x=PCoA1.centroid, y=PCoA2.centroid, xend=PCoA1, yend=PCoA2, color=response),linewidth=0.3, alpha=0.8) +
+      scale_fill_manual(values=color) +
+      scale_colour_manual(values=color) +
+      scale_shape_manual(values=c("First_sample" = 19,"Follow_up"=17))+
+      xlab(paste("PCoA Axis 1 (", round(100 * pcoa_eig[1], 2), "%)", sep="")) +
+      ylab(paste("PCoA Axis 2 (", round(100 * pcoa_eig[2], 2), "%)", sep="")) +
+      #ggtitle(paste0("SCC p=",round(pr,3), " R=",round(data.adonis$R2[2]*100,1),"%"))+
+      theme_bw() +ggtitle("SCC")+
+      theme(panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(), 
+            plot.title = element_text(size=14,colour="black"),#legend.position = "none",
+            axis.text=element_text(size=14,colour="black"),text=element_text(size=14,colour="black"),
+            aspect.ratio=1) +
+      guides(fill = guide_legend(override.aes=list(shape=21)))
+    
+```
+
+
+# B- lefse
+```{r}
+
+dat=read.csv("../analysis/A01.1-add-meta/jhmi-sears-non-melanoma.genus.txt",sep="\t",row.names = 1,check.names = F)
+differential = read.csv("../analysis/differential_analysis/combined/3_tumor/genus/differential_select.txt",sep="\t",row.names = 1,check.names = F)
+differential = na.omit(differential)
+
+dat = dat[,rownames(differential)]
+
+first_sample = first_sample[order(first_sample$patient_rename),]
+first_sample = first_sample[first_sample$clinical.response %in% c("Responder","Nonresponder"),]
+first_sample = first_sample[order(match(first_sample$clinical.response,c("Responder","Nonresponder"))),]
+dat = dat[rownames(first_sample),]
+rownames(dat) = first_sample$patient_rename
+
+anncolo_all = list(group = c("Nonresponder"="#3E4A7B","Responder" ="#A94643"))
+
+ann_col=data.frame(group=first_sample$clinical.response)
+rownames(ann_col)=rownames(dat)
+
+nrow(ann_col[ann_col$group =="Clinical Benefit",])
+
+dat=as.data.frame(scale(dat))
+bk1 <- c(seq(floor(min(dat)),0,by=0.01))
+bk2 <- c(seq(0,ceiling(max(dat)),by=0.01))
+
+dat = dat[,1:(ncol(dat)-1)]
+colnames(dat) = gsub('.c_.+.f_','.f_',colnames(dat))
+colnames(dat) = gsub("k_Bacteria.","",colnames(dat))
+pheatmap(t(dat),cellheight = 12,cellwidth = 12,cluster_rows = T,
+           annotation_col = ann_col,fontsize = 12,
+           annotation_names_row=FALSE,annotation_names_col = FALSE,
+         gaps_col = c(nrow(first_sample[first_sample$clinical.response == unique(first_sample$clinical.response)[1],])),
+           annotation_colors = anncolo_all,
+           cluster_cols = F,show_colnames=T,annotation_legend = FALSE,
+  	color = c(colorRampPalette(colors = c("navy","SteelBlue","white"))(length(bk1)),
+                                              colorRampPalette(colors = c("white","orange","red"))(length(bk2))),
+  	)->y
+
+  D<-plot_grid(y$gtable)
+  
+
+```
+
+
+
+
+# Fig2
+
+```{r}
+Fig2 = ggarrange( ggarrange(pcall,pc1,pc2,pc3,nrow = 1,ncol =4,widths=c(1,1,1,1.48) ),
+                   D,
+                   nrow = 2,heights  = c(1.4,1),labels=c("A","B"))
+ggsave(Fig2,file="../analysis/Graph/Fig 2.pdf", width=15, height=7)
+```
+

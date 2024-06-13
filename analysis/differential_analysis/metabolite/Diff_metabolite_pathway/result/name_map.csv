@@ -1,0 +1,54 @@
+Query,Match,HMDB,PubChem,KEGG,SMILES,Comment,Pathway
+L-Arginine,L-Arginine,HMDB0000517,6322,C00062,C(C[C@@H](C(=O)O)N)CN=C(N)N,1,Arginine and proline metabolism
+Glyoxylic acid,Glyoxylic acid,HMDB0000119,760,C00048,C(=O)C(=O)O,1,Arginine and proline metabolism;Glyoxylate and dicarboxylate metabolism
+cis-Aconitic acid,cis-Aconitic acid,HMDB0000072,643757,C00417,C(/C(=C/C(=O)O)/C(=O)O)C(=O)O,1,Glyoxylate and dicarboxylate metabolism;Citrate cycle (TCA cycle)
+"Ne,Ne dimethyllysine","Ne,Ne dimethyllysine",HMDB0013287,4478779,C05545,CN(C)CCCCC(C(=O)O)N,1,Lysine degradation
+AICAR,AICAR,HMDB0001517,65110,C04677,C1=NC(=C(N1[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)O)N)C(=O)N,1,Purine metabolism
+Deoxyinosine,Deoxyinosine,HMDB0000071,65058,C05512,C1[C@@H]([C@H](O[C@H]1N2C=NC3=C2NC=NC3=O)CO)O,1,Purine metabolism
+Deoxyuridine,Deoxyuridine,HMDB0000012,13712,C00526,C1[C@@H]([C@H](O[C@H]1N2C=CC(=O)NC2=O)CO)O,1,Pyrimidine metabolism
+Fructose 6-phosphate,Fructose 6-phosphate,HMDB0000124,69507,C00085,C([C@H]([C@H]([C@@H](C(=O)CO)O)O)O)OP(=O)(O)O,1,Starch and sucrose metabolism
+Progesterone,Progesterone,HMDB0001830,5994,C00410,CC(=O)[C@H]1CC[C@@H]2[C@@]1(CC[C@H]3[C@H]2CCC4=CC(=O)CC[C@]34C)C,1,Steroid hormone biosynthesis
+Tetrahydrocorticosterone,Tetrahydrocorticosterone,HMDB0000268,9863245,C05476,C[C@]12CC[C@H](C[C@H]1CCC3[C@@H]2[C@H](C[C@]4([C@H]3CC[C@@H]4C(=O)CO)C)O)O,1,Steroid hormone biosynthesis
+Oxalureate,Oxalureate,METPA0081,NA,C00802,NA,1,
+Salicylate-sodium,Salicylate-sodium,HMDB0015470,16760658,C07587,C1=CC=C(C(=C1)C(=O)[O-])O.[Na+],1,
+"1,3-Dimethyluracil","1,3-Dimethyluracil",HMDB0002144,70122,NA,CN1C=CC(=O)N(C1=O)C,1,
+"8-Hydroxy-5,6-octadienoic acid","8-Hydroxy-5,6-octadienoic acid",HMDB0031101,54042244,NA,OCC=C=CCCCC(O)=O,1,
+Caftaric acid,Caftaric acid,HMDB0013680,6440397,NA,C1=CC(=C(C=C1/C=C/C(=O)O[C@H]([C@H](C(=O)O)O)C(=O)O)O)O,1,
+Alpha-CEHC,Alpha-CEHC,HMDB0001518,9943542,NA,CC1=C(C(=C2CCC(OC2=C1C)(C)CCC(=O)O)C)O,1,
+Cucurbic acid,Cucurbic acid,HMDB0029388,6123064,NA,CC/C=C/CC1C(CCC1O)CC(=O)O,1,
+"3,4-Dimethylthiophene","3,4-Dimethylthiophene",HMDB0032980,79089,NA,CC1=CSC=C1C,1,
+1-(5-Acetyl-2-hydroxyphenyl)-3-methyl-1-butanone,1-(5-Acetyl-2-hydroxyphenyl)-3-methyl-1-butanone,HMDB0032589,13308867,NA,CC(C)CC(=O)C1=C(O)C=CC(=C1)C(C)=O,1,
+Monoethyl malonic acid,Monoethyl malonic acid,HMDB0000576,70615,NA,CCOC(=O)CC(=O)O,1,
+Delta-Hexanolactone,Delta-Hexanolactone,HMDB0000453,13204,NA,CC1CCCC(=O)O1,1,
+Xenognosin A,Xenognosin A,HMDB0029539,5281296,C08731,COC1=C(C=CC(=C1)O)C/C=C/C2=CC=C(C=C2)O,1,
+Pyrazinamide,Pyrazinamide,HMDB0014483,1046,C01956,C1=CN=C(C=N1)C(=O)N,1,
+Sulcatone,Sulcatone,HMDB0035915,9862,C07287,CC(=CCCC(=O)C)C,1,
+N-(3-oxo-hexanoyl)-homoserine lactone,N-(3-oxo-hexanoyl)-homoserine lactone,NA,119133,C11839,CCCC(=O)CC(=O)NC1CCOC1=O,1,
+Raltitrexed,Raltitrexed,HMDB0014438,104758,C11372,CC1=NC(=O)C2=C(N1)C=CC(=C2)CN(C)C3=CC=C(S3)C(=O)N[C@@H](CCC(=O)O)C(=O)O,1,
+2-Phosphoglyceric acid,2-Phosphoglyceric acid,HMDB0000362,59,NA,C(C(C(=O)O)OP(=O)(O)O)O,1,
+2(3H)-Benzothiazolethione,2(3H)-Benzothiazolethione,HMDB0030524,21831736,C14437,C1=CC=C2C(=C1)NC(=S)S2.C1=CC=C2C(=C1)NC(=S)S2,1,
+D-Lombricine,D-Lombricine,METPA0215,NA,C01726,NA,1,
+"5,6-Dihydro-4-methoxy-6-[2-(4-methoxyphenyl)ethyl]-2H-pyran-2-one","5,6-Dihydro-4-methoxy-6-[2-(4-methoxyphenyl)ethyl]-2H-pyran-2-one",HMDB0030549,10084050,NA,COC1=CC(=O)OC(C1)CCC2=CC=C(C=C2)OC,1,
+2'-Oxoaloesol 7-glucoside,2'-Oxoaloesol 7-glucoside,HMDB0035734,14524532,NA,CC(=O)CC1=CC(=O)C2=C(O1)C=C(OC1OC(CO)C(O)C(O)C1O)C=C2C,1,
+Starch acetate,Starch acetate,HMDB0029891,19958317,NA,CC(=O)OCC1OC(O)C(OC(C)=O)C(OC(C)=O)C1O,1,
+13-hydroxy-docosanoic acid,13-hydroxy-docosanoic acid,NA,151842,C03049,CCCCCCCCCC(O)CCCCCCCCCCCC(=O)O,1,
+Trigonelline,Trigonelline,HMDB0000875,5570,C01004,C[N+]1=CC=CC(=C1)C(=O)[O-],1,
+Terretonin,Terretonin,HMDB0035860,45934422,NA,COC(=O)C1(C)OC(=O)C2C(C)(C(=C)CC3(O)C4(C)CCC(=O)C(C)(C)C4=C(O)C(=O)C23C)C1=O,1,
+Retinoyl b-glucuronide,Retinoyl b-glucuronide,HMDB0003141,5281877,C11061,CC1=C(C(CCC1)(C)C)/C=C/C(=C/C=C/C(=C/C(=O)O[C@H]2[C@@H]([C@H]([C@@H]([C@H](O2)C(=O)O)O)O)O)/C)/C,1,
+"3b,15b,17a-Trihydroxy-pregnenone","3b,15b,17a-Trihydroxy-pregnenone",HMDB0000353,NA,NA,[H][C@@]12[C@H](O)C[C@](O)(CC)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2CC(O)=CC(=O)[C@]12C,1,
+Carnosol,Carnosol,HMDB0002121,442009,C09069,CC(C)C1=C(C(=C2C(=C1)[C@@H]3C[C@@H]4[C@@]2(CCCC4(C)C)C(=O)O3)O)O,1,
+5-Hydroxytryptophol glucuronide,5-Hydroxytryptophol glucuronide,HMDB0013200,53481648,NA,C1=CC2=C(C=C1O[C@@H]3[C@@H]([C@H]([C@@H]([C@H](O3)CO)O)O)O)C(=CN2)CCO,1,
+20-Carboxy-leukotriene B4,20-Carboxy-leukotriene B4,HMDB0006059,5280877,C05950,C(CCC(=O)O)C/C=C\C[C@H](/C=C/C=C/C=C\[C@H](CCCC(=O)O)O)O,1,
+DHAP(8:0),DHAP(8:0),HMDB0011685,53481029,NA,CCCCCCCC(=O)OCC(=O)COP(=O)(O)O,1,
+Allylestrenol,Allylestrenol,HMDB0015500,235905,C12811,C[C@]12CC[C@H]3[C@H]([C@@H]1CC[C@]2(CC=C)O)CCC4=CCCC[C@H]34,1,
+Nookatone,Nookatone,HMDB0013687,20797,NA,CC1CC(=O)C=C2C1(CC(CC2)C(=C)C)C,1,
+Geranyl 3-methylbutanoate,Geranyl 3-methylbutanoate,HMDB0029350,6429039,NA,CC(C)CC(=O)OC/C=C(/C)\CCC=C(C)C,1,
+"3,7-Dimethylquercetin","3,7-Dimethylquercetin",HMDB0029263,5280417,C01265,COC1=CC(=C2C(=C1)OC(=C(C2=O)OC)C3=CC(=C(C=C3)O)O)O,1,
+5a-Androstan-3b-ol,5a-Androstan-3b-ol,HMDB0005830,92877,NA,C[C@@]12CCC[C@H]1[C@@H]3CC[C@H]4C[C@H](CC[C@@]4([C@H]3CC2)C)O,1,
+Capsianoside V,Capsianoside V,HMDB0030737,14610543,NA,C\C(CC(O)\C=C(/C)C(O)=O)=C/CC\C(CO)=C\CCC(C)(OC1OC(CO)C(O)C(O)C1O)C=C,1,
+Momordol,Momordol,HMDB0029804,71308241,NA,CCC(CO)C(O)CC(O)C(C)CCC(C)CCCC1(C)C(CC)C(=O)C=CC1(C)O,1,
+Plastoquinone 8,Plastoquinone 8,HMDB0030129,0,C02061,CC(C)=CCC\C(C)=C\CC\C(C)=C/CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC\C(C)=C\CC1=CC(=O)C(C)=C(C)C1=O,1,
+Alpha-Hydroxyisobutyric acid,Alpha-Hydroxyisobutyric acid,HMDB0000729,11671,NA,CC(C)(C(=O)O)O,1,
+3-Hydroxy-1-phenyl-1-heptadecanone,3-Hydroxy-1-phenyl-1-heptadecanone,HMDB0035678,131751843,NA,CCCCCCCCCCCCCCC(O)CC(=O)C1=CC=CC=C1,1,
+Margaroylglycine,Margaroylglycine,HMDB0013246,17937508,NA,CCCCCCCCCCCCCCCCC(=O)NCC(=O)O,1,
+N-Formyl-L-methionine,N-Formyl-L-methionine,HMDB0001015,6995182,C03145,CSCC[C@H](C(=O)O)NC=O,1,

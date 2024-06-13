@@ -1,0 +1,206 @@
+---
+title: "Metabolomics_differential analysis"
+author: "Yujie Zhao"
+date: "2023-09-15"
+output: html_document
+---
+
+
+```{r}
+rm(list=ls())
+library(ggplot2)
+library(vegan)
+library(permute)
+library(lattice)
+library(plyr)
+library(getopt)
+library(ggfortify)
+library(ade4)
+library(ggpubr)
+library(pheatmap)
+library(cowplot)
+library(reshape2)
+library(ropls)
+```
+
+
+
+```{r}
+group = read.csv("../analysis/A01.1-add-meta/non-melanoma-cohort-sample_10_10.csv",check.names = F)
+
+group = group[order(group$days.sample.collect),]
+group = group[order(match(group$patient_rename,unique(group$patient_rename))),]
+group = group[group$clinical.response %in% c("Responder","Nonresponder"),]
+group = group[order(match(group$clinical.response,c("Responder","Nonresponder"))),]
+group = group[order(match(group$Tumor,unique(group$Tumor))),]
+
+
+ID = unique(group$patient_rename)
+rownames(group)=group$sample_id
+
+first_sample = NULL
+for(i in ID){
+  tmp = group[group$patient_rename == i,]
+  tmp = tmp[tmp$days.sample.collect == min(tmp$days.sample.collect),]
+  first_sample = rbind(first_sample,tmp)
+}
+
+first_sample = as.data.frame(first_sample[first_sample$days.sample.collect < 180,])
+first_sample = first_sample[first_sample$Tumor == "SCC",]
+
+
+
+```
+
+
+
+```{r}
+first_sample = first_sample[rownames(first_sample)[rownames(first_sample)!="F0100"],]
+metabolite = read.csv("../analysis/A01.1-add-meta/metabolomics.txt",sep="\t")
+rownames(metabolite) = metabolite$ionTopName
+metabolite_data = metabolite[,rownames(first_sample)]
+meta_rowmean =rowMeans(metabolite_data)
+meta_name = names(meta_rowmean[order(meta_rowmean, decreasing=TRUE)])[1:(nrow(metabolite_data)*0.9)]
+# sum(rowSums(metabolite_data > 0) > 0.25*nrow(first_sample))
+#meta_name = names(meta_rowmean[meta_rowmean > 5000]) #957
+metabolite_data = as.data.frame(metabolite_data[meta_name,])
+
+metabolite_data = as.data.frame(t(metabolite_data))
+output=metabolite_data
+tab.dist<-vegdist(metabolite_data,method="bray")
+metabolite_data$group = first_sample$clinical.response
+data.adonis<- adonis2(tab.dist~group,metabolite_data,permutations = 999)
+pr = data.adonis$`Pr(>F)`[1]
+
+color = c("Nonresponder"="#3E4A7B","Responder" ="#A94643")
+pcoa<- dudi.pco(tab.dist, scan = FALSE,nf=10)
+pcoa_eig <- (pcoa$eig)/ sum(pcoa$eig)
+plotdata <- data.frame({pcoa$li})
+plotdata$names <- rownames(plotdata)
+names(plotdata)[1:3] <- c('PCoA1', 'PCoA2','PCoA3')
+plotdata$response = as.factor(first_sample$clinical.response)
+centroids <- aggregate(cbind(PCoA1,PCoA2)~response, data=plotdata, mean)
+plotdata     <- merge(plotdata,centroids,by="response",suffixes=c("",".centroid"))
+pc1 <- ggplot(plotdata, aes(x=PCoA1,y=PCoA2,fill = response)) +
+      geom_point(aes(x=PCoA1,y=PCoA2,fill=response,color=response), size=4) +
+      geom_point(data=centroids, aes(x=PCoA1,y=PCoA2, fill=response,color=response), pch=21, size=2) +
+      geom_segment(aes(x=PCoA1.centroid, y=PCoA2.centroid, xend=PCoA1, yend=PCoA2, color=response), alpha=0.8) +
+      scale_fill_manual(values=color) +
+      scale_colour_manual(values=color) +
+      xlab(paste("PCoA Axis 1 (", round(100 * pcoa_eig[1], 2), "%)", sep="")) +
+      ylab(paste("PCoA Axis 2 (", round(100 * pcoa_eig[2], 2), "%)", sep="")) +
+      ggtitle(paste0("Permonava p = ",round(pr,2)))+
+      theme_bw() +
+      theme(panel.grid.major = element_blank(),
+            panel.grid.minor = element_blank(), 
+            plot.title = element_text(size=14,colour="black"),
+            axis.text=element_text(size=14,colour="black"),text=element_text(size=14,colour="black"),
+            aspect.ratio=1) +
+      guides(fill = guide_legend(override.aes=list(shape=21)))
+    ########################################## 
+
+
+
+```
+
+
+#annotation
+```{r}
+annotation = as.data.frame(metabolite[colnames(output),])
+colnames(output) = annotation$ionIdx
+
+ann = read.csv("../analysis/A01.1-add-meta/metabolite_compound_name_11_03.csv")
+rownames(ann) = ann$ionIdx
+
+
+ann = ann[colnames(output),]
+colnames(output) = ann$CompoundName
+
+output2= as.data.frame(cbind(first_sample$sample_id,first_sample$clinical.response,output))
+#write.csv(output2,"../analysis/differential_analysis/metabolite/Pathway_analysis/input_pathway_analysis_compoundName.csv",row.names = F)
+```
+
+
+# t test analysis
+```{r}
+group_name = unique(first_sample$clinical.response)
+sample_len = nrow(first_sample[first_sample$clinical.response  %in% group_name[1],])
+a = as.data.frame(t(metabolite_data[,1:(ncol(metabolite_data)-1)]))
+Pvalue<-c(rep(0,nrow(a)))
+log2_FC<-c(rep(0,nrow(a)))
+t_score <- c(rep(0,nrow(a)))
+for(i in 1:nrow(a)){
+  if(sd(a[i,1:sample_len])==0&&sd(a[i,(sample_len+1):ncol(a)])==0){
+    Pvalue[i] <-"NA"
+    log2_FC[i]<-"NA"
+  }else{
+    y=t.test(as.numeric(a[i,1:sample_len]),
+                    as.numeric(a[i,(sample_len+1):ncol(a)])) 
+    Pvalue[i]<-y$p.value
+    t_score[i] <- y$statistic
+    log2_FC[i]<-log2((mean(as.numeric(a[i,1:sample_len]))+0.000001)/(mean(as.numeric(a[i,(sample_len+1):ncol(a)]))+0.000001))
+    }
+  }
+
+fdr=p.adjust(Pvalue,"BH")
+out<-data.frame(v1=rownames(a),log2_FC,Pvalue,fdr,t_score)
+out$log2_FC = as.numeric(out$log2_FC)
+
+mz = metabolite[out$v1,]
+out$mz = mz$ionMz
+#write.csv(out,"../analysis/differential_analysis/metabolite_differential_t_test.csv",row.names = F)
+```
+
+
+#  input for pathway 66 diff
+```{r}
+diff= read.csv("../analysis/differential_analysis/metabolite_differential_t_test.csv")
+diff=diff[diff$Pvalue < 0.1,]
+
+metabolite = read.csv("../analysis/A01.1-add-meta/metabolomics.txt",sep="\t")
+rownames(metabolite) = metabolite$ionTopName
+metabolite=metabolite[diff$v1,]
+
+description = as.data.frame(read.csv("../analysis/A01.1-add-meta/metabolite_compound_name_11_03.csv"))
+rownames(description)=description$ionIdx
+description=description[metabolite$ionIdx,]
+description=description[!is.na(description$Compound_Name),]
+
+metabolite = metabolite[metabolite$ionIdx %in% description$ionIdx,]
+metabolite = metabolite[,rownames(first_sample)]
+metabolite=as.data.frame(t(metabolite))
+colnames(metabolite)=description$Compound_Name
+
+output = as.data.frame(cbind(sample = rownames(first_sample),group=first_sample$clinical.response,metabolite))
+#write.csv(output,"../analysis/differential_analysis/metabolite/Diff_metabolite_pathway/input_pathway_diff_metabo.csv",row.names = F)
+
+```
+
+
+# input for pathway all metabolite
+```{r}
+metabolite = read.csv("../analysis/A01.1-add-meta/metabolomics.txt",sep="\t")
+rownames(metabolite) = metabolite$ionIdx
+metabolite_data = metabolite[,rownames(first_sample)]
+meta_rowmean =rowMeans(metabolite_data)
+meta_name = names(meta_rowmean[order(meta_rowmean, decreasing=TRUE)])[1:(nrow(metabolite_data)*0.9)]
+metabolite_data = as.data.frame(metabolite_data[meta_name,])
+
+
+description = as.data.frame(read.csv("../analysis/A01.1-add-meta/metabolite_compound_name_11_03.csv"))
+rownames(description)=description$ionIdx
+description=description[rownames(metabolite_data),]
+description=description[!is.na(description$Compound_Name),]
+
+metabolite_data=metabolite_data[rownames(description),]
+metabolite_data=as.data.frame(t(metabolite_data))
+colnames(metabolite_data) = description$Compound_Name
+output=as.data.frame(cbind(sample = first_sample$sample_id,group = first_sample$clinical.response,metabolite_data))
+
+#write.csv(output,"../analysis/differential_analysis/metabolite/Pathway_analysis/input_pathway_diff_metabo.csv",row.names = F,col.names = NA)
+
+```
+
+
+
+

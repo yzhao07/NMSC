@@ -1,0 +1,21 @@
+k_Bacteria__p_Actinobacteria__c_Actinobacteria	4.442479769064448			-
+k_Bacteria__p_Bacteroidetes__c_Bacteroidia	5.110365210691301			-
+k_Bacteria__p_Bacteroidetes__c_unassigned	2.522878745280337			-
+k_Bacteria__p_Firmicutes__c_Bacilli	4.876987184427739			-
+k_Bacteria__p_Firmicutes__c_Clostridia	5.808413551400367			-
+k_Bacteria__p_Firmicutes__c_Erysipelotrichia	5.300450549971747			-
+k_Bacteria__p_Firmicutes__c_Negativicutes	3.8492146062090886			-
+k_Bacteria__p_Firmicutes__c_unassigned	3.135662602000073			-
+k_Bacteria__p_Fusobacteria__c_Fusobacteria	1.9999999999999996			-
+k_Bacteria__p_Lentisphaerae__c_Lentisphaeria	1.5228787452803372			-
+k_Bacteria__p_Proteobacteria__c_Alphaproteobacteria	3.0669467896306126			-
+k_Bacteria__p_Proteobacteria__c_Betaproteobacteria	3.47226875192525			-
+k_Bacteria__p_Proteobacteria__c_Deltaproteobacteria	2.477121254719662			-
+k_Bacteria__p_Proteobacteria__c_Epsilonproteobacteria	0.0			-
+k_Bacteria__p_Proteobacteria__c_Gammaproteobacteria	3.750765449894011			-
+k_Bacteria__p_Proteobacteria__c_unassigned	0.0			-
+k_Bacteria__p_Spirochaetes__c_Spirochaetes	0.0			-
+k_Bacteria__p_Synergistetes__c_Synergistia	1.8239087409443182			-
+k_Bacteria__p_TM7__c_Incertae_sedis	0.0			-
+k_Bacteria__p_Verrucomicrobia__c_Verrucomicrobiae	2.522878745280337			-
+k_Bacteria__p_unassigned__c_unassigned	4.494618336168115	Responder	4.54485457661055	0.06508095865779166

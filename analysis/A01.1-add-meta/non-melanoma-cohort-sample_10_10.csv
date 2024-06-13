@@ -1,0 +1,69 @@
+sample_id,patient,patient_rename,Age_IO,BOR.to.IO.per.RECIST.v1.1,Sex,Tumor,Stage,IO.enrollment,anti.PD1.PDL1,anti.CTLA4,post.ICI.surgery,Response.6months,DR.1year,clinical.benefit,clinical.response,days.PFS,days.OS,progression.vs.censor,death.vs.censor,days.io.end,days.sample.collect,days.presample.collect
+F0008,SM1694.26,BCC5,96,PR,Female,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1537,1537,censor,censor,365,294,NA
+F0014,EM1694.91,BCC2,78,SD,Male,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Stable_Disease,601,1730,progression,censor,309,224,0
+F0026,EM1694.99,MCC4,69,PD,Female,MCC,NA,Nivolumab,yes,no,yes,NA,NA,Responder,Nonresponder,993,993,censor,death,15,24,0
+F0032,EM1694.93,BCC3,61,CR,Female,BCC,IIIC,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1189,1189,censor,censor,311,114,NA
+F0052,EM1694.32,MCC2,71,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2652,2652,censor,censor,764,1127,NA
+F0056,EM1694.101,SCC5,72,PD,Male,SCC,NA,Cemiplimab,yes,no,no,PD ,no,Nonresponder,Nonresponder,109,369,progression,censor,85,0,0
+F0058,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,723,NA
+F0066,EM1694.99,MCC4,69,PD,Female,MCC,NA,Nivolumab,yes,no,yes,NA,NA,Responder,Nonresponder,993,993,censor,death,15,0,0
+F0076,EM1694.93,BCC3,61,CR,Female,BCC,IIIC,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1189,1189,censor,censor,311,198,NA
+F0078,EM1694.91,BCC2,78,SD,Male,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Stable_Disease,601,1730,progression,censor,309,164,0
+F0082,EM1694.101,SCC5,72,PD,Male,SCC,NA,Cemiplimab,yes,no,no,PD ,no,Nonresponder,Nonresponder,109,369,progression,censor,85,63,0
+F0084,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,518,NA
+F0098,EM1694.113,MCC5,69,CR,Male,MCC,NA,Pembrolizumab,yes,no,yes,NA,NA,Responder,Responder,1437,1437,censor,censor,43,21,NA
+F0099,SM1694.47,SCC11,73,CR,Female,SCC,IV,Cemiplimab,yes,no,no,CR,yes,Responder,Responder,1415,1415,censor,censor,127,105,0
+F0100,EM1694.108,SCC6,71,PD,Female,SCC,NA,Cemiplimab,yes,no,no,PD ,no,Nonresponder,Nonresponder,91,486,progression,censor,71,0,-1
+F0117,EM1694.112,SCC7,75,unevaluable,Male,SCC,NA,Cemiplimab,yes,no,no,PD ,no,Nonresponder,Other,9,51,progression,death,1,0,-2
+F0130,SM1694.45,SCC9,87,PR,Male,SCC,NA,Cemiplimab,yes,no,no,PR,yes,Responder,Responder,1258,1258,censor,death,134,0,-3
+F0138,EM1694.117,BCC4,73,SD,Female,BCC,NA,Nivolumab,yes,no,yes,NA,NA,Responder,Stable_Disease,1178,1178,censor,censor,218,0,0
+F0139,SM1694.45,SCC9,87,PR,Male,SCC,NA,Cemiplimab,yes,no,no,PR,yes,Responder,Responder,1258,1258,censor,death,134,91,-3
+F0141,EM1694.117,BCC4,73,SD,Female,BCC,NA,Nivolumab,yes,no,yes,NA,NA,Responder,Stable_Disease,1178,1178,censor,censor,218,70,0
+F0145,EM1694.91,BCC2,78,SD,Male,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Stable_Disease,601,1730,progression,censor,309,364,0
+F0148,EM1694.99,MCC4,69,PD,Female,MCC,NA,Nivolumab,yes,no,yes,NA,NA,Responder,Nonresponder,993,993,censor,death,15,213,0
+F0153,EM1694.113,MCC5,69,CR,Male,MCC,NA,Pembrolizumab,yes,no,yes,NA,NA,Responder,Responder,1437,1437,censor,censor,43,133,NA
+F0155,SM1694.46,SCC10,73,PD,Male,SCC,NA,Cemiplimab,yes,no,no,PR,yes,Responder,Nonresponder,511,511,censor,censor,113,0,0
+F0170,EM1694.113,MCC5,69,CR,Male,MCC,NA,Pembrolizumab,yes,no,yes,NA,NA,Responder,Responder,1437,1437,censor,censor,43,42,NA
+F0171,EM1694.91,BCC2,78,SD,Male,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Stable_Disease,601,1730,progression,censor,309,308,0
+F0177,SM1694.47,SCC11,73,CR,Female,SCC,IV,Cemiplimab,yes,no,no,CR,yes,Responder,Responder,1415,1415,censor,censor,127,0,0
+F0181,EM1694.99,MCC4,69,PD,Female,MCC,NA,Nivolumab,yes,no,yes,NA,NA,Responder,Nonresponder,993,993,censor,death,15,126,0
+H0001,EM1694.31,SCC4,96,PR,Male,SCC,NA,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,1107,1178,progression,death,568,357,NA
+H0013,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,210,NA
+H0020,EM1694.22,BCC1,77,PD,Male,BCC,IV,Nivolumab + Ipilimumab,yes,yes,no,PD ,no,Nonresponder,Nonresponder,168,858,progression,death,137,84,NA
+H0054,EM1694.11,SCC1,64,PD,Female,SCC,IV,Pembrolizumab,yes,no,no,PD ,no,Nonresponder,Nonresponder,63,468,progression,death,86,63,NA
+H0055,EM1694.32,MCC2,71,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2652,2652,censor,censor,764,721,NA
+H0060,EM1694.24,SCC3,71,xplant,Male,SCC,IV,Pembrolizumab,yes,no,no,PR,no,Responder,Other,301,1815,progression,death,302,133,NA
+H0063,EM1694.22,BCC1,77,PD,Male,BCC,IV,Nivolumab + Ipilimumab,yes,yes,no,PD ,no,Nonresponder,Nonresponder,168,858,progression,death,137,21,NA
+H0065,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,31,NA
+H0070,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,59,NA
+H0074,EM1694.31,SCC4,96,PR,Male,SCC,NA,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,1107,1178,progression,death,568,315,NA
+H0085,EM1694.32,MCC2,71,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2652,2652,censor,censor,764,658,NA
+H0086,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,147,NA
+H0148,EM1694.93,BCC3,61,CR,Female,BCC,IIIC,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1189,1189,censor,censor,311,16,NA
+H0149,SM1694.26,BCC5,96,PR,Female,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1537,1537,censor,censor,365,98,NA
+H0172,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,405,NA
+H0180,EM1694.32,MCC2,71,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2652,2652,censor,censor,764,1045,NA
+H0202,EM1694.91,BCC2,78,SD,Male,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Stable_Disease,601,1730,progression,censor,309,70,0
+H0210,EM1694.93,BCC3,61,CR,Female,BCC,IIIC,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1189,1189,censor,censor,311,58,NA
+H0211,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,541,NA
+H0270,EM1694.24,SCC3,71,xplant,Male,SCC,IV,Pembrolizumab,yes,no,no,PR,no,Responder,Other,301,1815,progression,death,302,175,NA
+H0277,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,126,NA
+H0280,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,273,NA
+H0281,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,155,NA
+H0289,EM1694.32,MCC2,71,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2652,2652,censor,censor,764,784,NA
+H0303,EM1694.11,SCC1,64,PD,Female,SCC,IV,Pembrolizumab,yes,no,no,PD ,no,Nonresponder,Nonresponder,63,468,progression,death,86,189,NA
+H0322,EM1694.91,BCC2,78,SD,Male,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Stable_Disease,601,1730,progression,censor,309,0,0
+H0323,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,322,NA
+H0349,EM1694.31,SCC4,96,PR,Male,SCC,NA,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,1107,1178,progression,death,568,567,NA
+H0368,EM1694.24,SCC3,71,xplant,Male,SCC,IV,Pembrolizumab,yes,no,no,PR,no,Responder,Other,301,1815,progression,death,302,371,NA
+H0372,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,443,NA
+H0377,SM1694.26,BCC5,96,PR,Female,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1537,1537,censor,censor,365,154,NA
+H0391,SM1694.26,BCC5,96,PR,Female,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1537,1537,censor,censor,365,224,NA
+H0392,EM1694.57,MCC3,70,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2883,2883,censor,censor,22,1092,NA
+H0407,EM1694.31,SCC4,96,PR,Male,SCC,NA,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,1107,1178,progression,death,568,525,NA
+H0427,EM1694.32,MCC2,71,PR,Male,MCC,IV,Pembrolizumab,yes,no,no,PR,yes,Responder,Responder,2652,2652,censor,censor,764,870,NA
+H0447,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,385,NA
+H0456,EM1694.12,SCC2,58,CR,Male,SCC,IV,Pembrolizumab,yes,no,no,CR,yes,Responder,Responder,2205,2205,censor,censor,337,336,NA
+H0475,EM1694.18,MCC1,68, +RT,Male,MCC,IV,Avelumab,yes,no,no,PR,no,Responder,Other,329,759,progression,death,421,238,NA
+H0479,SM1694.26,BCC5,96,PR,Female,BCC,NA,Nivolumab,yes,no,no,PR,yes,Responder,Responder,1537,1537,censor,censor,365,28,NA
+H0741,SM1694.39,SCC8,72,unevaluable,Female,SCC,NA,Cemiplimab,yes,no,no,PD ,no,Nonresponder,Other,139,206,progression,death,1,0,0
