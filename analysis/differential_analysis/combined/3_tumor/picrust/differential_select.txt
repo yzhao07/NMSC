@@ -1,4 +1,0 @@
-Row.names	v1	response	LDA	p_value	log2_FC	Pvalue	fdr
-Genetic_Information_Processing.Transcription.Transcription_factors	4.2960770126578	Responder	2.54643063347082	0.07816908582428352	0.0528548733484332	0.0930735930735931	1
-Metabolism.Amino_Acid_Metabolism.Alanine_aspartate_and_glutamate_metabolism	4.04638259275455	Nonresponder	2.34059612997432	0.024974679293054212	-0.0557831449139657	0.025974025974026	1
-Metabolism.Carbohydrate_Metabolism.Ascorbate_and_aldarate_metabolism	3.0571558198232	Responder	2.15824815292219	0.016309171877755033	0.360768453467917	0.0151515151515152	1

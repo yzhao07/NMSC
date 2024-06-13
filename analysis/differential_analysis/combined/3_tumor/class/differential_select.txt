@@ -1,2 +1,0 @@
-Row.names	v1	response	LDA	p_value	log2_FC	Pvalue	fdr
-k_Bacteria.p_unassigned.c_unassigned	4.49461833616811	Responder	4.54485457661055	0.06508095865779166	3.91770240841543	0.0776483099927933	0.982193958934284
