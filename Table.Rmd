@@ -16,51 +16,20 @@ library(dplyr)
 
 ```{r}
 # load data
-dat = read.csv("./Analysis/A01.1-add-meta/non-melanoma-cohort-sample_10_10.csv",check.names = F)
+dat = read.csv("./Analysis/A01.1-add-meta/11_1_patient_metadata.csv",check.names = F)
+patient = dat %>% mutate(prior_treatment = case_when(
+  prior.targeted != 1 & prior.io ==1 ~ "Immunotherapy",
+  prior.targeted == 1 & prior.io !=1 ~ "Targted",
+  prior.targeted == 1 & prior.io ==1 ~ "Immunotherapy+Targted",
+  .default = "No prior treatment"
+))
+patient$prior_treatment = factor(patient$prior_treatment,levels = c("Immunotherapy","Targted","Immunotherapy+Targted", "No prior treatment"))
 ```
 
 
 # by patient 
 ```{r}
-dat_patient = as.data.frame(dat[,colnames(dat) %in% c("patient_rename","Age_IO","Tumor","Sex","clinical.response","IO.enrollment")])
-
-patient_sample = NULL
-for (i in unique(dat_patient$patient_rename)){
-  tmp = dat_patient[dat_patient$patient_rename == i,]
-  n = nrow(tmp)
-  tmp = data.frame(distinct(tmp))
-  tmp[7] = n
-  patient_sample = rbind(patient_sample, tmp)
-  
-}
-
-colnames(patient_sample) = c(colnames(patient_sample)[-length(colnames(patient_sample))],"Number.of.samples")
-patient_sample$Number.of.samples = as.numeric(patient_sample$Number.of.samples)
-patient_sample = patient_sample %>% mutate(IO.drug = case_when(
-  IO.enrollment == "Cemiplimab" ~ "Cemiplimab(anti-PD1/PDL1)",
-  IO.enrollment == "Pembrolizumab" ~ "Pembrolizumab(anti-PD1/PDL1)",
-  IO.enrollment == "Nivolumab" ~ "Nivolumab(anti-PD1/PDL1)",
-  IO.enrollment == "Avelumab" ~ "Avelumab(anti-PD1/PDL1)",
-  IO.enrollment == "Nivolumab + Ipilimumab" ~ "Nivolumab(anti-PD1/PDL1)+Ipilimumab(anti-CTLA4)"
-))
-patient_sample$IO.drug = factor(patient_sample$IO.drug,
-                                           levels= c("Cemiplimab(anti-PD1/PDL1)","Pembrolizumab(anti-PD1/PDL1)",
-"Nivolumab(anti-PD1/PDL1)" ,"Avelumab(anti-PD1/PDL1)", "Nivolumab(anti-PD1/PDL1)+Ipilimumab(anti-CTLA4)"))
-
-patient_sample = patient_sample %>% mutate(Response = case_when(
-  clinical.response == "Responder" ~ "Responder/R",
-  clinical.response == "Stable_Disease" ~ "Stable_Disease/SD",
-  clinical.response == "Nonresponder" ~ "Nonresponder/NR",
-  clinical.response == "Other" ~ "Other (radiotherapy, organ transplant, unevaluable)",
-))
-
-
-
-patient_sample$Response = factor(patient_sample$Response,levels = c("Responder/R","Nonresponder/NR",
-       "Stable_Disease/SD","Other (radiotherapy, organ transplant, unevaluable)"))
-
-
-tbl.gts <- patient_sample %>%
+tbl.gts <- patient %>%
   # categorical variables must be factors or character strings
   # apply the tbl_summary() function
   tbl_summary(
@@ -68,6 +37,7 @@ tbl.gts <- patient_sample %>%
     label = list(
       Age_IO ~ "Age [yrs] (sd)",
       Sex ~ "Sex (%)",
+      prior_treatment ~ "Prior Treatment",
       IO.drug ~ "Treatment (%)",
       Response ~ "ICI Response (%)",
       Number.of.samples ~ "Total Fecal Samples"
@@ -78,7 +48,7 @@ tbl.gts <- patient_sample %>%
     # statistic = list(all_continuous() ~ "{median} ({p25}, {p75})"),
     digits = all_continuous() ~ 0,
     missing_text = "(Missing)",
-    include = c("Age_IO","Sex","Tumor","IO.drug","Response","Number.of.samples"))%>%
+    include = c("Age_IO","Sex","Tumor","IO.drug","Response","prior_treatment","Number.of.samples"))%>%
   as_gt() %>%
   gt::gtsave(filename ="./Analysis/cohort_summary.docx")
 

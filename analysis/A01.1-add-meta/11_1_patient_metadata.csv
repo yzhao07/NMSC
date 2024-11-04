@@ -1,0 +1,22 @@
+patient_rename,Age_IO,Sex,Tumor,IO.enrollment,clinical.response,Number.of.samples,IO.drug,Response,Stage,Prior.surgery,prior.RT,prior.targeted,prior.io,surgery after ICI,toxicity.event,date.toxicity,date.toxicity2,toxicities.type
+SCC1,64,Female,SCC,Pembrolizumab,Nonresponder,2,Pembrolizumab(anti-PD1/PDL1),Nonresponder/NR,IV,1,0,1,0,no,no,NA,NA,
+SCC2,58,Male,SCC,Pembrolizumab,Responder,8,Pembrolizumab(anti-PD1/PDL1),Responder/R,IV,0,1,0,0,no,no,NA,NA,
+MCC1,68,Male,MCC,Avelumab,Other,8,Avelumab(anti-PD1/PDL1),"Other (radiotherapy, organ transplant, unevaluable)",IV,0,0,0,1,no,yes,5/26/17,10/2/18,elevated creatinine; Sjogren's type symptoms
+BCC1,77,Male,BCC,Nivolumab + Ipilimumab,Nonresponder,2,Nivolumab(anti-PD1/PDL1)+Ipilimumab(anti-CTLA4),Nonresponder/NR,IV,0,0,1,1,no,yes,8/11/17,NA,hypothyroidism
+SCC3,71,Male,SCC,Pembrolizumab,Other,3,Pembrolizumab(anti-PD1/PDL1),"Other (radiotherapy, organ transplant, unevaluable)",IV,0,1,1,0,no,no,NA,NA,
+SCC4,96,Male,SCC,Pembrolizumab,Responder,4,Pembrolizumab(anti-PD1/PDL1),Responder/R,NA,1,1,1,0,no,no,NA,NA,
+MCC2,71,Male,MCC,Pembrolizumab,Responder,6,Pembrolizumab(anti-PD1/PDL1),Responder/R,IV,0,0,0,0,no,yes,6/28/16,NA,hypothyroidism
+MCC3,70,Male,MCC,Pembrolizumab,Responder,1,Pembrolizumab(anti-PD1/PDL1),Responder/R,IV,0,0,0,0,no,yes,11/23/15,NA,pneumonitis
+BCC2,78,Male,BCC,Nivolumab,Stable_Disease,6,Nivolumab(anti-PD1/PDL1),Stable_Disease/SD,NA,0,0,1,0,no,no,NA,NA,
+BCC3,61,Female,BCC,Nivolumab,Responder,4,Nivolumab(anti-PD1/PDL1),Responder/R,IIIC,0,0,1,0,no,no,NA,NA,
+MCC4,69,Female,MCC,Nivolumab,Nonresponder,4,Nivolumab(anti-PD1/PDL1),Nonresponder/NR,NA,0,0,0,0,yes,yes,5/29/20,NA,confusion
+SCC5,72,Male,SCC,Cemiplimab,Nonresponder,2,Cemiplimab(anti-PD1/PDL1),Nonresponder/NR,NA,1,0,0,0,no,no,NA,NA,
+SCC6,71,Female,SCC,Cemiplimab,Nonresponder,1,Cemiplimab(anti-PD1/PDL1),Nonresponder/NR,NA,1,1,0,0,no,yes,11/29/19,NA,low TSH
+SCC7,75,Male,SCC,Cemiplimab,Other,1,Cemiplimab(anti-PD1/PDL1),"Other (radiotherapy, organ transplant, unevaluable)",NA,0,0,0,0,no,no,NA,NA,
+MCC5,69,Male,MCC,Pembrolizumab,Responder,3,Pembrolizumab(anti-PD1/PDL1),Responder/R,NA,1,0,0,0,yes,no,NA,NA,
+BCC4,73,Female,BCC,Nivolumab,Stable_Disease,2,Nivolumab(anti-PD1/PDL1),Stable_Disease/SD,NA,1,1,0,0,yes,no,NA,NA,
+BCC5,96,Female,BCC,Nivolumab,Responder,5,Nivolumab(anti-PD1/PDL1),Responder/R,NA,1,1,1,0,no,no,NA,NA,
+SCC8,72,Female,SCC,Cemiplimab,Other,1,Cemiplimab(anti-PD1/PDL1),"Other (radiotherapy, organ transplant, unevaluable)",NA,0,1,0,0,no,yes,5/2/19,NA,diarrhea
+SCC9,87,Male,SCC,Cemiplimab,Responder,2,Cemiplimab(anti-PD1/PDL1),Responder/R,NA,1,1,0,0,no,yes,11/2/19,NA,rash
+SCC10,73,Male,SCC,Cemiplimab,Nonresponder,1,Cemiplimab(anti-PD1/PDL1),Nonresponder/NR,NA,0,0,0,0,no,no,NA,NA,
+SCC11,73,Female,SCC,Cemiplimab,Responder,2,Cemiplimab(anti-PD1/PDL1),Responder/R,IV,1,0,0,0,no,yes,6/25/20,NA,diarrhea
